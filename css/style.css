@@ -1,7 +1,10 @@
-/* L'écriture de la page est complètement en "Raleway" par défaut */
+/* L'écriture de la page est complètement en "Raleway" par défaut et le box-sizing est appliqué à toute la page pour la majorité des navigateurs */
 
 * {
     font-family: "Raleway", sans-serif;
+    box-sizing: border-box; /* Opera/IE 8+ */
+    -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
 }
 
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
@@ -257,7 +260,7 @@ footer div {
 
 /* Responsiv pour les mobiles */
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 0px) and (max-width: 767px) {
     div#bloc_page {
         width: 375px;
     }
@@ -283,7 +286,7 @@ footer div {
     nav.menu ul li {
         padding: 0px 50px 0px 50px;
     }
-    
+
     div#filtres {
         flex-wrap: wrap;
     }
