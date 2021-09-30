@@ -1,4 +1,4 @@
-/* L'écriture de la page est complètement en "Raleway" par défaut et le box-sizing est appliqué à toute la page pour la majorité des navigateurs */
+/* L'écriture de la page est complètement en "Raleway" par défaut et le box-sizing est appliqué à toute la page pour les navigateurs les plus fréquemment utilisés */
 
 * {
     font-family: "Raleway", sans-serif;
@@ -79,6 +79,14 @@ nav.menu ul li {
 
 .marge_int_gauche_34px {
     padding-left: 34px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav.menu ul li a:hover {
+    text-decoration: overline blue;
 }
 
 /* Barre de recherche */
@@ -260,9 +268,9 @@ footer div {
 
 /* Responsiv pour les mobiles */
 
-@media all and (min-width: 0px) and (max-width: 767px) {
+@media all and (max-width: 767px) {
     div#bloc_page {
-        width: 375px;
+        width: 320px;
     }
 
     div#conteneur_logo_nav {
@@ -271,6 +279,10 @@ footer div {
 
     div#logo {
         width: auto;
+    }
+
+    div#logo p {
+        text-align: center;
     }
 
     nav.menu {
@@ -284,7 +296,10 @@ footer div {
     }
 
     nav.menu ul li {
-        padding: 0px 50px 0px 50px;
+    }
+
+    nav.menu ul li a:hover {
+        text-decoration: underline blue;
     }
 
     div#filtres {
