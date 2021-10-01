@@ -14,6 +14,7 @@ div {
 }
 
 h1 {
+    font-size: 15px;
     border: 1px solid violet;
 }
 
@@ -73,12 +74,13 @@ nav.menu ul {
 
 /* Les élément du menu nav ont un espace vers la gauche */
 
-nav.menu ul li {
-    padding-right: 34px;
+nav.menu ul li a {
+    color: black;
+    padding-right: 35px;
 }
 
 .marge_int_gauche_34px {
-    padding-left: 34px;
+    padding-left: 35px;
 }
 
 a {
@@ -86,19 +88,22 @@ a {
 }
 
 nav.menu ul li a:hover {
-    text-decoration: overline blue;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 14px;
 }
 
 /* Barre de recherche */
 
 div#rechercher {
-    display: flex;
 }
 
 /* Comportement du Formulaire */
 
 form {
-    display: flex;
+}
+
+form div i {
 }
 
 /* Les éléments du filtre sont centrés */
@@ -291,7 +296,6 @@ footer div {
     }
 
     nav.menu ul {
-        margin-left: 0px;
         padding-left: 0px;
     }
 
@@ -299,7 +303,10 @@ footer div {
     }
 
     nav.menu ul li a:hover {
-        text-decoration: underline blue;
+        padding-top: 0px;
+        border-top: 0px;
+        padding-bottom: 14px;
+        border-bottom: 3px solid #0065FC;
     }
 
     div#filtres {

@@ -25,13 +25,13 @@
                     <!-- Navigation Hébergements, Activités et S'inscrire -->
                     <nav class="menu">
                         <ul>
-                            <li class="marge_int_gauche_34px">
-                                <a href="#">
+                            <li>
+                                <a href="#hebergements" class="marge_int_gauche_34px">
                                     Hébergements
                                 </a>
                             </li>
-                            <li class="marge_int_gauche_34px">
-                                <a href="#">
+                            <li>
+                                <a href="#activites" class="marge_int_gauche_34px">
                                     Activités
                                 </a>
                             </li>
@@ -47,16 +47,16 @@
                 </p>
                 <!-- Barre de recherche -->
                 <div id="rechercher">
-                    <p>
-                        <i class="fas fa-map-marker-alt"></i>
-                    </p>
-                    <form method="post" action="">
+                    <form method="post" action="transmettre_info.php">
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
                         <p>
                             <input type="search" name="rechercher" />
                         </p>
-                        <p>
+                        <div>
                             <input type="submit" value="Rechercher" />
-                        </p>
+                        </div>
                     </form>
                 </div>
                 <!-- Filtres -->
@@ -109,7 +109,7 @@
                 <div id="conteneur_heb_marseille">
                     <!-- Pour centrer les éléments dans le conteneur -->
                     <div id="bloc_centrer_heb_marseille">
-                        <h2>
+                        <h2 id="hebergements">
                             Hébergements à Marseille
                         </h2>
                         <!-- Conteneur pour l'affichage des images cliquables -->
@@ -332,7 +332,7 @@
             </section>
             <!-- Conteneur "Activités à Marseille"-->
             <section id="conteneur_act_marseille">
-                <h2>
+                <h2 id="activites">
                     Activités à Marseille
                 </h2>
                 <!-- Conteneur englobant tous les conteneurs images -->
