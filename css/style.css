@@ -10,11 +10,11 @@
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
 div {
-    border: 1px solid black;
+
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 31px;
     border: 1px solid violet;
 }
 
@@ -30,11 +30,19 @@ nav {
     border: 1px solid blue;
 }
 
+div#bloc_icone_position {
+    border: 1px solid aqua;
+}
+
+form {
+    border: 1px solid darkblue;
+}
+
 /* Pour pouvoir centrer la page par rapport à sa largeur et hauteur */
 
 div#bloc_page {
-    width: 1437px;
-    height: 1881px;
+    width: 2880px;
+    height: 3768px;
     margin: auto;
 }
 
@@ -53,8 +61,8 @@ div#logo {
 /* Taille du logo */
 
 div#logo p img {
-    width: 94px;
-    height: 25px;
+    width: 120px;
+    height: 57px;
 }
 
 /* Le menu du nav */
@@ -84,6 +92,7 @@ nav.menu ul li a {
 }
 
 a {
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -93,17 +102,74 @@ nav.menu ul li a:hover {
     padding-top: 14px;
 }
 
+h1 + p {
+    font-size: 23px;
+}
+
 /* Barre de recherche */
 
 div#rechercher {
+    position: relative;
+    height: 99px;
 }
 
 /* Comportement du Formulaire */
 
 form {
+    position: absolute;
+    height: 99px;
+    padding-right: 836px;
+    border-radius: 5% 5% / 40% 40% ;
+}
+
+div#bloc_icone_position {
+    position: absolute;
+    width: 102px;
+    height: 99px;
+    border-radius: 5% 0 0 5% / 40% 0 0 40%;
+}
+
+div#bloc_icone_position i {
+    position: absolute;
+    padding-top: 34px;
+    left: 40px;
+}
+
+i.fas.fa-map-marker-alt {
+    width: 100%;
 }
 
 form div i {
+}
+
+form p {
+    position: absolute;
+    width: 469px;
+    height: 99px;
+    bottom: 0px;
+    left: 102px;
+}
+
+form p input {
+    position: absolute;
+    width: 433px;
+    height: 96px;
+    bottom: 0px;
+    left: 35px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+form p {
+    margin-bottom: 0px;
+}
+
+form div input {
+    position: absolute;
+    width: 268px;
+    height: 99px;
+    bottom: 0px;
+    left: 571px;
 }
 
 /* Les éléments du filtre sont centrés */
@@ -111,12 +177,14 @@ form div i {
 div#filtres {
     display: flex;
     align-items: center;
+    height: 96px;
 }
 
 /* L'îcone et le nom du filtre soient ajencés côte à côte */
 
 div#filtres div {
     display: flex;
+    height: 96px;
 }
 
 /* Comportement des sections */
