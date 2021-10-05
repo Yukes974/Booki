@@ -10,7 +10,7 @@
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
 div {
-
+    border: 1px solid black;
 }
 
 h1 {
@@ -36,6 +36,10 @@ div#bloc_icone_position {
 
 form {
     border: 1px solid darkblue;
+}
+
+div.icone_filtre {
+    border: 1px solid green;
 }
 
 /* Pour pouvoir centrer la page par rapport à sa largeur et hauteur */
@@ -119,24 +123,21 @@ form {
     position: absolute;
     height: 99px;
     padding-right: 836px;
-    border-radius: 5% 5% / 40% 40% ;
+    border-radius: 5% 5% / 48% 40% ;
 }
 
 div#bloc_icone_position {
     position: absolute;
     width: 102px;
     height: 99px;
-    border-radius: 5% 0 0 5% / 40% 0 0 40%;
+    /*border-radius: 40% 0 0 40% / 40% 0 0 40%;*/
 }
 
 div#bloc_icone_position i {
     position: absolute;
     padding-top: 34px;
     left: 40px;
-}
-
-i.fas.fa-map-marker-alt {
-    width: 100%;
+    font-size: 35px;
 }
 
 form div i {
@@ -170,6 +171,7 @@ form div input {
     height: 99px;
     bottom: 0px;
     left: 571px;
+    border-radius: 0 15% 15% 0 / 0 40% 40% 0;
 }
 
 /* Les éléments du filtre sont centrés */
@@ -178,13 +180,35 @@ div#filtres {
     display: flex;
     align-items: center;
     height: 96px;
+    font-size: 22px;
 }
 
 /* L'îcone et le nom du filtre soient ajencés côte à côte */
 
-div#filtres div {
+div#filtres div p {
     display: flex;
-    height: 96px;
+    height: 40px;
+    align-items: center;
+}
+
+p.titre_filtre {
+    margin-right: 66px;
+}
+
+div.elements_filtre {
+    display: flex;
+    margin: 0 1.67% 0 0;
+}
+
+div.icone_filtre {
+    display: flex;
+    align-items: center;
+    border-radius: 80%;
+    padding: 20%;
+}
+
+p.info {
+    font-size: 22px;
 }
 
 /* Comportement des sections */
@@ -198,7 +222,7 @@ section {
 
 div#conteneur_heb_marseille {
     display: flex;
-    width: 880px;
+    width: 1764px;
     background-color: #F2F2F2;
 }
 
@@ -207,8 +231,9 @@ div#conteneur_heb_marseille {
 div#bloc_centrer_heb_marseille {
     display: flex;
     flex-direction: column;
-    width: 801px;
+    width: auto;
     margin: auto;
+    padding: 81px;
 }
 
 /* Conteneur "Les plus populaires" dont la couleur de fond est grisée */
@@ -223,8 +248,8 @@ aside#conteneur_plus_populaires {
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
 
 div#bloc_centrer_pop {
-    width: 343px;
-    height: 549px;
+    width: 1587px;
+    height: 1056px;
     margin: auto;
 }
 
@@ -233,6 +258,10 @@ div#bloc_centrer_pop {
 section#conteneur_act_marseille {
     width: 100%;
     flex-direction: column;
+}
+
+h2#hebergements {
+    margin-top: 0%;
 }
 
 /* Bloc contenant les blocs qui contiennent les images et leur intitulé qui ont des espaces autour d'eux et qui vont à la ligne lorsqu'ils arrivent à la limite du bloc. A l'intérieur du conteneur "Hébergements à Marseille" */
@@ -262,8 +291,8 @@ div#titre_graph {
 /* Dimension de l'image dans le conteneur "Hébergements à Marseille */
 
 div.dim_bloc_img_texte_etoile_heb_marseille a figure img {
-    width: 237px;
-    height: 114px;
+    width: 473px;
+    height: 368px;
 }
 
 div.dim_bloc_img_texte_etoile_heb_marseille a figure {
