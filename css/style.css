@@ -290,13 +290,33 @@ div#titre_graph {
 
 /* Dimension de l'image dans le conteneur "Hébergements à Marseille */
 
-div.dim_bloc_img_texte_etoile_heb_marseille a figure img {
+div.dim_bloc_img_texte_etoile_heb_marseille a img {
     width: 473px;
-    height: 368px;
+    height: 228px;
+    clip-path: inset(0 0 33px 0);
 }
 
-div.dim_bloc_img_texte_etoile_heb_marseille a figure {
+div.dim_bloc_img_texte_etoile_heb_marseille {
+    position: relative;
+    height: 381px;
+}
+
+div.dim_bloc_img_texte_etoile_heb_marseille div {
+    position: absolute;
+    bottom: 11px;
+    width: 100%;
+}
+
+div.dim_bloc_img_texte_etoile_heb_marseille a {
     margin: 0px;
+}
+
+h3 {
+    color: black;
+}
+
+h3 + p {
+    color: black;
 }
 
 /* Disposition des intitulés et des étoiles dans le conteneur "Les plus populaires". En colonne et séparé par un espace */
