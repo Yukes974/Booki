@@ -240,17 +240,15 @@ div#bloc_centrer_heb_marseille {
 
 aside#conteneur_plus_populaires {
     display: flex;
-    width: 419px;
-    height: 619px;
+    justify-content: center;
+    width: 837px;
     background-color: #F2F2F2;
 }
 
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
 
 div#bloc_centrer_pop {
-    width: 1587px;
-    height: 1056px;
-    margin: auto;
+    width: 670px;
 }
 
 /* Conteneur "Activités à Marseille" qui est étendue à 100% de la page et dont les éléments sont positionnés en colonne */
@@ -325,7 +323,7 @@ div.text_etoile {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 186px;
+    width: 370px;
 }
 
 /* Les mots passent à la ligne quand ils arrivent à la limite du bloc dans le conteneur "Les plus populaires" */
@@ -338,18 +336,20 @@ div.text_etoile div p {
 
 div.bloc_img_pop {
     display: flex;
-    width: 344px;
-    height: 144px;
-    justify-content: center;
-    border: 5px solid white;
-    border-radius: 20px;
+}
+
+p.img_pop {
+    width: 256px;
+    height: 270px;
+    object-fit: contain;
+    margin: 0px;
 }
 
 /* Taille des images dans le conteneur "Les plus populaires" */
 
-div.img_pop p a img {
-    width: 128px;
-    height: 135px;
+p.img_pop img {
+    width: 256px;
+    height: 270px;  
 }
 
 /* Bloc contenant tous les blocs qui contiennent les figures dans le conteneur "Activités à Marseille". Les blocs ont des espaces entres eux */
