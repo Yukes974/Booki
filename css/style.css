@@ -275,7 +275,8 @@ div#bloc_img_heb_marseille {
 div#img_plus_populaires {
     display:flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    height: 1004px;
 }
 
 /* Pour mettre le titre "Les plus populaires" à gauche et l'îcone "graph" à droite. Tous les deux étant également centré en axe verticale  */
@@ -291,17 +292,36 @@ div#titre_graph {
 div.dim_bloc_img_texte_etoile_heb_marseille a img {
     width: 473px;
     height: 228px;
-    clip-path: inset(0 0 33px 0);
+    object-fit: cover;
+    border-radius: 9% 9% 0 0 / 20% 20% 0 0;
 }
 
 div.dim_bloc_img_texte_etoile_heb_marseille {
     position: relative;
     height: 381px;
+    margin-bottom: 69px;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 11% / 14%;
+}
+
+div.carte_heb_marseille_titre_etoile {
+    padding-left: 4%;
+}
+
+div.carte_heb_marseille_titre_etoile h3 {
+    margin: 2% 0 2% 0;
+}
+
+div.carte_heb_marseille_titre_etoile p {
+    margin: 0;
+}
+
+div.carte_heb_marseille_titre_etoile i {
+    margin: 2% 0 2% 0;
 }
 
 div.dim_bloc_img_texte_etoile_heb_marseille div {
-    position: absolute;
-    bottom: 11px;
     width: 100%;
 }
 
@@ -314,6 +334,7 @@ h3 {
 }
 
 h3 + p {
+    margin-top: 0;
     color: black;
 }
 
@@ -323,33 +344,41 @@ div.text_etoile {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 370px;
+    width: 300px;
 }
 
 /* Les mots passent à la ligne quand ils arrivent à la limite du bloc dans le conteneur "Les plus populaires" */
 
-div.text_etoile div p {
+div.text_etoile div {
     word-wrap: break-word;
+}
+
+div.text_etoile div h3 {
+    margin-bottom: 5%;
 }
 
 /* Les blocs contenant les images et leur intitulé. L'image à gauche, l'intitulé et les étoiles à droite de l'image. Ils sont centrés. Ils sont tous dans le conteneur "Les plus populaires" */
 
 div.bloc_img_pop {
     display: flex;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 8% / 17%;
 }
 
 p.img_pop {
     width: 256px;
     height: 270px;
     object-fit: contain;
-    margin: 0px;
+    margin: 0 40px 0 0;
 }
 
 /* Taille des images dans le conteneur "Les plus populaires" */
 
 p.img_pop img {
     width: 256px;
-    height: 270px;  
+    height: 270px;
+    border-radius: 15% 0 0 15% / 15% 0 0 15%; 
 }
 
 /* Bloc contenant tous les blocs qui contiennent les figures dans le conteneur "Activités à Marseille". Les blocs ont des espaces entres eux */
@@ -362,17 +391,17 @@ div#img_act_marseille {
 /* Les blocs contenant une seule figure à l'intérieur. Ils sont dans le conteneur "Activités à Marseille" */
 
 div.img_bloc_act_marseille_1 a figure img {
-    height: 388px;
+    height: 890px;
 }
 
 /* Les blocs contenant deux figures à l'intérieur. Ils sont dans le conteneur "Activités à Marseille" */
 
 div.img_bloc_act_marseille_2 a figure img {
-    height: 178px;
+    height: 472px;
 }
 
 .largeur_250px {
-    width: 250px;
+    width: 606px;
 }
 
 /* Les éléments du pied de page sont alignés */
@@ -385,7 +414,7 @@ footer {
 /* Les éléments du pied de page s'étend à 99% de largeur de la page */
 
 footer div {
-    width: 33%;
+    width: 100%;
 }
 
 /* Responsiv pour les mobiles */
