@@ -34,10 +34,6 @@ div#bloc_icone_position {
     border: 1px solid aqua;
 }
 
-form {
-    border: 1px solid darkblue;
-}
-
 div.icone_filtre {
     border: 1px solid green;
 }
@@ -46,7 +42,6 @@ div.icone_filtre {
 
 div#bloc_page {
     width: 2880px;
-    height: 3768px;
     margin: auto;
 }
 
@@ -121,15 +116,15 @@ div#rechercher {
 
 form {
     position: absolute;
+    width: 30%;
     height: 99px;
-    padding-right: 836px;
     border-radius: 5% 5% / 48% 40% ;
     border: 1px solid #F2F2F2;
 }
 
 div#bloc_icone_position {
     position: absolute;
-    width: 102px;
+    width: 12%;
     height: 99px;
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
     background-color: #F2F2F2;
@@ -138,41 +133,34 @@ div#bloc_icone_position {
 div#bloc_icone_position i {
     position: absolute;
     padding-top: 34px;
-    left: 40px;
+    left: 35%;
     font-size: 35px;
-}
-
-form div i {
 }
 
 form p {
     position: absolute;
-    width: 469px;
+    width: 50%;
     height: 99px;
     bottom: 0px;
     left: 102px;
+    margin-bottom: 0px;
 }
 
 form p input {
-    position: absolute;
     width: 100%;
     height: 96px;
     bottom: 0px;
-    padding-left: 20px;
+    padding-left: 2%;
     font-size: 26px;
     font-weight: bold;
 }
 
-form p {
-    margin-bottom: 0px;
-}
-
 form div input {
     position: absolute;
-    width: 268px;
+    width: 30%;
     height: 99px;
     bottom: 0px;
-    left: 571px;
+    left: 62%;
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
     background-color: #0065FC;
     color: white;
@@ -426,11 +414,47 @@ footer div {
     width: 100%;
 }
 
+/* responsiv pour les tablettes */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    div#bloc_page{
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div#conteneur_heb_marseille {
+        width: 100%;
+    }
+
+    div#bloc_img_heb_marseille {
+        flex-direction: column;
+    }
+
+    aside#conteneur_plus_populaires {
+        width: auto;
+    }
+
+    div#img_act_marseille {
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 /* Responsiv pour les mobiles */
 
 @media all and (max-width: 767px) {
     div#bloc_page {
-        width: 320px;
+        width: 750px;
     }
 
     div#conteneur_logo_nav {
@@ -462,6 +486,10 @@ footer div {
         border-top: 0px;
         padding-bottom: 14px;
         border-bottom: 3px solid #0065FC;
+    }
+
+    form {
+        width: 100%;
     }
 
     div#filtres {
