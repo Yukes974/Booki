@@ -11,11 +11,11 @@
     </head>
 
     <body>
-        <div id="bloc_page">
+        <div id="block_page">
             <!-- Header comprennant le logo, la navigation etc... jusqu'à "i" -->
             <header>
                 <!-- Conteneur pour le logo et la navigation "Hébergements, activités et s'inscrire"-->
-                <div id="conteneur_logo_nav" class="affichageflex">
+                <div id="container_logo_nav" class="flex">
                     <!-- Logo Reservia -->
                     <div id="logo">
                         <p>
@@ -23,15 +23,15 @@
                         </p>
                     </div>
                     <!-- Navigation Hébergements, Activités et S'inscrire -->
-                    <nav class="menu affichageflex">
-                        <ul class="affichageflex centrerelementsflexverticalement">
+                    <nav class="menu flex">
+                        <ul class="flex align_center">
                             <li>
-                                <a href="#hebergements" class="marge_int_gauche_34px couleurnoire">
+                                <a href="#hebergements" class="padding_left_35px colorblack">
                                     Hébergements
                                 </a>
                             </li>
                             <li>
-                                <a href="#activites" class="marge_int_gauche_34px couleurnoire">
+                                <a href="#activites" class="padding_left_35px colorblack">
                                     Activités
                                 </a>
                             </li>
@@ -46,182 +46,182 @@
                     En plein centre ville ou en pleine nature
                 </p>
                 <!-- Barre de recherche -->
-                <div id="rechercher" class="hauteur99px">
-                    <form method="post" action="transmettre_info.php" class="hauteur99px bordurecouleurgrise positionabsolue">
-                        <div id="bloc_icone_position" class="hauteur99px fondcouleurgrise positionabsolue">
-                            <i class="fas fa-map-marker-alt positionabsolue"></i>
+                <div id="search" class="height_99px">
+                    <form method="post" action="transmettre_info.php" class="height_99px border_grey absolute">
+                        <div id="container_position_icon" class="height_99px background_grey absolute">
+                            <i class="fas fa-map-marker-alt absolute"></i>
                         </div>
-                        <p class="positionabsolue hauteur99px enbas0px">
-                            <input type="search" name="rechercher" placeholder="Marseille, France" class="hauteur99px enbas0px largeur100pourcent" />
+                        <p class="absolute height_99px bottom_0px">
+                            <input type="search" name="search" placeholder="Marseille, France" class="height_99px bottom_0px width_100_percent" />
                         </p>
                         <div>
-                            <input type="submit" value="Rechercher" class="positionabsolue hauteur99px enbas0px"/>
+                            <input type="submit" value="Rechercher" class="absolute height_99px bottom_0px"/>
                         </div>
                     </form>
                 </div>
                 <!-- Filtres -->
-                <div id="filtres" class="affichageflex centrerelementsflexverticalement">
-                    <p class="titre_filtre">
+                <div id="filter" class="flex align_center">
+                    <p id="filter_title ">
                         Filtres
                     </p>
-                    <div class="elements_filtre affichageflex">
-                        <div class="icone_filtre affichageflex centrerelementsflexverticalement">
-                            <i class="fas fa-money-bill-wave couleurbleu"></i>
+                    <div class="filter_element flex">
+                        <div class="filter_icon flex align_center">
+                            <i class="fas fa-money-bill-wave color_blue"></i>
                         </div>
-                        <p class="affichageflex centrerelementsflexverticalement marge_ext0px">
+                        <p class="flex align_center margin_0">
                             Économique
                         </p>
                     </div>
-                    <div class="elements_filtre affichageflex">
-                        <div class="icone_filtre affichageflex centrerelementsflexverticalement">
-                            <i class="fas fa-child couleurbleu"></i>
+                    <div class="filter_element flex">
+                        <div class="filter_icon flex align_center">
+                            <i class="fas fa-child color_blue"></i>
                         </div>
-                        <p class="affichageflex centrerelementsflexverticalement marge_ext0px">
+                        <p class="flex align_center margin_0">
                             Familial
                         </p>
                     </div>
-                    <div class="elements_filtre affichageflex">
-                        <div class="icone_filtre affichageflex centrerelementsflexverticalement">
-                            <i class="fas fa-heart couleurbleu"></i>
+                    <div class="elements_filtre flex">
+                        <div class="filter_icon flex align_center">
+                            <i class="fas fa-heart color_blue"></i>
                         </div>
-                        <p class="affichageflex centrerelementsflexverticalement marge_ext0px">
+                        <p class="flex align_center margin_0">
                             Romantique
                         </p>
                     </div>
-                    <div class="elements_filtre affichageflex">
-                        <div class="icone_filtre affichageflex centrerelementsflexverticalement">
-                            <i class="fas fa-dog couleurbleu"></i>
+                    <div class="elements_filtre flex">
+                        <div class="filter_icon flex align_center">
+                            <i class="fas fa-dog color_blue"></i>
                         </div>
-                        <p class="affichageflex centrerelementsflexverticalement marge_ext0px">
+                        <p class="flex align_center margin_0">
                             Animaux autorisés
                         </p>
                     </div>
                 </div>
                 <!-- Information nbre logements dispo avec icône "i" -->
                 <p class="info">
-                    <i class="fas fa-info-circle couleurbleu"></i>
+                    <i class="fas fa-info-circle color_blue"></i>
                     Plus de 500 logements sont disponibles dans cette ville
                 </p>
             </header>
             <!-- Conteneur englobant les deux sections -->
             <main>
                 <!-- Conteneur englobant "Hébergements à Marseille" et "Les plus populaires" -->
-                <section class="affichageflex espaceentreelements">
+                <section class="flex justify_space_between">
                     <!-- Conteneur "Hébergements à Marseille" -->
-                    <div id="conteneur_heb_marseille" class="fondcouleurgrise affichageflex">
+                    <div id="container_heb_marseille" class="background_grey flex">
                         <!-- Pour centrer les éléments dans le conteneur -->
-                        <div id="bloc_centrer_heb_marseille" class="elementcolonne affichageflex">
+                        <div id="container_center_heb_marseille" class="flex_column flex">
                             <h2 id="hebergements">
                                 Hébergements à Marseille
                             </h2>
                             <!-- Conteneur pour l'affichage des images cliquables -->
-                            <div id="bloc_img_heb_marseille" class="affichageflex espaceentreelements">
+                            <div id="container_img_heb_marseille" class="flex justify_space_between">
                                 <!-- Bloc qui contient l'image, le texte et les étoiles -->
-                                <div class="dim_bloc_img_texte_etoile_heb_marseille fondcouleurblanche bordurecouleurblanche10px">
-                                    <a href="#" class="marge_ext0px">
+                                <div class="card_heb_marseille background_white border_white_10px">
+                                    <a href="#" class="margin_0">
                                         <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" />
-                                        <div class="carte_heb_marseille_titre_etoile largeur100pourcent">
-                                            <h3 class="couleurnoire marge_ext_haut2pourcent_bas2pourcent">
+                                        <div class="container_heb_marseille_content width_100_percent">
+                                            <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                 Auberge la Cannebière
                                             </h3>
-                                            <p class="couleurnoire marge_ext0px">
+                                            <p class="color_black margin_0">
                                                 Nuit à partir de 25€
                                             </p>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="far fa-star couleurgrise marge_ext_haut2pourcent_bas2pourcent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="far fa-star color_grey margin_top_2_percent margin_bottom_2_percent"></i>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="dim_bloc_img_texte_etoile_heb_marseille fondcouleurblanche bordurecouleurblanche10px">
-                                    <a href="#" class="marge_ext0px">
+                                <div class="card_heb_marseille background_white border_white_10px">
+                                    <a href="#" class="margin_0">
                                         <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" />
-                                        <div class="carte_heb_marseille_titre_etoile largeur100pourcent">
-                                            <h3 class="couleurnoire marge_ext_haut2pourcent_bas2pourcent">
+                                        <div class="container_heb_marseille_content width_100_percent">
+                                            <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                 Hôtel du port
                                             </h3>
-                                            <p class="couleurnoire marge_ext0px">
+                                            <p class="color_black margin_0">
                                                 Nuit à partir de 52€
                                             </p>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="dim_bloc_img_texte_etoile_heb_marseille fondcouleurblanche bordurecouleurblanche10px">
-                                    <a href="#" class="marge_ext0px">
+                                <div class="card_heb_marseille background_white border_white_10px">
+                                    <a href="#" class="margin_0">
                                         <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" />
-                                        <div class="carte_heb_marseille_titre_etoile largeur100pourcent">
-                                            <h3 class="couleurnoire marge_ext_haut2pourcent_bas2pourcent">
+                                        <div class="container_heb_marseille_content width_100_percent">
+                                            <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                 Hôtel Les mouettes
                                             </h3>
-                                            <p class="couleurnoire marge_ext0px">
+                                            <p class="color_black margin_0">
                                                 Nuit à partir de 76€
                                             </p>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="far fa-star couleurgrise marge_ext_haut2pourcent_bas2pourcent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="far fa-star color_grey margin_top_2_percent margin_bottom_2_percent"></i>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="dim_bloc_img_texte_etoile_heb_marseille fondcouleurblanche bordurecouleurblanche10px">
-                                    <a href="#" class="marge_ext0px">
+                                <div class="card_heb_marseille background_white border_white_10px">
+                                    <a href="#" class="margin_0">
                                         <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" />
-                                        <div class="carte_heb_marseille_titre_etoile largeur100pourcent">
-                                            <h3 class="couleurnoire marge_ext_haut2pourcent_bas2pourcent">
+                                        <div class="container_heb_marseille_content width_100_percent">
+                                            <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                 Hôtel de la mer
                                             </h3>
-                                            <p class="couleurnoire">
+                                            <p class="color_black">
                                                 Nuit à partir de 46€
                                             </p>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="far fa-star couleurgrise marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="far fa-star couleurgrise marge_ext_haut2pourcent_bas2pourcent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="far fa-star color_grey margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="far fa-star color_grey margin_top_2_percent margin_bottom_2_percent"></i>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="dim_bloc_img_texte_etoile_heb_marseille fondcouleurblanche bordurecouleurblanche10px">
-                                    <a href="#" class="marge_ext0px">
+                                <div class="card_heb_marseille background_white border_white_10px">
+                                    <a href="#" class="margin_0">
                                         <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" />
-                                        <div class="carte_heb_marseille_titre_etoile largeur100pourcent">
-                                            <h3 class="couleurnoire marge_ext_haut2pourcent_bas2pourcent">
+                                        <div class="container_heb_marseille_content width_100_percent">
+                                            <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                 Auberge Le Panier
                                             </h3>
-                                            <p class="couleurnoire">
+                                            <p class="color_black">
                                                 Nuit à partir de 23€
                                             </p>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="far fa-star couleurgrise marge_ext_haut2pourcent_bas2pourcent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="far fa-star color_grey margin_top_2_percent margin_bottom_2_percent"></i>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="dim_bloc_img_texte_etoile_heb_marseille fondcouleurblanche bordurecouleurblanche10px">
-                                    <a href="#" class="marge_ext0px">
+                                <div class="card_heb_marseille background_white border_white_10px">
+                                    <a href="#" class="margin_0">
                                         <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" />
-                                        <div class="carte_heb_marseille_titre_etoile largeur100pourcent">
-                                            <h3 class="couleurnoire marge_ext_haut2pourcent_bas2pourcent">
+                                        <div class="container_heb_marseille_content width_100_percent">
+                                            <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                 Hôtel chez Amina
                                             </h3>
-                                            <p class="couleurnoire">
+                                            <p class="color_black">
                                                 Nuit à partir de 96€
                                             </p>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
-                                            <i class="fas fa-star couleurbleu marge_ext_haut2pourcent_bas2pourcent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
+                                            <i class="fas fa-star color_blue margin_top_2_percent margin_bottom_2_percent"></i>
                                         </div>
                                     </a>
                                 </div>
@@ -232,11 +232,11 @@
                         </div>
                     </div>
                     <!-- Conteneur "Les plus populaires"-->
-                    <aside id="conteneur_plus_populaires" class="fondcouleurgrise affichageflex">
+                    <aside id="container_pop" class="background_grey flex">
                         <!-- Pour centrer les éléments dans le conteneur -->
-                        <div id="bloc_centrer_pop">
+                        <div id="container_center_pop">
                             <!-- Bloc qui contient le titre et l'image "graph"-->
-                            <div id="titre_graph" class="affichageflex espaceentreelements centrerelementsflexverticalement">
+                            <div id="titre_graph" class="flex justify_space_between align_center">
                                 <h2>
                                     Les plus populaires
                                 </h2>
@@ -245,83 +245,83 @@
                                 </div>
                             </div>
                             <!-- Conteneur pour l'affichage des images cliquables -->
-                            <div id="img_plus_populaires" class="affichageflex elementcolonne espaceentreelements">
+                            <div id="container_img_pop" class="flex flex_column justify_space_between">
                                 <a href="#">
                                     <!-- Bloc qui contient le bloc image et le bloc "texte et étoiles"-->
-                                    <div class="bloc_img_pop fondcouleurblanche bordurecouleurblanche10px affichageflex">    
+                                    <div class="card_pop background_white border_white_10px flex">    
                                         <!-- Bloc image -->
-                                        <p class="img_pop img_pop256x270px">
-                                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="img_pop256x270px" />
+                                        <p class="img_pop width_img_pop height_img_pop">
+                                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="width_img_pop height_img_pop" />
                                         </p>
                                         <!-- Bloc contenant le text et les étoiles -->
-                                        <div class="text_etoile affichageflex elementcolonne espaceentreelements">
+                                        <div class="container_pop_content flex flex_column justify_space_between">
                                             <div>
-                                                <h3 class="couleurnoire">
+                                                <h3 class="color_black">
                                                     Hôtel Le soleil du matin
                                                 </h3>
-                                                <p class="couleurnoire">
+                                                <p class="color_black">
                                                     Nuit à partir de 128€
                                                 </p>
                                             </div>
                                             <div>
                                                 <p>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                                 <a href="#">
-                                    <div class="bloc_img_pop fondcouleurblanche bordurecouleurblanche10px affichageflex">
-                                        <p class="img_pop img_pop256x270px">
-                                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="img_pop256x270px" />             
+                                    <div class="card_pop background_white border_white_10px flex">
+                                        <p class="img_pop width_img_pop height_img_pop">
+                                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="width_img_pop height_img_pop" />             
                                         </p>
-                                        <div class="text_etoile affichageflex elementcolonne espaceentreelements">
+                                        <div class="container_pop_content flex flex_column justify_space_between">
                                             <div>
-                                                <h3 class="couleurnoire">
+                                                <h3 class="color_black">
                                                     Au coeur de l'eau Chambres d'hôtes
                                                 </h3>
-                                                <p class="couleurnoire">
+                                                <p class="color_black">
                                                     Nuit à partir de 71€
                                                 </p>
                                             </div>
                                             <div>
                                                 <p>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="far fa-star couleurgrise"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="far fa-star color_grey"></i>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                                 <a href="#">
-                                    <div class="bloc_img_pop fondcouleurblanche bordurecouleurblanche10px affichageflex">
-                                        <p class="img_pop img_pop256x270px">                     
-                                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="img_pop256x270px" />
+                                    <div class="card_pop background_white border_white_10px flex">
+                                        <p class="img_pop width_img_pop height_img_pop">                     
+                                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="width_img_pop height_img_pop" />
                                         </p>
-                                        <div class="text_etoile affichageflex elementcolonne espaceentreelements">
+                                        <div class="container_pop_content flex flex_column justify_space_between">
                                             <div>
-                                                <h3 class="couleurnoire">
+                                                <h3 class="color_black">
                                                     Hôtel Tout bleu et Blanc
                                                 </h3>
-                                                <p class="couleurnoire">
+                                                <p class="color_black">
                                                     Nuit à partir de 68€
                                                 </p>
                                             </div>
                                             <div>
                                                 <p>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="fas fa-star couleurbleu"></i>
-                                                    <i class="far fa-star couleurgrise"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="far fa-star color_grey"></i>
                                                 </p>
                                             </div>
                                         </div>
@@ -332,30 +332,30 @@
                     </aside>
                 </section>
                 <!-- Conteneur "Activités à Marseille"-->
-                <section id="conteneur_act_marseille" class="affichageflex elementcolonne espaceentreelements largeur100pourcent">
+                <section id="container_act_marseille" class="flex flex_column justify_space_between width_100_percent">
                     <h2 id="activites">
                         Activités à Marseille
                     </h2>
                     <!-- Conteneur englobant tous les conteneurs images -->
-                    <div id="img_act_marseille" class="affichageflex espaceentreelements">
+                    <div id="img_act_marseille" class="flex justify_space_between">
                         <!-- Conteneur qui affiche 1 image cliquable -->
-                        <div class="img_bloc_act_marseille_1">
+                        <div class="container_card_act_marseille_1">
                             <a href="#">
                                 <figure>
-                                    <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="largeur100pourcent" alt="" />
-                                    <figcaption>
+                                    <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="width_100_percent" alt="" />
+                                    <figcaption class="color_black">
                                         Vieux Port
                                     </figcaption>
                                 </figure>
                             </a>
                         </div>
                         <!-- Conteneur qui affiche 2 images cliquables -->
-                        <div class="img_bloc_act_marseille_2">
+                        <div class="container_card_act_marseille_2">
                             <div>
                                 <a href="#">
                                     <figure>
-                                        <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="largeur100pourcent" alt="" />
-                                        <figcaption>
+                                        <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="width_100_percent" alt="" />
+                                        <figcaption class="color_black">
                                             Fort de Pomègues
                                         </figcaption>
                                     </figure>
@@ -364,8 +364,8 @@
                             <div>
                                 <a href="#">
                                     <figure>
-                                        <img src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="largeur100pourcent" alt="" />
-                                        <figcaption>
+                                        <img src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="width_100_percent" alt="" />
+                                        <figcaption class="color_black">
                                             Îles du Frioul
                                         </figcaption>
                                     </figure>
@@ -373,23 +373,23 @@
                             </div>
                         </div>
                         <!-- Conteneur qui affiche 1 image cliquable -->
-                        <div class="img_bloc_act_marseille_1">
+                        <div class="container_card_act_marseille_1">
                             <a href="#">
                                 <figure>
-                                    <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="largeur100pourcent" alt="" />
-                                    <figcaption>
+                                    <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="width_100_percent" alt="" />
+                                    <figcaption class="color_black">
                                         Parc National des Calanques
                                     </figcaption>
                                 </figure>
                             </a>
                         </div>
                         <!-- Conteneur qui affiche 2 images cliquables -->
-                        <div class="img_bloc_act_marseille_2">
+                        <div class="container_card_act_marseille_2">
                             <div>
                                 <a href="#">
                                     <figure>
-                                        <img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="largeur100pourcent" alt="" />
-                                        <figcaption>
+                                        <img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="width_100_percent" alt="" />
+                                        <figcaption class="color_black">
                                             Notre-Dame-de-la-Garde
                                         </figcaption>
                                     </figure>
@@ -398,8 +398,8 @@
                             <div>
                                 <a href="#">
                                     <figure>
-                                        <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="largeur100pourcent" alt="" />
-                                        <figcaption>
+                                        <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="width_100_percent" alt="" />
+                                        <figcaption class="color_black">
                                             Parc Longchamp
                                         </figcaption>
                                     </figure>
@@ -409,9 +409,9 @@
                     </div>
                 </section>
             </main>
-            <footer class="affichageflex">
+            <footer class="flex background_grey">
                 <!-- Conteneur "A propos de nous" -->
-                <div class="largeur100pourcent">
+                <div class="width_100_percent">
                     <p>
                         A propos <br />
                         <a href="#">
@@ -426,7 +426,7 @@
                     </p>
                 </div>
                 <!-- Conteneur "Nos hébergements" -->
-                <div class="largeur100pourcent">
+                <div class="width_100_percent">
                     <p>
                         Nos hébergements <br />
                         <a href="#">
@@ -438,7 +438,7 @@
                     </p>
                 </div>
                 <!-- Conteneur "Assistance" -->
-                <div class="largeur100pourcent">
+                <div class="width_100_percent">
                     <p>
                         Assistance <br />
                         <a href="#">
