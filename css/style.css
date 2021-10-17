@@ -354,24 +354,51 @@ p.img_pop img {
     border-radius: 15% 0 0 15% / 15% 0 0 15%; 
 }
 
-/* Les blocs contenant une seule figure à l'intérieur. Ils sont dans le conteneur "Activités à Marseille" */
-
-div.container_card_act_marseille_1 a figure img {
-    height: 890px;
-}
-
-/* Les blocs contenant deux figures à l'intérieur. Ils sont dans le conteneur "Activités à Marseille" */
-
-div.container_card_act_marseille_2 a figure img {
-    height: 472px;
-}
-
 figure {
+    width: 650px;
+    margin: 0;
     border-radius: 8% / 5%;
 }
 
 figure img {
+    object-fit: cover;
     border-radius: 8% 8% 0 0 / 5% 5%;
+}
+
+.card_fort_pomegues {
+    height: 478px;
+}
+
+.card_fort_pomegues img {
+    height: 362px;
+}
+
+.card_iles_frioul {
+    height: 328px;
+}
+
+.card_iles_frioul img {
+    height: 220px;
+}
+
+.card_figure_1 {
+    height: 894px;
+}
+
+.card_figure_1 img {
+    height: 776px;
+}
+
+.card_figure_2 {
+    height: 403px;
+}
+
+.card_figure_2 img {
+    height: 280px;
+}
+
+.container_figure_2 {
+    margin-bottom: 82px;
 }
 
 figcaption {
