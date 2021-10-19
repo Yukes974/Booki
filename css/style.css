@@ -37,6 +37,10 @@
     border: 10px solid white;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .flex {
     display: flex;
 }
@@ -354,6 +358,10 @@ p.img_pop img {
     border-radius: 15% 0 0 15% / 15% 0 0 15%; 
 }
 
+section#container_act_marseille {
+    margin-top: 70px;
+}
+
 figure {
     width: 650px;
     margin: 0;
@@ -445,6 +453,24 @@ footer {
         width: auto;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    div#img_act_marseille div {
+        width: 100%;
+        margin: 80px 10% 80px 10%;
+    }
+
+    .container_figure_2 {
+        margin: 0;
+    }
+
+    figure {
+        height: 368px;
+        width: auto;
+    }
+
+    figure img {
+        height: 268px;
     }
 }
 
