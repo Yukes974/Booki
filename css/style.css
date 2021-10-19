@@ -252,7 +252,16 @@ div.filter_element p {
 }
 
 div.filter_icon {
-    border-radius: 80%;
+    height: 50px;
+    width: 50px;
+}
+
+div.filter_icon div {
+    border-radius: 100%;
+}
+
+div.filter_icon div i {
+    padding: 15px;
 }
 
 p.info {
@@ -427,6 +436,10 @@ footer {
         width: 100%;
     }
 
+    h1, h1 + p {
+        text-align: center;
+    }
+
     form {
         width: 100%;
     }
@@ -455,13 +468,8 @@ footer {
         justify-content: center;
     }
 
-    div#img_act_marseille div {
-        width: 100%;
-        margin: 80px 10% 80px 10%;
-    }
-
-    .container_figure_2 {
-        margin: 0;
+    .responsiv_act_tab {
+        margin: 0px 50px 50px 50px;
     }
 
     figure {
@@ -489,7 +497,7 @@ footer {
         width: auto;
     }
 
-    div#logo p {
+    div#logo {
         text-align: center;
     }
 
