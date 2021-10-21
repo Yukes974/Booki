@@ -458,6 +458,15 @@ footer {
         flex-direction: column;
     }
 
+    div#container_center_heb_marseille {
+        width: 100%;
+        padding: 70px 30px 5px 30px;
+    }
+
+    div.card_heb_marseille a img {
+        width: 100%;
+    }
+
     aside#container_pop {
         width: auto;
     }
@@ -468,18 +477,51 @@ footer {
         justify-content: center;
     }
 
-    .responsiv_act_tab {
+    .responsiv_act_mars {
         margin: 0px 50px 50px 50px;
+        width: 100%;
     }
 
     figure {
-        height: 368px;
-        width: auto;
+        height: 350px;
+        width: 100%;
     }
 
     figure img {
         height: 268px;
     }
+    
+    .card_fort_pomegues {
+        height: 357px;
+    }
+    
+    .card_fort_pomegues img {
+        height: 273px;
+    }
+    
+    .card_iles_frioul {
+        height: 357px;
+    }
+    
+    .card_iles_frioul img {
+        height: 273px;
+    }
+    
+    .card_figure_1 {
+        height: 357px;
+    }
+    
+    .card_figure_1 img {
+        height: 273px;
+    }
+    
+    .card_figure_2 {
+        height: 357px;
+    }
+    
+    .card_figure_2 img {
+        height: 273px;
+    }    
 }
 
 /* Responsiv pour les mobiles */
@@ -529,10 +571,6 @@ footer {
         width: auto;
     }
 
-    div#container_center_heb_marseille {
-        width: auto;
-    }
-
     div#container_img_heb_marseille {
         justify-content: center;
     }
@@ -543,6 +581,10 @@ footer {
 
     div#img_act_marseille {
         flex-direction: column;
+    }
+
+    .responsiv_act_mars {
+        width: auto; /* Pour que  */
     }
 
     footer {
