@@ -100,7 +100,7 @@
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
 div {
-    border: 1px solid black;
+    
 }
 
 h1 {
@@ -182,7 +182,7 @@ ul.flex li a:hover {
 }
 
 h1 + p {
-    font-size: 23px;
+    font-size: 25px;
 }
 
 /* Barre de recherche */
@@ -194,13 +194,13 @@ div#search {
 /* Comportement du Formulaire */
 
 form {
-    width: 30%;
+    width: 23%;
     border-radius: 5% 5% / 48% 40% ;
     border: 1px solid;
 }
 
 div#container_position_icon {
-    width: 12%;
+    width: 15.5%;
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
 }
 
@@ -220,11 +220,12 @@ form p input {
     padding-left: 2%;
     font-size: 26px;
     font-weight: bold;
+    border: 0px;
 }
 
 form div input {
-    width: 30%;
-    left: 62%;
+    width: 37%;
+    left: 65%;
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
     background-color: #0065FC;
     color: white;
@@ -529,6 +530,10 @@ footer {
 @media all and (max-width: 767px) {
     div#block_page {
         width: 750px;
+    }
+
+    div#block_center_responsiv {
+        padding: 0 50% 0 50%;
     }
 
     div#container_logo_nav {
