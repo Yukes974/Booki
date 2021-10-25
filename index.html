@@ -46,15 +46,19 @@
                     </p>
                     <!-- Barre de recherche -->
                     <div id="search" class="height_99px">
-                        <form method="post" action="transmettre_info.php" class="height_99px border_grey absolute">
-                            <div id="container_position_icon" class="height_99px background_grey absolute">
+                        <form method="post" action="transmettre_info.php" class="height_99px absolute">
+                            <div id="container_position_icon" class="background_grey height_99px absolute">
                                 <i class="fas fa-map-marker-alt absolute"></i>
                             </div>
                             <p class="absolute height_99px bottom_0px">
                                 <input type="search" name="search" placeholder="Marseille, France" class="height_99px bottom_0px width_100_percent" />
                             </p>
-                            <div>
-                                <input type="submit" value="Rechercher" class="absolute height_99px bottom_0px"/>
+                            <div id="submit">
+                                <input type="submit" value="Rechercher" class="absolute height_99px bottom_0px" />
+                            </div>
+                            <div id="magnifier">
+                                <input type="submit" value="" class="absolute height_99px bottom_0px" />
+                                <i class="fas fa-search"></i>
                             </div>
                         </form>
                     </div>

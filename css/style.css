@@ -100,7 +100,7 @@
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
 div {
-    
+    border: 1px solid black;
 }
 
 h1 {
@@ -195,8 +195,7 @@ div#search {
 
 form {
     width: 23%;
-    border-radius: 5% 5% / 48% 40% ;
-    border: 1px solid;
+    border: 3px solid blue;
 }
 
 div#container_position_icon {
@@ -223,13 +222,17 @@ form p input {
     border: 0px;
 }
 
-form div input {
-    width: 37%;
+div#submit input {
+    width: 35.6%;
     left: 65%;
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
     background-color: #0065FC;
     color: white;
     font-size: 35px;
+}
+
+div#magnifier input, div#magnifier i {
+    display: none;
 }
 
 /* Les éléments du filtre sont centrés */
@@ -532,8 +535,8 @@ footer {
         width: 750px;
     }
 
-    div#block_center_responsiv {
-        padding: 0 50% 0 50%;
+    div.block_center_responsiv {
+        padding: 0 7% 0 7%;
     }
 
     div#container_logo_nav {
@@ -568,7 +571,34 @@ footer {
         width: 100%;
     }
 
-    div#filtres {
+    form p {
+        width: 69.7%;
+    }
+
+    div#submit input {
+        display: none;
+    }
+
+    div#magnifier input {
+        display: initial;
+        width: 15%;
+        left: 85.5%;
+        border-radius: 30%;
+        background-color: #0065FC;
+        padding: 30px;
+    }
+
+    div#magnifier i {
+        display: initial;
+        position: absolute;
+        left: 91%;
+        top: 30%;
+        color: white;
+        font-size: 35px;
+    }
+
+    div#filter {
+        display: flex;
         flex-wrap: wrap;
     }
 
@@ -589,7 +619,7 @@ footer {
     }
 
     .responsiv_act_mars {
-        width: auto; /* Pour que  */
+        width: auto;
     }
 
     footer {
