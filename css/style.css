@@ -77,10 +77,6 @@
     margin: 0;
 }
 
-.padding_left_35px {
-    padding-left: 35px;
-}
-
 .margin_top_2_percent {
     margin-top: 2%;
 }
@@ -143,7 +139,7 @@ div#logo {
 
 /* Taille du logo */
 
-div#logo p img {
+div#logo img {
     width: 120px;
     height: 57px;
 }
@@ -168,6 +164,7 @@ ul.flex {
 
 ul.flex li a {
     padding-right: 35px;
+    padding-left: 35px;
 }
 
 a {
@@ -178,7 +175,7 @@ a {
 ul.flex li a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding-top: 14px;
+    padding-top: 50px;
 }
 
 h1 + p {
@@ -200,6 +197,7 @@ form {
 
 div#container_position_icon {
     width: 15.5%;
+    bottom: 0px;
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
 }
 
@@ -275,7 +273,7 @@ p.info {
 /* Conteneur "Hébergements à Marseille dont la couleur de fond est grisée */
 
 div#container_heb_marseille {
-    width: 1764px;
+    width: 67%;
 }
 
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
@@ -290,7 +288,7 @@ div#container_center_heb_marseille {
 
 aside#container_pop {
     justify-content: center;
-    width: 837px;
+    width: 30%;
 }
 
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
@@ -440,12 +438,24 @@ footer {
         width: 100%;
     }
 
+    ul.flex li a {
+        padding: 0 35px 0 35px;
+    }
+
     h1, h1 + p {
         text-align: center;
     }
 
     form {
         width: 100%;
+    }
+
+    form p {
+        left: 112px;
+    }
+
+    div#container_position_icon {
+        width: 15.1%;
     }
 
     section {
@@ -565,6 +575,10 @@ footer {
         border-top: 0px;
         padding-bottom: 14px;
         border-bottom: 3px solid #0065FC;
+    }
+
+    h1, h1 + p {
+        text-align: justify;
     }
 
     form {
