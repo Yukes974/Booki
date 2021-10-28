@@ -134,19 +134,23 @@ div#block_page {
 /* Bloc contenant le logo */
 
 div#logo {
+    display: flex;
+    height: 150px;
     width: 50%;
+    align-items: center;
 }
 
 /* Taille du logo */
 
 div#logo img {
-    width: 120px;
-    height: 57px;
+    width: 150px;
+    height: 70px;
 }
 
 /* Le menu du nav */
 
 nav.menu {
+    height: 150px;
     width: 50%;
 }
 
@@ -154,27 +158,30 @@ nav.menu {
 
 nav.menu.flex {
     justify-content: flex-end;
-}
-
-ul.flex {
-    list-style-type: none;
+    align-items: center;
 }
 
 /* Les élément du menu nav ont un espace vers la gauche */
 
-ul.flex li a {
-    padding: 0 35px 0 35px;
-}
-
 a {
-    font-size: 24px;
+    font-size: 30px;
     text-decoration: none;
 }
 
-ul.flex li:hover {
-    color: #0065FC;
+nav.menu div {
+    padding: 59px 0 59px 0;
+}
+
+nav.menu div a {
+    padding: 0 35px 0 35px;
+}
+
+nav.menu div:hover {
     border-top: 3px solid #0065FC;
-    padding-top: 15px;
+}
+
+nav.menu div a:hover {
+    color: #0065FC;
 }
 
 h1 + p {
@@ -547,46 +554,29 @@ footer {
 
     div#logo {
         width: auto;
-    }
-
-    div#logo {
+        justify-content: center;
         text-align: center;
     }
 
     nav.menu.flex {
         width: 100%;
+        height: 80px;
     }
 
-    nav.menu ul {
-        padding-left: 0px;
+    nav.menu div {
         width: 100%;
-    }
-
-    nav.menu ul li {
         text-align: center;
-        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 20px;
     }
 
-    nav.menu ul li:hover {
-        padding-top: 0px;
+    nav.menu div:hover {
         border-top: 0px;
-        padding-bottom: 14px;
         border-bottom: 3px solid #0065FC;
     }
-
-    /* ul.flex li a {
-        padding: 0 33% 0 33%;
-    }
-
-    nav.menu ul li a:hover {
-        padding-top: 0px;
-        border-top: 0px;
-        padding-bottom: 14px;
-        border-bottom: 3px solid #0065FC;
-    }*/
 
     h1, h1 + p {
-        text-align: justify;
+        text-align: initial;
     }
 
     form {
