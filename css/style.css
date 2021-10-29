@@ -93,6 +93,14 @@
     height: 270px;
 }
 
+.padding_left_footer {
+    padding-left: 10.5%;
+}
+
+h2 {
+    font-size: 35px;
+}
+
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
 div {
@@ -131,6 +139,14 @@ div#block_page {
     margin: auto;
 }
 
+div#block_center_logo_nav {
+    padding: 0 3.44% 0 3.44%;
+}
+
+div.block_center {
+    padding: 0 3.44% 0 3.44%;
+}
+
 /* Bloc contenant le logo */
 
 div#logo {
@@ -164,7 +180,7 @@ nav.menu.flex {
 /* Les élément du menu nav ont un espace vers la gauche */
 
 a {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
 }
 
@@ -218,7 +234,6 @@ form input {
     left: 15.4%;
     padding-left: 2%;
     font-size: 26px;
-    font-weight: bold;
     border: 2px solid;
 }
 
@@ -423,7 +438,6 @@ figure img {
 }
 
 figcaption {
-    font-weight: bold;
     padding: 5% 0 5% 4%;
 }
 
@@ -431,6 +445,21 @@ figcaption {
 
 footer {
     flex-direction: row;
+    margin-top: 120px;
+}
+
+footer div p {
+    font-size: 30px;
+    padding-top: 4%;
+    margin-bottom: 0px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    padding-top: 2%;
 }
 
 /* responsiv pour les tablettes */
@@ -544,7 +573,12 @@ footer {
         width: 750px;
     }
 
-    div.block_center_responsiv {
+    div#block_center_logo_nav {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    div.block_center {
         padding: 0 7% 0 7%;
     }
 
