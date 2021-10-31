@@ -101,9 +101,21 @@ h2 {
     font-size: 35px;
 }
 
+.border_radius_pomegues {
+    border-radius: 7% / 12%;
+}
+
+.border_radius_frioul {
+    border-radius: 7% / 17%;
+}
+
+.border_radius_card_figure_2 {
+    border-radius: 7% / 13%;
+}
+
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
-div {
+div#container_heb_marseille {
     border: 1px solid black;
 }
 
@@ -291,6 +303,7 @@ p.info {
 
 div#container_heb_marseille {
     width: 67%;
+    border-radius: 2.5% / 4%;
 }
 
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
@@ -306,6 +319,7 @@ div#container_center_heb_marseille {
 aside#container_pop {
     justify-content: center;
     width: 30%;
+    border-radius: 6% / 4%;
 }
 
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
@@ -343,6 +357,7 @@ div.card_heb_marseille {
     height: 381px;
     margin-bottom: 69px;
     border-radius: 11% / 14%;
+    box-shadow: 0px 0px 15px 2px black;
 }
 
 div.container_heb_marseille_content {
@@ -393,12 +408,12 @@ section#container_act_marseille {
 figure {
     width: 650px;
     margin: 0;
-    border-radius: 8% / 5%;
+    border-radius: 7% / 6%;
 }
 
 figure img {
     object-fit: cover;
-    border-radius: 8% 8% 0 0 / 5% 5%;
+    border-radius: 7% 7% 0 0 / 6% 6% 0 0;
 }
 
 .card_fort_pomegues {
@@ -407,6 +422,7 @@ figure img {
 
 .card_fort_pomegues img {
     height: 362px;
+    border-radius: 7% 7% 0 0 / 12% 12% 0 0;
 }
 
 .card_iles_frioul {
@@ -415,6 +431,7 @@ figure img {
 
 .card_iles_frioul img {
     height: 220px;
+    border-radius: 7% 7% 0 0 / 17% 17% 0 0;
 }
 
 .card_figure_1 {
@@ -431,6 +448,7 @@ figure img {
 
 .card_figure_2 img {
     height: 280px;
+    border-radius: 7% 7% 0 0 / 13% 13% 0 0;
 }
 
 .container_figure_2 {
@@ -445,6 +463,7 @@ figcaption {
 
 footer {
     flex-direction: row;
+    height: 335px;
     margin-top: 120px;
 }
 
@@ -494,6 +513,10 @@ footer ul li {
     div#container_heb_marseille {
         width: 100%;
         background-color: white;
+    }
+
+    div#container_heb_marseille, aside#container_pop {
+        border-radius: initial;
     }
 
     div#container_img_heb_marseille {
@@ -563,7 +586,15 @@ footer ul li {
     
     .card_figure_2 img {
         height: 273px;
-    }    
+    }
+
+    .border_radius_act_card_tab {
+        border-radius: 5% / 10%;
+    }
+
+    .border_radius_act_card_tab img {
+        border-radius: 5% 5% 0 0 / 10% 10% 0 0;
+    }
 }
 
 /* Responsiv pour les mobiles */
@@ -670,6 +701,7 @@ footer ul li {
 
     footer {
         flex-direction: column;
+        height: auto;
     }
 
     footer div {
