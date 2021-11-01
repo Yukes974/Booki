@@ -101,31 +101,35 @@ h2 {
     font-size: 35px;
 }
 
-.border_radius_pomegues {
-    border-radius: 7% / 12%;
+.border_radius_inside_main {
+    border-radius: 50px / 50px;
 }
 
-.border_radius_frioul {
-    border-radius: 7% / 17%;
+.border_radius_img_act {
+    border-radius: 50px 50px 0 0 / 50px 50px 0 0;
 }
 
-.border_radius_card_figure_2 {
-    border-radius: 7% / 13%;
+.border_radius_img_heb {
+    border-radius: 40px 40px 0 0 / 40px 40px 0 0;
+}
+
+.shadow_box_heb_pop {
+    box-shadow: 0px 4px 10px 3px #e4e4e4;
+}
+
+.shadow_box_act {
+    box-shadow: 0px 4px 10px 6px #f0f0f0;
 }
 
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
-div#container_heb_marseille {
+div {
     border: 1px solid black;
 }
 
 h1 {
     font-size: 31px;
     border: 1px solid violet;
-}
-
-figure {
-    border: 1px solid red;
 }
 
 aside {
@@ -303,7 +307,6 @@ p.info {
 
 div#container_heb_marseille {
     width: 67%;
-    border-radius: 2.5% / 4%;
 }
 
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
@@ -318,8 +321,12 @@ div#container_center_heb_marseille {
 
 aside#container_pop {
     justify-content: center;
+    align-items: center;
     width: 30%;
-    border-radius: 6% / 4%;
+}
+
+div#title_graph div i {
+    font-size: 35px;
 }
 
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
@@ -350,14 +357,15 @@ div.card_heb_marseille a img {
     width: 473px;
     height: 228px;
     object-fit: cover;
-    border-radius: 9% 9% 0 0 / 20% 20% 0 0;
 }
 
 div.card_heb_marseille {
     height: 381px;
     margin-bottom: 69px;
-    border-radius: 11% / 14%;
-    box-shadow: 0px 0px 15px 2px black;
+}
+
+div.card_heb_marseille:hover, div.card_pop:hover  {
+    box-shadow: 0px 4px 10px 7px #e4e4e4;
 }
 
 div.container_heb_marseille_content {
@@ -384,12 +392,6 @@ div.container_pop_content div h3 {
     margin-bottom: 5%;
 }
 
-/* Les blocs contenant les images et leur intitulé. L'image à gauche, l'intitulé et les étoiles à droite de l'image. Ils sont centrés. Ils sont tous dans le conteneur "Les plus populaires" */
-
-div.card_pop {
-    border-radius: 8% / 17%;
-}
-
 p.img_pop {
     object-fit: contain;
     margin: 0 40px 0 0;
@@ -398,7 +400,7 @@ p.img_pop {
 /* Taille des images dans le conteneur "Les plus populaires" */
 
 p.img_pop img {
-    border-radius: 15% 0 0 15% / 15% 0 0 15%; 
+    border-radius: 40px 0 0 40px / 40px 0 0 40px; 
 }
 
 section#container_act_marseille {
@@ -408,12 +410,14 @@ section#container_act_marseille {
 figure {
     width: 650px;
     margin: 0;
-    border-radius: 7% / 6%;
 }
 
 figure img {
     object-fit: cover;
-    border-radius: 7% 7% 0 0 / 6% 6% 0 0;
+}
+
+figure:hover {
+    box-shadow: 0px 4px 10px 10px #f0f0f0;
 }
 
 .card_fort_pomegues {
@@ -422,7 +426,6 @@ figure img {
 
 .card_fort_pomegues img {
     height: 362px;
-    border-radius: 7% 7% 0 0 / 12% 12% 0 0;
 }
 
 .card_iles_frioul {
@@ -431,7 +434,6 @@ figure img {
 
 .card_iles_frioul img {
     height: 220px;
-    border-radius: 7% 7% 0 0 / 17% 17% 0 0;
 }
 
 .card_figure_1 {
@@ -448,7 +450,6 @@ figure img {
 
 .card_figure_2 img {
     height: 280px;
-    border-radius: 7% 7% 0 0 / 13% 13% 0 0;
 }
 
 .container_figure_2 {
