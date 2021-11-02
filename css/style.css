@@ -113,18 +113,26 @@ h2 {
     border-radius: 40px 40px 0 0 / 40px 40px 0 0;
 }
 
-.shadow_box_heb_pop {
-    box-shadow: 0px 4px 10px 3px #e4e4e4;
+.shadow_box_heb {
+    box-shadow: 0px 4px 12px 5px #e4e4e4;
+}
+
+.shadow_box_pop {
+    box-shadow: 0px 4px 11px 4px #e4e4e4;
 }
 
 .shadow_box_act {
     box-shadow: 0px 4px 10px 6px #f0f0f0;
 }
 
+.shadow_deep_heb {
+    box-shadow: 0px 4px 20px 11px #e4e4e4;
+}
+
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
 div {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 h1 {
@@ -270,7 +278,7 @@ div#magnifier input, div#magnifier i {
 
 div#filter {
     height: 96px;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 p#filter_title {
@@ -278,21 +286,21 @@ p#filter_title {
 }
 
 div.filter_element {
+    height: 96px;
     margin: 0 1.67% 0 0;
-    border-radius: 20% / 50%;
-}
-
-div.filter_element p {
-    height: 40px;
+    padding-right: 1%;
+    align-items: center;
 }
 
 div.filter_icon {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 
 div.filter_icon div {
     border-radius: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 div.filter_icon div i {
@@ -364,10 +372,6 @@ div.card_heb_marseille {
     margin-bottom: 69px;
 }
 
-div.card_heb_marseille:hover, div.card_pop:hover  {
-    box-shadow: 0px 4px 10px 7px #e4e4e4;
-}
-
 div.container_heb_marseille_content {
     padding-left: 4%;
 }
@@ -414,10 +418,6 @@ figure {
 
 figure img {
     object-fit: cover;
-}
-
-figure:hover {
-    box-shadow: 0px 4px 10px 10px #f0f0f0;
 }
 
 .card_fort_pomegues {
