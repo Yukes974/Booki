@@ -18,7 +18,7 @@
                     <!-- Conteneur pour le logo et la navigation "Hébergements, activités et s'inscrire"-->
                     <div id="container_logo_nav" class="flex flex_column_mob">
                         <!-- Logo Booki -->
-                        <div id="logo" class="align_center text_center justify_center_responsiv width_auto">
+                        <div id="logo" class="align_center justify_center_responsiv">
                                 <img src="images/logo/Booki@3x.png" alt="Logo de Booki" />
                         </div>
                         <!-- Navigation Hébergements, Activités et S'inscrire -->
@@ -61,53 +61,55 @@
                         </form>
                     </div>
                     <!-- Filtres -->
-                    <div id="filter" class="flex align_center">
+                    <div id="filter" class="flex align_center bold">
                         <p id="filter_title">
                             Filtres
                         </p>
-                        <div class="filter_element flex align_center">
-                            <div class="filter_icon">
-                                <div class="flex align_center justify_center">
-                                    <i class="fas fa-money-bill-wave color_blue"></i>
+                        <div id="filter_box" class="flex width_100_percent">
+                            <div class="filter_element flex align_center">
+                                <div class="filter_icon">
+                                    <div class="flex align_center justify_center background_grey">
+                                        <i class="fas fa-money-bill-wave color_blue"></i>
+                                    </div>
                                 </div>
+                                <p class="flex align_center margin_0">
+                                    Économique
+                                </p>
                             </div>
-                            <p class="flex align_center margin_0">
-                                Économique
-                            </p>
-                        </div>
-                        <div class="filter_element flex align_center">
-                            <div class="filter_icon">
-                                <div class="flex align_center justify_center">
-                                    <i class="fas fa-child color_blue"></i>
+                            <div class="filter_element flex align_center">
+                                <div class="filter_icon">
+                                    <div class="flex align_center justify_center background_grey">
+                                        <i class="fas fa-child color_blue"></i>
+                                    </div>
                                 </div>
+                                <p class="flex align_center margin_0">
+                                    Familial
+                                </p>
                             </div>
-                            <p class="flex align_center margin_0">
-                                Familial
-                            </p>
-                        </div>
-                        <div class="filter_element flex align_center">
-                            <div class="filter_icon">
-                                <div class="flex align_center justify_center">
-                                    <i class="fas fa-heart color_blue"></i>
+                            <div class="filter_element flex align_center">
+                                <div class="filter_icon">
+                                    <div class="flex align_center justify_center background_grey">
+                                        <i class="fas fa-heart color_blue"></i>
+                                    </div>
                                 </div>
+                                <p class="flex align_center margin_0">
+                                    Romantique
+                                </p>
                             </div>
-                            <p class="flex align_center margin_0">
-                                Romantique
-                            </p>
-                        </div>
-                        <div class="filter_element flex align_center">
-                            <div class="filter_icon">
-                                <div class="flex align_center justify_center">
-                                    <i class="fas fa-dog color_blue"></i>
+                            <div class="filter_element flex align_center">
+                                <div class="filter_icon">
+                                    <div class="flex align_center justify_center background_grey">
+                                        <i class="fas fa-dog color_blue"></i>
+                                    </div>
                                 </div>
+                                <p class="flex align_center margin_0">
+                                    Animaux autorisés
+                                </p>
                             </div>
-                            <p class="flex align_center margin_0">
-                                Animaux autorisés
-                            </p>
                         </div>
                     </div>
                     <!-- Information nbre logements dispo avec icône "i" -->
-                    <p class="info">
+                    <p id="info">
                         <i class="fas fa-info-circle color_blue"></i>
                         Plus de 500 logements sont disponibles dans cette ville
                     </p>
@@ -366,7 +368,7 @@
                             <div class="container_card_act_marseille responsiv_act_mars width_auto">
                                 <div class="container_figure_2">
                                     <a href="#">
-                                        <figure class="card_fort_pomegues border_radius_inside_main shadow_box_act">
+                                        <figure id="card_fort_pomegues" class="border_radius_inside_main shadow_box_act">
                                             <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
                                             <figcaption class="color_black bold">
                                                 Fort de Pomègues
@@ -376,7 +378,7 @@
                                 </div>
                                 <div>
                                     <a href="#">
-                                        <figure class="card_iles_frioul border_radius_inside_main shadow_box_act">
+                                        <figure id="card_iles_frioul" class="border_radius_inside_main shadow_box_act">
                                             <img src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
                                             <figcaption class="color_black bold">
                                                 Îles du Frioul

@@ -148,10 +148,6 @@ aside {
     border: 1px solid green;
 }
 
-nav {
-    border: 1px solid blue;
-}
-
 div#container_position_icon {
     border: 1px solid aqua;
 }
@@ -279,7 +275,6 @@ div#magnifier input, div#magnifier i {
 /* Les éléments du filtre sont centrés */
 
 div#filter {
-    height: 96px;
     font-size: 30px;
 }
 
@@ -288,15 +283,16 @@ p#filter_title {
 }
 
 div.filter_element {
-    height: 80px;
     margin: 0 1.67% 0 0;
     border-radius: 40px / 40px;
-    padding-right: 1%;
+    padding: 0 1% 0 0;
 }
 
 div.filter_icon {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
+    margin-left: -1.1%;
+    /*margin-bottom: 1.3%;*/
 }
 
 div.filter_icon div {
@@ -304,10 +300,15 @@ div.filter_icon div {
 }
 
 div.filter_icon div i {
-    padding: 25%;
+    padding: 30%;
 }
 
-p.info {
+div.filter_element:hover {
+    color: white;
+    background-color: #0065FC;
+}
+
+p#info {
     font-size: 22px;
 }
 
@@ -410,7 +411,7 @@ section#container_act_marseille {
 }
 
 figure {
-    width: 650px;
+    width: 600px;
     margin: 0;
 }
 
@@ -418,19 +419,19 @@ figure img {
     object-fit: cover;
 }
 
-.card_fort_pomegues {
+figure#card_fort_pomegues {
     height: 478px;
 }
 
-.card_fort_pomegues img {
+figure#card_fort_pomegues img {
     height: 362px;
 }
 
-.card_iles_frioul {
+figure#card_iles_frioul {
     height: 328px;
 }
 
-.card_iles_frioul img {
+figure#card_iles_frioul img {
     height: 220px;
 }
 
@@ -502,6 +503,10 @@ footer ul li {
     .width_auto {
         width: auto;
     }
+
+    div#filter_box {
+        flex-wrap: wrap;
+    }
     
     /* Pour la priorité, sinon pas appliqué */
     
@@ -525,6 +530,14 @@ footer ul li {
     div#filter {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    p#filter_title {
+        margin-bottom: 2%;
+    }
+
+    div.filter_element {
+        margin: 2% 1% 0 0;
     }
 
     section {
@@ -568,19 +581,19 @@ footer ul li {
         height: 268px;
     }
     
-    .card_fort_pomegues {
+    figure#card_fort_pomegues {
         height: 357px;
     }
     
-    .card_fort_pomegues img {
+    figure#card_fort_pomegues img {
         height: 273px;
     }
     
-    .card_iles_frioul {
+    figure#card_iles_frioul {
         height: 357px;
     }
     
-    .card_iles_frioul img {
+    figure#card_iles_frioul img {
         height: 273px;
     }
     
@@ -629,6 +642,12 @@ footer ul li {
         padding: 0 7% 0 7%;
     }
 
+    /* Pour la priorité, sinon pas appliqué */
+
+    div#logo {
+        width: 100%;
+    }
+
     nav.menu.flex {
         width: 100%;
         height: 80px;
@@ -645,7 +664,7 @@ footer ul li {
         border-bottom: 3px solid #0065FC;
     }
 
-    h1, h1 + p {
+    div.block_center h1, div.block_center h1 + p {
         text-align: initial;
     }
 
