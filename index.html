@@ -115,11 +115,11 @@
                     </p>
                 </div>
             </header>
-            <div class="block_center">
-                <!-- Conteneur englobant les deux sections -->
-                <main>
-                    <!-- Conteneur englobant "Hébergements à Marseille" et "Les plus populaires" -->
-                    <section class="flex justify_space_between">
+            <!-- Conteneur englobant les deux sections -->
+            <main>
+                <!-- Conteneur englobant "Hébergements à Marseille" et "Les plus populaires" -->
+                <section class="flex justify_space_between">
+                    <div class="block_center_heb">
                         <!-- Conteneur "Hébergements à Marseille" -->
                         <div id="container_heb_marseille" class="background_grey flex border_radius_inside_main width_auto">
                             <!-- Pour centrer les éléments dans le conteneur -->
@@ -246,10 +246,12 @@
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div class="block_center_aside">
                         <!-- Conteneur "Les plus populaires"-->
-                        <aside id="container_pop" class="background_grey flex border_radius_inside_main align_center justify_center">
+                        <aside id="container_pop" class="background_grey border_radius_inside_main flex">
                             <!-- Pour centrer les éléments dans le conteneur -->
-                            <div id="container_center_pop">
+                            <div id="container_center_pop" class="flex flex_column justify_center">
                                 <!-- Bloc qui contient le titre et l'image "graph"-->
                                 <div id="title_graph" class="flex justify_space_between align_center">
                                     <h2>
@@ -345,9 +347,11 @@
                                 </div>
                             </div>
                         </aside>
-                    </section>
-                    <!-- Conteneur "Activités à Marseille"-->
-                    <section id="container_act_marseille" class="flex flex_column justify_space_between width_100_percent flex_column_responsiv">
+                    </div>
+                </section>
+                <!-- Conteneur "Activités à Marseille"-->
+                <section id="container_act_marseille" class="flex flex_column justify_space_between width_100_percent flex_column_responsiv">
+                    <div class="block_center_act">
                         <h2 id="activites">
                             Activités à Marseille
                         </h2>
@@ -422,9 +426,9 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </main>
-            </div>
+                    </div>
+                </section>
+            </main>
             <div class="block_center_footer_responsiv">
                 <footer class="flex background_grey flex_column_mob">
                     <!-- Conteneur "A propos de nous" -->
