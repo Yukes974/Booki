@@ -148,7 +148,7 @@ aside {
     border: 1px solid green;
 }
 
-div#container_position_icon {
+div#container_center_pop {
     border: 1px solid aqua;
 }
 
@@ -317,7 +317,7 @@ main {
 }
 
 .block_center_heb {
-    width: 70%;
+    width: 66%;
 }
 
 /* Conteneur "Hébergements à Marseille dont la couleur de fond est grisée */
@@ -334,15 +334,20 @@ div#container_center_heb_marseille {
     padding: 81px;
 }
 
+.block_center_aside {
+    width: 30%;
+}
+
 /* Conteneur "Les plus populaires" dont la couleur de fond est grisée */
 
 aside#container_pop {
-    width: auto;
+    width: 100%;
     height: 100%;
+    justify-content: center;
 }
 
 div#title_graph {
-    width: 93%;
+    width: 100%;
 }
 
 div#title_graph div i {
@@ -352,8 +357,9 @@ div#title_graph div i {
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
 
 div#container_center_pop {
+    justify-content: center;
     align-items: center;
-    width: 670px;
+    width: 87%;
 }
 
 h2#hebergements {
@@ -370,6 +376,7 @@ div#container_img_heb_marseille {
 
 div#container_img_pop {
     height: 1004px;
+    width: 100%;
 }
 
 /* Dimension de l'image dans le conteneur "Hébergements à Marseille */
@@ -532,6 +539,10 @@ footer ul li {
 
     .block_center_act {
         width: 100%;
+    }
+
+    main {
+        padding: 0%;
     }
     
     /* Pour la priorité, sinon pas appliqué */
