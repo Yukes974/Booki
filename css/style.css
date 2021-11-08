@@ -139,8 +139,8 @@ div {
     border: 1px solid black;
 }
 
-h1 {
-    font-size: 31px;
+p {
+    font-size: 25px;
     border: 1px solid violet;
 }
 
@@ -223,7 +223,7 @@ nav.menu div a:hover {
 }
 
 h1 + p {
-    font-size: 25px;
+    font-size: 31px;
 }
 
 /* Barre de recherche */
@@ -275,17 +275,21 @@ div#magnifier input, div#magnifier i {
 /* Les éléments du filtre sont centrés */
 
 div#filter {
-    font-size: 30px;
+    font-size: 37px;
 }
 
 p#filter_title {
-    margin-right: 66px;
+    margin-right: 2%;
 }
 
 div.filter_element {
-    margin: 0 1.67% 0 0;
+    margin: 0 2% 0 0;
     border-radius: 40px / 40px;
     padding: 0 1% 0 0;
+}
+
+div.filter_element p {
+    font-size: 41.8px;
 }
 
 div.filter_icon {
@@ -317,7 +321,7 @@ main {
 }
 
 .block_center_heb {
-    width: 66%;
+    width: 67%;
 }
 
 /* Conteneur "Hébergements à Marseille dont la couleur de fond est grisée */
@@ -390,6 +394,10 @@ div.card_heb_marseille a img {
 div.card_heb_marseille {
     height: 381px;
     margin-bottom: 69px;
+}
+
+div.card_heb_marseille:hover {
+    box-shadow: 0px 4px 20px 11px #e9d0d0;
 }
 
 div.container_heb_marseille_content {
@@ -527,6 +535,7 @@ footer ul li {
 
     div#filter_box {
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .block_center_heb {
