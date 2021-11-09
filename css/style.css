@@ -77,10 +77,6 @@
     width: 100%;
 }
 
-.margin_0 {
-    margin: 0;
-}
-
 .margin_top_2_percent {
     margin-top: 2%;
 }
@@ -269,7 +265,7 @@ div#submit input {
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
     background-color: #0065FC;
     color: white;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 div#magnifier input, div#magnifier i {
@@ -283,6 +279,7 @@ div#filter {
 }
 
 p#filter_title {
+    font-size: 32px;
     margin-right: 2%;
 }
 
@@ -293,7 +290,8 @@ div.filter_element {
 }
 
 div.filter_element p {
-    font-size: 41.8px;
+    font-size: 31px;
+    margin: 1% 0 0 20px;
 }
 
 div.filter_icon {
@@ -307,7 +305,7 @@ div.filter_icon div {
 }
 
 div.filter_icon div i {
-    padding: 30%;
+    padding: 25%;
 }
 
 div.filter_element:hover {
