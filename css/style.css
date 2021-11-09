@@ -657,6 +657,7 @@ footer ul li {
     
     .card_figure_1 img {
         height: 273px;
+        object-position: initial;
     }
     
     .card_figure_2 {
