@@ -222,6 +222,10 @@ nav.menu div a:hover {
     color: #0065FC;
 }
 
+h1 {
+    font-size: 41.8px;
+}
+
 h1 + p {
     font-size: 31px;
 }
@@ -425,13 +429,13 @@ div.container_pop_content div h3 {
 }
 
 p.img_pop {
-    object-fit: contain;
     margin: 0 40px 0 0;
 }
 
 /* Taille des images dans le conteneur "Les plus populaires" */
 
 p.img_pop img {
+    object-fit: cover;
     border-radius: 40px 0 0 40px / 40px 0 0 40px; 
 }
 
@@ -454,6 +458,7 @@ figure#card_fort_pomegues {
 
 figure#card_fort_pomegues img {
     height: 362px;
+    object-position: 0px 40%;
 }
 
 figure#card_iles_frioul {
@@ -462,6 +467,7 @@ figure#card_iles_frioul {
 
 figure#card_iles_frioul img {
     height: 220px;
+    object-position: 0px 14%;
 }
 
 .card_figure_1 {
@@ -470,6 +476,7 @@ figure#card_iles_frioul img {
 
 .card_figure_1 img {
     height: 776px;
+    object-position: -320px;
 }
 
 .card_figure_2 {
@@ -477,7 +484,8 @@ figure#card_iles_frioul img {
 }
 
 .card_figure_2 img {
-    height: 280px;
+    height: 268.9px;
+    object-position: 0 0%;
 }
 
 .container_figure_2 {
