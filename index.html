@@ -66,7 +66,7 @@
                             Filtres
                         </p>
                         <div id="filter_box" class="flex width_100_percent">
-                            <div class="filter_element flex align_center">
+                            <div class="filter_element flex align_center border_grey">
                                 <div class="filter_icon">
                                     <div class="flex align_center justify_center background_grey">
                                         <i class="fas fa-money-bill-wave color_blue"></i>
@@ -76,7 +76,7 @@
                                     Économique
                                 </p>
                             </div>
-                            <div class="filter_element flex align_center">
+                            <div class="filter_element flex align_center border_grey_deep">
                                 <div class="filter_icon">
                                     <div class="flex align_center justify_center background_grey">
                                         <i class="fas fa-child color_blue"></i>
@@ -86,7 +86,7 @@
                                     Familial
                                 </p>
                             </div>
-                            <div class="filter_element flex align_center">
+                            <div class="filter_element flex align_center border_grey_deep">
                                 <div class="filter_icon">
                                     <div class="flex align_center justify_center background_grey">
                                         <i class="fas fa-heart color_blue"></i>
@@ -96,7 +96,7 @@
                                     Romantique
                                 </p>
                             </div>
-                            <div class="filter_element flex align_center">
+                            <div class="filter_element flex align_center border_grey_deep">
                                 <div class="filter_icon">
                                     <div class="flex align_center justify_center background_grey">
                                         <i class="fas fa-dog color_blue"></i>
@@ -109,10 +109,16 @@
                         </div>
                     </div>
                     <!-- Information nbre logements dispo avec icône "i" -->
-                    <p id="info">
-                        <i class="fas fa-info-circle color_blue"></i>
-                        Plus de 500 logements sont disponibles dans cette ville
-                    </p>
+                    <div id="info" class="flex align_center">
+                        <div id="container_circle" class="flex justify_center">
+                            <div id="info_circle" class="flex justify_center align_center width_100_percent border_grey_deep">
+                                <i class="fas fa-info color_blue"></i>
+                            </div>
+                        </div>
+                        <p>
+                            Plus de 500 logements sont disponibles dans cette ville
+                        </p>
+                    </div>
                 </div>
             </header>
             <!-- Conteneur englobant les deux sections -->
@@ -350,7 +356,7 @@
                     </div>
                 </section>
                 <!-- Conteneur "Activités à Marseille"-->
-                <section id="container_act_marseille" class="flex flex_column justify_space_between width_100_percent flex_column_responsiv">
+                <section id="container_act_marseille" class="flex flex_column justify_space_between width_100_percent">
                     <div class="block_center_act">
                         <h2 id="activites">
                             Activités à Marseille
