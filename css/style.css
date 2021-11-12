@@ -139,6 +139,10 @@ div {
     border: 1px solid black;
 }
 
+form {
+    border: 3px solid hotpink;
+}
+
 p {
     font-size: 25px;
     border: 1px solid violet;
@@ -223,11 +227,11 @@ nav.menu div a:hover {
 }
 
 h1 {
-    font-size: 41.8px;
+    font-size: 43px;
 }
 
 h1 + p {
-    font-size: 31px;
+    font-size: 32.3px;
 }
 
 /* Barre de recherche */
@@ -239,12 +243,11 @@ div#search {
 /* Comportement du Formulaire */
 
 form {
-    width: 23%;
-    border: 3px solid blue;
+    width: 840px;
 }
 
 div#container_position_icon {
-    width: 15.5%;
+    width: 102px;
     bottom: 0px;
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
 }
@@ -256,62 +259,58 @@ div#container_position_icon i {
 }
 
 form input {
-    width: 49.6%;
-    left: 15.4%;
+    width: 471px;
+    height: 100px;
+    left: 12.2%;
     padding-left: 2%;
-    font-size: 26px;
+    font-size: 36px;
     border: 2px solid;
 }
 
 div#submit input {
-    width: 35.6%;
-    left: 65%;
+    width: 268px;
+    left: 68.3%;
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
     background-color: #0065FC;
     color: white;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 div#magnifier input, div#magnifier i {
     display: none;
 }
 
-/* Les éléments du filtre sont centrés */
-
-div#filter {
-    font-size: 37px;
-}
-
 p#filter_title {
-    font-size: 32px;
-    margin-right: 2%;
+    font-size: 38px;
+    margin-right: 2.4%;
 }
 
 div.filter_element {
     border: 3px solid #d9d9d9;
     margin: 0 2% 0 0;
-    border-radius: 40px / 40px;
+    border-radius: 60px;
     padding: 0 1% 0 0;
-    min-width: 300px;
 }
 
 div.filter_element p {
-    font-size: 31px;
-    margin: 1% 0 0 1%;
-    padding: 0 1%;
+    font-size: 38px;
+    margin: 1% 0 0 30px;
 }
 
 div.filter_icon {
-    height: 75px;
-    width: 75px;
+    height: 95px;
+    width: 95px;
     margin-left: -1.1%;
 }
 
 div.filter_icon div {
+    width: 100%;
+    background-color: #DEEBFF;
     border-radius: 100%;
 }
 
 div.filter_icon div i {
+    font-size: 38px;
     padding: 25%;
 }
 
@@ -636,6 +635,7 @@ footer ul li {
     }
 
     div#img_act_marseille {
+        height: auto;
         flex-wrap: wrap;
     }
 
