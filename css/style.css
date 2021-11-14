@@ -460,6 +460,12 @@ div#img_act_marseille {
     height: 894px;
 }
 
+div.container_card_act_marseille {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 figure {
     width: 580px;
     margin: 0;
@@ -470,7 +476,7 @@ figure img {
 }
 
 figure#card_fort_pomegues {
-    height: 50%;
+    flex-basis: 50%;
 }
 
 figure#card_fort_pomegues img {
@@ -479,7 +485,7 @@ figure#card_fort_pomegues img {
 }
 
 figure#card_iles_frioul {
-    height: 45%;
+    flex-basis: 45%;
 }
 
 figure#card_iles_frioul img {
@@ -496,17 +502,21 @@ figure#card_iles_frioul img {
     object-position: -320px;
 }
 
-.card_figure_2 {
-    height: 35%;
+.card_dame_garde {
+    flex-basis: 35%;
 }
 
-.card_figure_2 img {
+.card_dame_garde img {
     height: 268.9px;
     object-position: 0 0%;
 }
 
-.container_figure_2 {
-    margin-bottom: 20%;
+.card_longchamp {
+    flex-basis: 65%;
+}
+
+.card_longchamp img {
+    height: 305px;
 }
 
 figcaption {
