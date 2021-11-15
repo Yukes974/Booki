@@ -144,7 +144,6 @@ form {
 }
 
 p {
-    font-size: 25px;
     border: 1px solid violet;
 }
 
@@ -156,7 +155,7 @@ section {
     border: 1px solid aqua;
 }
 
-div.filter_icon {
+figure {
     border: 1px solid green;
 }
 
@@ -168,11 +167,11 @@ div#block_page {
 }
 
 div#block_center_logo_nav {
-    padding: 0 3.44% 0 3.44%;
+    padding: 0 4% 0 4%;
 }
 
 div.block_center {
-    padding: 0 3.44% 0 3.44%;
+    padding: 0 4% 0 4%;
 }
 
 /* Bloc contenant le logo */
@@ -334,7 +333,7 @@ div#info_circle {
 
 main {
     width: auto;
-    padding: 0 3.44% 0 3.44%;
+    padding: 0 4% 0 4%;
 }
 
 .block_center_heb {
@@ -467,7 +466,7 @@ div.container_card_act_marseille {
 }
 
 figure {
-    width: 580px;
+    width: 600px;
     margin: 0;
 }
 
@@ -476,20 +475,20 @@ figure img {
 }
 
 figure#card_fort_pomegues {
-    flex-basis: 50%;
+    flex-basis: auto;
 }
 
 figure#card_fort_pomegues img {
-    height: 362px;
+    height: 355px;
     object-position: 0px 40%;
 }
 
 figure#card_iles_frioul {
-    flex-basis: 45%;
+    flex-basis: auto;
 }
 
 figure#card_iles_frioul img {
-    height: 220px;
+    height: 231.4px;
     object-position: 0px 14%;
 }
 
@@ -498,29 +497,38 @@ figure#card_iles_frioul img {
 }
 
 .card_figure_1 img {
-    height: 776px;
-    object-position: -320px;
+    height: 878px;
+    object-position: -360px;
+    clip-path: inset(0 0 12.4% 0);
 }
 
-.card_dame_garde {
-    flex-basis: 35%;
+figure#card_dame_garde {
+    flex-basis: auto;
 }
 
-.card_dame_garde img {
+figure#card_dame_garde img {
     height: 268.9px;
     object-position: 0 0%;
 }
 
-.card_longchamp {
-    flex-basis: 65%;
+figure#card_longchamp {
+    flex-basis: auto;
 }
 
-.card_longchamp img {
+figure#card_longchamp img {
     height: 305px;
+    object-position: 0 14%;
 }
 
 figcaption {
-    padding: 5% 0 5% 4%;
+    font-size: 29px;
+    height: 113px;
+    padding: 45px 0 0 35px;
+}
+
+.figcaption_card_figure_1 {
+    position: relative;
+    bottom: 110px;
 }
 
 /* Les éléments du pied de page sont alignés */
