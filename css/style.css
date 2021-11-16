@@ -97,8 +97,28 @@
     height: 270px;
 }
 
-.padding_left_footer {
-    padding-left: 10.5%;
+.width_propos {
+    width: 90%;
+}
+
+.width_heb {
+    width: 90%;
+}
+
+.padding_left_footer_propos {
+    padding-left: 13%;
+}
+
+.padding_left_footer_heb {
+    padding-left: 6%;
+}
+
+.padding_left_footer_assist {
+    padding-left: 4%;
+}
+
+.padding_top_footer_assist {
+    padding-top: 3.6%;
 }
 
 h2 {
@@ -507,7 +527,7 @@ figure#card_dame_garde {
 }
 
 figure#card_dame_garde img {
-    height: 268.9px;
+    height: 277px;
     object-position: 0 0%;
 }
 
@@ -591,6 +611,10 @@ footer ul li {
 
     .block_center_act {
         width: 100%;
+    }
+
+    .padding_left_footer_resp {
+        padding-left: 7%;
     }
 
     main {
