@@ -69,7 +69,7 @@
     position: absolute;
 }
 
-.height_99px {
+.height_search {
     height: 99px;
 }
 
@@ -362,6 +362,7 @@ div.filter_element:hover {
 }
 
 div#info {
+    height: 192px;
     font-size: 30px;
 }
 
