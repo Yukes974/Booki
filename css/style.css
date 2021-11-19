@@ -37,7 +37,7 @@
     border: 1px solid #d9d9d9;
 }
 
-.border_white_10px {
+.border_white {
     border: 10px solid white;
 }
 
@@ -873,6 +873,43 @@ footer ul li {
         width: 100%;
     }
 
+    a {
+        font-size: 12px;
+    }
+
+    div#logo img {
+        width: 100px;
+        height: 50px;  
+    }
+
+    nav.menu div a {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h1 + p {
+        font-size: 15.3px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h3 + p {
+        font-size: 14px;
+    }
+
+    .height_search {
+        height: 40px;
+    }
+
     div.block_center h1, div.block_center h1 + p {
         text-align: initial;
     }
@@ -883,6 +920,13 @@ footer ul li {
 
     form input {
         width: 70.2%;
+        font-size: 16px;
+    }
+
+    div#container_position_icon i {
+        padding-top: 10px;
+        left: 37%;
+        font-size: 16px;
     }
 
     div#submit input {
@@ -895,7 +939,7 @@ footer ul li {
         left: 85.5%;
         border-radius: 30%;
         background-color: #0065FC;
-        padding: 30px;
+        padding: 15px;
     }
 
     div#magnifier i {
@@ -904,23 +948,137 @@ footer ul li {
         left: 91%;
         top: 30%;
         color: white;
-        font-size: 35px;
+        font-size: 16px;
+    }
+
+    div.filter_icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    div.filter_icon div i {
+        font-size: 15px;
+    }
+
+    p#filter_title {
+        font-size: 15px;
+    }
+
+    div.filter_element p {
+        font-size: 15px;
+        margin: 1% 0 0 10px;
+    }
+
+    div#info {
+        height: 100px;
+        font-size: 14.8px;
+    }
+
+    div#info_circle {
+        font-size: 12px;
     }
 
     div#container_circle {
-        width: 60px;
+        height: 25px;
+        width: 32px;
+        margin: 0 3% 6% 0;
+    }
+
+    div#info p {
+        padding-top: 0%;
+        margin: 0;
+    }
+
+    .border_radius_inside_main {
+        border-radius: 10px / 10px;
+    }
+
+    .border_radius_img_heb {
+        border-radius: 10px 10px 0 0 / 10px 10px 0 0;
+    }
+
+    .border_radius_img_act {
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    }
+
+    .border_white {
+        border: 5px solid white;
     }
 
     div#container_center_pop {
         width: 86.8%;
     }
 
+    div#title_graph div i {
+        font-size: 20px;
+    }
+
+    .width_img_pop {    
+        max-width: 160px;
+    }
+
+    .height_img_pop {
+        height: 170px;
+    }
+
+    .img_pop {
+        margin: 0 20px 0 0;
+        border-radius: 10px 0 0 10px / 10px 0 0 10px;
+        object-position: 51% 40%;
+        clip-path: inset(0 3% 0 0);
+    }
+
+    .card_pop {
+        margin-bottom: 7%;
+    }
+
+    div.container_pop_content {
+        padding-right: 7%;
+    }
+
+    div.container_pop_content i {
+        padding: 26% 0 0;
+    }
+
+    div#container_center_heb_marseille {
+        padding: 40px 6% 1% 6%;
+    }
+
+    div.card_heb_marseille {
+        height: 230px;
+        margin-bottom: 7%;
+    }
+
+    div.card_heb_marseille a img {
+        height: 140px;
+    }
+
     div#container_act_marseille {
         align-items: center;
     }
 
+    div#img_act_marseille div {
+        margin: 0 0 7% 0;
+    }
+
+    figure img {
+        object-fit: cover;
+    }
+
+    figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
+        height: 200px;
+    }
+
+    figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
+        height: 140px;
+    }
+
     .card_figure_1 img {
         object-position: 0 10%;
+    }
+
+    .margin_bottom_card_figure_2 {
+        margin-bottom: 7%;
     }
 
     figure#card_iles_frioul img {
@@ -933,9 +1091,26 @@ footer ul li {
 
     figure#card_longchamp img {
         object-position: 0 21%;
-    } 
+    }
+    
+    figcaption {
+        font-size: 15px;
+        padding: 5% 0 0 5.7%;
+    }
     
     footer {
         height: auto;
+    }
+
+    footer div p {
+        font-size: 15px;
+    }
+
+    footer ul li {
+        padding-top: 1%;
+    }
+
+    .padding_left_footer_resp {
+        padding-left: 8%;
     }
 }
