@@ -41,6 +41,10 @@
     border: 10px solid white;
 }
 
+.border_color_nav_hebergement {
+    border-top: 3px solid #0065FC;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -252,14 +256,6 @@ nav.menu div {
 nav.menu div a {
     font-size: 35px;
     padding: 0 35px 0 35px;
-}
-
-nav.menu div:hover {
-    border-top: 3px solid #0065FC;
-}
-
-nav.menu div a:hover {
-    color: #0065FC;
 }
 
 h1 {
@@ -706,9 +702,13 @@ footer ul li {
         padding: 0 2% 0 2%;
     }
 
-    nav.menu div:hover {
+    .border_color_nav_heb {
         border-top: 0px;
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .border_color_nav_act {
+        border-bottom: 3px solid #F2F2F2;
     }
 
     .flex_column_mob {
@@ -870,7 +870,7 @@ footer ul li {
 
 @media all and (max-width: 767px) {
     div#block_page {
-        width: 100%;
+        width: 370px;
     }
 
     a {
@@ -899,11 +899,11 @@ footer ul li {
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     h3 + p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .height_search {
@@ -990,11 +990,11 @@ footer ul li {
     }
 
     .border_radius_inside_main {
-        border-radius: 10px / 10px;
+        border-radius: 20px / 20px;
     }
 
     .border_radius_img_heb {
-        border-radius: 10px 10px 0 0 / 10px 10px 0 0;
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
     .border_radius_img_act {
@@ -1002,7 +1002,7 @@ footer ul li {
     }
 
     .border_white {
-        border: 5px solid white;
+        border: 4px solid white;
     }
 
     div#container_center_pop {
@@ -1014,16 +1014,16 @@ footer ul li {
     }
 
     .width_img_pop {    
-        max-width: 160px;
+        max-width: 130px;
     }
 
     .height_img_pop {
-        height: 170px;
+        height: 140px;
     }
 
     .img_pop {
-        margin: 0 20px 0 0;
-        border-radius: 10px 0 0 10px / 10px 0 0 10px;
+        margin: 0 10px 0 0;
+        border-radius: 17px 0 0 17px / 17px 0 0 17px;
         object-position: 51% 40%;
         clip-path: inset(0 3% 0 0);
     }
@@ -1037,7 +1037,7 @@ footer ul li {
     }
 
     div.container_pop_content i {
-        padding: 26% 0 0;
+        padding: 29% 0 0;
     }
 
     div#container_center_heb_marseille {
