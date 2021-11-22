@@ -73,6 +73,14 @@
     position: absolute;
 }
 
+.relative {
+    position: relative;
+}
+
+.object_cover {
+    object-fit: cover;
+}
+
 .height_search {
     height: 99px;
 }
@@ -103,12 +111,10 @@
 
 .img_pop {
     margin: 0 40px 0 0;
-    object-fit: cover;
     border-radius: 40px 0 0 40px / 40px 0 0 40px; 
 }
 
 .width_img_pop {
-    width: 100%;
     max-width: 250px;  
 }
 
@@ -231,14 +237,14 @@ div#logo img {
 
 /* Le menu du nav */
 
-nav.menu {
+.menu {
     height: 150px;
     width: 50%;
 }
 
 /* Comportement et disposition des éléments du nav */
 
-nav.menu.flex {
+.menu {
     justify-content: flex-end;
 }
 
@@ -249,11 +255,11 @@ a {
     text-decoration: none;
 }
 
-nav.menu div {
+.menu div {
     padding: 4% 0 4% 0;
 }
 
-nav.menu div a {
+.menu div a {
     font-size: 35px;
     padding: 0 35px 0 35px;
 }
@@ -266,12 +272,6 @@ h1 {
 h1 + p {
     font-size: 32.3px;
     margin-top: 0;
-}
-
-/* Barre de recherche */
-
-div#search {
-    position: relative;
 }
 
 /* Comportement du Formulaire */
@@ -342,7 +342,6 @@ div.filter_icon {
 }
 
 div.filter_icon div {
-    width: 100%;
     background-color: #DEEBFF;
     border-radius: 100%;
 }
@@ -374,42 +373,27 @@ div#info_circle {
 }
 
 main {
-    width: auto;
     padding: 0 4% 0 4%;
 }
 
-.block_center_heb {
+#block_center_heb {
     width: 67%;
-}
-
-/* Conteneur "Hébergements à Marseille dont la couleur de fond est grisée */
-
-div#container_heb_marseille {
-    width: auto;
 }
 
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
 
 div#container_center_heb_marseille {
-    width: auto;
-    margin: auto;
     padding: 75px;
 }
 
-.block_center_aside {
+#block_center_aside {
     width: 30%;
 }
 
 /* Conteneur "Les plus populaires" dont la couleur de fond est grisée */
 
 aside#container_pop {
-    width: 100%;
     height: 100%;
-    justify-content: center;
-}
-
-div#title_graph {
-    width: 100%;
 }
 
 div#title_graph div i {
@@ -419,8 +403,6 @@ div#title_graph div i {
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
 
 div#container_center_pop {
-    justify-content: center;
-    align-items: center;
     width: 87%;
 }
 
@@ -436,16 +418,11 @@ div#container_img_heb_marseille {
 
 /* Bloc contenant les blocs qui contiennent les images et leur intitulé qui sont en colonne et centrés. A l'intérieur du conteneur "Les plus populaires" */
 
-div#container_img_pop {
-    width: 100%;
-}
-
 /* Dimension de l'image dans le conteneur "Hébergements à Marseille */
 
 div.card_heb_marseille a img {
     width: 473px;
     height: 228px;
-    object-fit: cover;
 }
 
 div.card_heb_marseille {
@@ -468,7 +445,6 @@ h3 + p {
 /* Disposition des intitulés et des étoiles dans le conteneur "Les plus populaires". En colonne et séparé par un espace */
 
 div.container_pop_content {
-    width: 100%;
     padding-right: 12%;
 }
 
@@ -504,10 +480,6 @@ div.container_card_act_marseille {
 figure {
     width: 600px;
     margin: 0;
-}
-
-figure img {
-    object-fit: cover;
 }
 
 figure#card_fort_pomegues {
@@ -563,7 +535,6 @@ figcaption {
 }
 
 .figcaption_card_figure_1 {
-    position: relative;
     bottom: 110px;
 }
 
@@ -596,6 +567,10 @@ footer ul li {
         width: 100%;
     }
 
+    .width_100_resp {
+        width: 100%;
+    }
+
     .text_center {
         text-align: center;
     }
@@ -617,7 +592,6 @@ footer ul li {
     }
 
     .width_img_pop {
-        width: 100%;
         max-width: 300px;
     }
 
@@ -646,15 +620,15 @@ footer ul li {
         justify-content: space-between;
     }
 
-    .block_center_heb {
+    #block_center_heb {
         width: 100%;
     }
 
-    .block_center_aside {
+    #block_center_aside {
         width: 100%;
     }
 
-    .block_center_act {
+    #block_center_act {
         padding: 0 6.8% 0 6.8%;
     }
 
@@ -687,12 +661,10 @@ footer ul li {
     }
 
     nav.menu.flex {
-        width: 100%;
         height: 80px;
     }
 
     nav.menu div {
-        width: 100%;
         padding-top: 0px;
         padding-bottom: 2%;
     }
@@ -718,10 +690,6 @@ footer ul li {
     /* Pour la priorité, sinon pas appliqué */
     
     aside#container_pop {
-        width: 100%;
-    }
-
-    form {
         width: 100%;
     }
 
@@ -914,10 +882,6 @@ footer ul li {
         text-align: initial;
     }
 
-    form {
-        width: 100%;
-    }
-
     form input {
         width: 70.2%;
         font-size: 16px;
@@ -1059,10 +1023,6 @@ footer ul li {
 
     div#img_act_marseille div {
         margin: 0 0 7% 0;
-    }
-
-    figure img {
-        object-fit: cover;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {

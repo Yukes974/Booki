@@ -22,13 +22,13 @@
                                 <img src="images/logo/Booki@3x.png" alt="Logo de Booki" />
                         </div>
                         <!-- Navigation Hébergements, Activités et S'inscrire -->
-                        <nav class="menu flex align_center">
-                            <div class="text_center border_color_nav_heb">
+                        <nav class="menu flex align_center width_100_resp">
+                            <div class="text_center border_color_nav_heb width_100_resp">
                                 <a href="#hebergements" class="color_blue">
                                     Hébergements
                                 </a>            
                             </div>
-                            <div class="text_center border_color_nav_act">
+                            <div class="text_center border_color_nav_act width_100_resp">
                                 <a href="#activites" class="color_black">
                                     Activités
                                 </a> 
@@ -45,8 +45,8 @@
                         En plein centre ville ou en pleine nature
                     </p>
                     <!-- Barre de recherche -->
-                    <div id="search" class="height_search">
-                        <form method="post" action="transmettre_info.php" class="height_search absolute">
+                    <div id="search" class="height_search relative">
+                        <form method="post" action="transmettre_info.php" class="height_search absolute width_100_resp">
                             <div id="container_position_icon" class="background_grey height_search absolute">
                                 <i class="fas fa-map-marker-alt absolute"></i>
                             </div>
@@ -68,7 +68,7 @@
                         <div id="filter_box" class="flex width_100_percent">
                             <div class="filter_element flex align_center border_grey">
                                 <div class="filter_icon flex justify_center">
-                                    <div class="flex align_center justify_center">
+                                    <div class="flex align_center justify_center width_100_percent">
                                         <i class="fas fa-money-bill-wave color_blue"></i>
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="filter_element flex align_center border_grey_deep">
                                 <div class="filter_icon flex justify_center">
-                                    <div class="flex align_center justify_center">
+                                    <div class="flex align_center justify_center width_100_percent">
                                         <i class="fas fa-child color_blue"></i>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                             </div>
                             <div class="filter_element flex align_center border_grey_deep">
                                 <div class="filter_icon flex justify_center">
-                                    <div class="flex align_center justify_center">
+                                    <div class="flex align_center justify_center width_100_percent">
                                         <i class="fas fa-heart color_blue"></i>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@
                             </div>
                             <div class="filter_element flex align_center border_grey_deep">
                                 <div class="filter_icon flex justify_center">
-                                    <div class="flex align_center justify_center">
+                                    <div class="flex align_center justify_center width_100_percent">
                                         <i class="fas fa-dog color_blue"></i>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@
             <main>
                 <!-- Conteneur englobant "Hébergements à Marseille" et "Les plus populaires" -->
                 <section class="flex justify_space_between">
-                    <div class="block_center_heb">
+                    <div id="block_center_heb">
                         <!-- Conteneur "Hébergements à Marseille" -->
                         <div id="container_heb_marseille" class="background_grey flex border_radius_inside_main width_auto">
                             <!-- Pour centrer les éléments dans le conteneur -->
@@ -138,7 +138,7 @@
                                     <!-- Bloc qui contient l'image, le texte et les étoiles -->
                                     <div class="card_heb_marseille background_white border_white border_radius_inside_main shadow_box_heb">
                                         <a href="#" class="margin_0">
-                                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="border_radius_img_heb" />
+                                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="border_radius_img_heb object_cover" />
                                             <div class="container_heb_marseille_content width_100_percent">
                                                 <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                     Auberge la Cannebière
@@ -156,7 +156,7 @@
                                     </div>
                                     <div class="card_heb_marseille background_white border_white border_radius_inside_main shadow_box_heb">
                                         <a href="#" class="margin_0">
-                                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" class="border_radius_img_heb" />
+                                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" class="border_radius_img_heb object_cover" />
                                             <div class="container_heb_marseille_content width_100_percent">
                                                 <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                     Hôtel du port
@@ -174,7 +174,7 @@
                                     </div>
                                     <div class="card_heb_marseille background_white border_white border_radius_inside_main shadow_deep_heb">
                                         <a href="#" class="margin_0">
-                                            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" class="border_radius_img_heb" />
+                                            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" class="border_radius_img_heb object_cover" />
                                             <div class="container_heb_marseille_content width_100_percent">
                                                 <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                     Hôtel Les mouettes
@@ -192,7 +192,7 @@
                                     </div>
                                     <div class="card_heb_marseille background_white border_white border_radius_inside_main shadow_box_heb">
                                         <a href="#" class="margin_0">
-                                            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" class="border_radius_img_heb" />
+                                            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" class="border_radius_img_heb object_cover" />
                                             <div class="container_heb_marseille_content width_100_percent">
                                                 <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                     Hôtel de la mer
@@ -210,7 +210,7 @@
                                     </div>
                                     <div class="card_heb_marseille background_white border_white border_radius_inside_main shadow_box_heb">
                                         <a href="#" class="margin_0">
-                                            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" class="border_radius_img_heb" />
+                                            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" class="border_radius_img_heb object_cover" />
                                             <div class="container_heb_marseille_content width_100_percent">
                                                 <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                     Auberge Le Panier
@@ -228,7 +228,7 @@
                                     </div>
                                     <div class="card_heb_marseille background_white border_white border_radius_inside_main shadow_box_heb">
                                         <a href="#" class="margin_0">
-                                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" class="border_radius_img_heb" />
+                                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" class="border_radius_img_heb object_cover" />
                                             <div class="container_heb_marseille_content width_100_percent">
                                                 <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                                     Hôtel chez Amina
@@ -253,13 +253,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block_center_aside">
+                    <div id="block_center_aside">
                         <!-- Conteneur "Les plus populaires"-->
-                        <aside id="container_pop" class="background_grey border_radius_inside_main flex">
+                        <aside id="container_pop" class="background_grey border_radius_inside_main flex width_100_percent justify_center">
                             <!-- Pour centrer les éléments dans le conteneur -->
-                            <div id="container_center_pop" class="flex flex_column justify_center">
+                            <div id="container_center_pop" class="flex flex_column justify_center align_center">
                                 <!-- Bloc qui contient le titre et l'image "graph"-->
-                                <div id="title_graph" class="flex justify_space_between align_center">
+                                <div id="title_graph" class="flex justify_space_between align_center width_100_percent">
                                     <h2>
                                         Les plus populaires
                                     </h2>
@@ -268,14 +268,14 @@
                                     </div>
                                 </div>
                                 <!-- Conteneur pour l'affichage des images cliquables -->
-                                <div id="container_img_pop" class="flex flex_column justify_space_between">
+                                <div id="container_img_pop" class="flex flex_column justify_space_between width_100_percent">
                                     <a href="#">
                                         <!-- Bloc qui contient le bloc image et le bloc "texte et étoiles"-->
                                         <div class="card_pop background_white border_white flex border_radius_inside_main shadow_box_pop">    
                                             <!-- Bloc image -->
-                                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop" />
+                                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />
                                             <!-- Bloc contenant le text et les étoiles -->
-                                            <div class="container_pop_content">
+                                            <div class="container_pop_content width_100_percent">
                                                 <h3 class="color_black">
                                                     Hôtel Le soleil du matin
                                                 </h3>
@@ -292,8 +292,8 @@
                                     </a>
                                     <a href="#">
                                         <div class="card_pop background_white border_white flex border_radius_inside_main shadow_box_pop">
-                                            <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop" />             
-                                            <div class="container_pop_content">
+                                            <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />             
+                                            <div class="container_pop_content width_100_percent">
                                                 <h3 class="color_black">
                                                     Au coeur de l'eau Chambres d'hôtes
                                                 </h3>
@@ -310,8 +310,8 @@
                                     </a>
                                     <a href="#">
                                         <div class="card_pop_bleu_blanc background_white border_white flex border_radius_inside_main shadow_box_pop">                  
-                                            <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop" />
-                                            <div class="container_pop_content">
+                                            <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />
+                                            <div class="container_pop_content width_100_percent">
                                                 <h3 class="color_black">
                                                     Hôtel Tout bleu et Blanc
                                                 </h3>
@@ -333,7 +333,7 @@
                 </section>
                 <!-- Conteneur "Activités à Marseille"-->
                 <section id="container_act_marseille" class="flex flex_column justify_space_between width_100_percent">
-                    <div class="block_center_act">
+                    <div id="block_center_act">
                         <h2 id="activites">
                             Activités à Marseille
                         </h2>
@@ -343,8 +343,8 @@
                             <div class="responsiv_act_mars width_auto">
                                 <a href="#">
                                     <figure class="card_figure_1 border_radius_inside_main shadow_box_act">
-                                        <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
-                                        <figcaption class="color_black bold figcaption_card_figure_1">
+                                        <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="width_100_percent border_radius_img_act object_cover" alt="" />
+                                        <figcaption class="color_black bold figcaption_card_figure_1 relative">
                                             Vieux Port
                                         </figcaption>
                                     </figure>
@@ -354,7 +354,7 @@
                             <div class="container_card_act_marseille responsiv_act_mars width_auto">
                                 <a href="#">
                                     <figure id="card_fort_pomegues" class="border_radius_inside_main shadow_box_act margin_bottom_card_figure_2">
-                                        <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
+                                        <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="width_100_percent border_radius_img_act object_cover" alt="" />
                                         <figcaption class="color_black bold">
                                             Fort de Pomègues
                                         </figcaption>
@@ -362,7 +362,7 @@
                                 </a>
                                 <a href="#">
                                     <figure id="card_iles_frioul" class="border_radius_inside_main shadow_box_act">
-                                        <img src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
+                                        <img src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="width_100_percent border_radius_img_act object_cover" alt="" />
                                         <figcaption class="color_black bold">
                                             Îles du Frioul
                                         </figcaption>
@@ -373,8 +373,8 @@
                             <div class="responsiv_act_mars width_auto">
                                 <a href="#">
                                     <figure class="card_figure_1 border_radius_inside_main shadow_box_act">
-                                        <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
-                                        <figcaption class="color_black bold figcaption_card_figure_1">
+                                        <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="width_100_percent border_radius_img_act object_cover" alt="" />
+                                        <figcaption class="color_black bold figcaption_card_figure_1 relative">
                                             Parc National des Calanques
                                         </figcaption>
                                     </figure>
@@ -384,7 +384,7 @@
                             <div class="container_card_act_marseille width_figure_act_marseille responsiv_act_mars width_auto">
                                 <a href="#">
                                     <figure id="card_dame_garde" class="border_radius_inside_main shadow_box_act margin_bottom_card_figure_2">
-                                        <img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
+                                        <img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="width_100_percent border_radius_img_act object_cover" alt="" />
                                         <figcaption class="color_black bold">
                                             Notre-Dame-de-la-Garde
                                         </figcaption>
@@ -392,7 +392,7 @@
                                 </a>
                                 <a href="#">
                                     <figure id="card_longchamp" class="border_radius_inside_main shadow_box_act">
-                                        <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="width_100_percent border_radius_img_act" alt="" />
+                                        <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="width_100_percent border_radius_img_act object_cover" alt="" />
                                         <figcaption class="color_black bold">
                                             Parc Longchamp
                                         </figcaption>
