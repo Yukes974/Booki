@@ -222,7 +222,6 @@ div.block_center {
 /* Bloc contenant le logo */
 
 div#logo {
-    display: flex;
     height: 150px;
     width: 50%;
     padding-left: 0.5%;
@@ -231,8 +230,8 @@ div#logo {
 /* Taille du logo */
 
 div#logo img {
-    width: 190px;
-    height: 90px;  
+    width: 150px;
+    height: 70px;  
 }
 
 /* Le menu du nav */
@@ -260,8 +259,8 @@ a {
 }
 
 .menu div a {
-    font-size: 35px;
-    padding: 0 35px 0 35px;
+    font-size: 27px;
+    padding: 0 50px 0 50px;
 }
 
 h1 {
@@ -297,7 +296,7 @@ form input {
     height: 100px;
     left: 12.2%;
     padding-left: 2%;
-    font-size: 36px;
+    font-size: 30px;
     border: 2px solid;
 }
 
@@ -307,7 +306,7 @@ div#submit input {
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
     background-color: #0065FC;
     color: white;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 div#magnifier input, div#magnifier i {
@@ -440,7 +439,7 @@ h3 + p {
     margin: 0;
 }
 
-#afficher_plus a {
+#afficher_plus {
     font-size: 30px;
 }
 
@@ -471,12 +470,6 @@ section#container_act_marseille {
 
 div#img_act_marseille {
     height: 894px;
-}
-
-div.container_card_act_marseille {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 figure {
@@ -774,21 +767,13 @@ footer ul li {
         flex-wrap: wrap;
     }
 
-    div#img_act_marseille div {
-        margin: 0 0 50px 0;
+    #img_act_marseille div {
+        margin: 0 0 7% 0;
+        width: 100%;
     }
 
     div#container_center_pop {
         width: 86.7%;
-    }
-
-    .responsiv_act_mars {
-        margin: 0px 50px 50px 50px;
-        width: 100%;
-    }
-
-    figure {
-        width: 100%;
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -970,7 +955,7 @@ footer ul li {
         border: 4px solid white;
     }
 
-    #afficher_plus a {
+    #afficher_plus {
         font-size: 15px;
     }
 
@@ -1019,10 +1004,6 @@ footer ul li {
 
     div#container_act_marseille {
         align-items: center;
-    }
-
-    div#img_act_marseille div {
-        margin: 0 0 0 0;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
