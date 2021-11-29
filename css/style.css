@@ -85,6 +85,10 @@
     height: 99px;
 }
 
+.height_search_100_per {
+    height: 100%;
+}
+
 .bottom_0px{
     bottom: 0px;
 }
@@ -264,12 +268,12 @@ a {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 42.7px;
     margin-bottom: 10px;
 }
 
 h1 + p {
-    font-size: 33px;
+    font-size: 32.2px;
     margin-top: 0;
 }
 
@@ -318,7 +322,7 @@ div#filter {
 }
 
 p#filter_title {
-    font-size: 30px;
+    font-size: 32px;
     margin: 0 2.4% 0 0.5%;
 }
 
@@ -330,7 +334,7 @@ div.filter_element {
 }
 
 div.filter_element p {
-    font-size: 30px;
+    font-size: 32px;
     margin: 1% 0 0 30px;
 }
 
@@ -382,7 +386,7 @@ main {
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
 
 div#container_center_heb_marseille {
-    padding: 75px;
+    padding: 5%;
 }
 
 #block_center_aside {
@@ -614,6 +618,14 @@ footer ul {
         font-size: 27px;
     }
 
+    .margin_search {
+        margin: 10% 0 8% 0;
+    }
+
+    .margin_bottom_pop {
+        margin-bottom: 10%;
+    }
+
     div#filter_box {
         flex-wrap: wrap;
         justify-content: space-between;
@@ -751,7 +763,7 @@ footer ul {
 
     div#container_center_heb_marseille {
         width: 100%;
-        padding: 70px 58px 5px 58px;
+        padding: 8% 6% 1% 6%;
     }
 
     div.card_heb_marseille a img {
@@ -819,6 +831,10 @@ footer ul {
     footer {
         margin-top: 50px;
     }
+
+    .margin_bottom_footer {
+        margin-bottom: 8%;
+    }
 }
 
 /* Responsiv pour les mobiles dont la largeur est égale à 717px */
@@ -863,7 +879,7 @@ footer ul {
     }
 
     .height_search {
-        height: 40px;
+        height: 107px;
     }
 
     div.block_center h1, div.block_center h1 + p {
@@ -872,13 +888,13 @@ footer ul {
 
     form input {
         width: 70.2%;
-        font-size: 16px;
+        font-size: 37px;
     }
 
     div#container_position_icon i {
-        padding-top: 10px;
+        padding-top: 30%;
         left: 37%;
-        font-size: 16px;
+        font-size: 37px;
     }
 
     div#submit input {
@@ -897,15 +913,15 @@ footer ul {
     div#magnifier i {
         display: initial;
         position: absolute;
-        left: 91%;
-        top: 30%;
+        left: 90.7%;
+        top: 34%;
         color: white;
-        font-size: 16px;
+        font-size: 37px;
     }
 
     div.filter_icon {
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
     }
 
     div.filter_icon div i {
@@ -913,12 +929,12 @@ footer ul {
     }
 
     p#filter_title {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     div.filter_element p {
-        font-size: 30px;
-        margin: 1% 0 0 10px;
+        font-size: 35px;
+        margin: 1% 0 0 30px;
     }
 
     div#info {
@@ -990,10 +1006,6 @@ footer ul {
 
     div.container_pop_content i {
         padding: 20% 0 0;
-    }
-
-    div#container_center_heb_marseille {
-        padding: 40px 6% 1% 6%;
     }
 
     div.card_heb_marseille {
@@ -1096,7 +1108,7 @@ footer ul {
     }
 
     .height_search {
-        height: 40px;
+        height: 80px;
     }
 
     div.block_center h1, div.block_center h1 + p {
@@ -1104,54 +1116,33 @@ footer ul {
     }
 
     form input {
-        width: 70.2%;
-        font-size: 16px;
+        font-size: 30px;
     }
 
     div#container_position_icon i {
-        padding-top: 10px;
-        left: 37%;
-        font-size: 16px;
-    }
-
-    div#submit input {
-        display: none;
-    }
-
-    div#magnifier input {
-        display: initial;
-        width: 15%;
-        left: 85.5%;
-        border-radius: 30%;
-        background-color: #0065FC;
-        padding: 15px;
+        font-size: 30px;
     }
 
     div#magnifier i {
-        display: initial;
-        position: absolute;
-        left: 91%;
-        top: 30%;
-        color: white;
-        font-size: 16px;
+        font-size: 30px;
     }
 
     div.filter_icon {
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
     }
 
     div.filter_icon div i {
-        font-size: 17px;
+        font-size: 25px;
     }
 
     p#filter_title {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     div.filter_element p {
-        font-size: 24px;
-        margin: 1% 0 0 10px;
+        font-size: 25px;
+        margin: 1% 0 0 20px;
     }
 
     div#info {
@@ -1223,10 +1214,6 @@ footer ul {
 
     div.container_pop_content i {
         padding: 20% 0 0;
-    }
-
-    div#container_center_heb_marseille {
-        padding: 40px 6% 1% 6%;
     }
 
     div.card_heb_marseille {
@@ -1305,15 +1292,15 @@ footer ul {
     }
 
     nav.menu div a {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 27px;
     }
 
     h1 + p {
-        font-size: 17.3px;
+        font-size: 20.2px;
     }
 
     h2 {
@@ -1329,7 +1316,7 @@ footer ul {
     }
 
     .height_search {
-        height: 40px;
+        height: 65px;
     }
 
     div.block_center h1, div.block_center h1 + p {
@@ -1337,36 +1324,19 @@ footer ul {
     }
 
     form input {
-        width: 70.2%;
-        font-size: 16px;
+        font-size: 23px;
     }
 
     div#container_position_icon i {
-        padding-top: 10px;
-        left: 37%;
-        font-size: 16px;
+        font-size: 23px;
     }
 
     div#submit input {
         display: none;
     }
 
-    div#magnifier input {
-        display: initial;
-        width: 15%;
-        left: 85.5%;
-        border-radius: 30%;
-        background-color: #0065FC;
-        padding: 15px;
-    }
-
     div#magnifier i {
-        display: initial;
-        position: absolute;
-        left: 91%;
-        top: 30%;
-        color: white;
-        font-size: 16px;
+        font-size: 23px;
     }
 
     div.filter_icon {
@@ -1375,16 +1345,16 @@ footer ul {
     }
 
     div.filter_icon div i {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     p#filter_title {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     div.filter_element p {
-        font-size: 17px;
-        margin: 1% 0 0 10px;
+        font-size: 20px;
+        margin: 1% 0 0 20px;
     }
 
     div#info {
@@ -1456,10 +1426,6 @@ footer ul {
 
     div.container_pop_content i {
         padding: 20% 0 0;
-    }
-
-    div#container_center_heb_marseille {
-        padding: 40px 6% 1% 6%;
     }
 
     div.card_heb_marseille {
@@ -1542,11 +1508,11 @@ footer ul {
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 23.7px;
     }
 
     h1 + p {
-        font-size: 17.3px;
+        font-size: 17.8px;
     }
 
     h2 {
@@ -1562,7 +1528,7 @@ footer ul {
     }
 
     .height_search {
-        height: 40px;
+        height: 60px;
     }
 
     div.block_center h1, div.block_center h1 + p {
@@ -1570,36 +1536,19 @@ footer ul {
     }
 
     form input {
-        width: 70.2%;
-        font-size: 16px;
+        font-size: 20.7px;
     }
 
     div#container_position_icon i {
-        padding-top: 10px;
-        left: 37%;
-        font-size: 16px;
+        font-size: 20.7px;
     }
 
     div#submit input {
         display: none;
     }
 
-    div#magnifier input {
-        display: initial;
-        width: 15%;
-        left: 85.5%;
-        border-radius: 30%;
-        background-color: #0065FC;
-        padding: 15px;
-    }
-
     div#magnifier i {
-        display: initial;
-        position: absolute;
-        left: 91%;
-        top: 30%;
-        color: white;
-        font-size: 16px;
+        font-size: 20.7px;
     }
 
     div.filter_icon {
@@ -1617,7 +1566,7 @@ footer ul {
 
     div.filter_element p {
         font-size: 17px;
-        margin: 1% 0 0 10px;
+        margin: 1% 0 0 15px;
     }
 
     div#info {
@@ -1689,10 +1638,6 @@ footer ul {
 
     div.container_pop_content i {
         padding: 20% 0 0;
-    }
-
-    div#container_center_heb_marseille {
-        padding: 40px 6% 1% 6%;
     }
 
     div.card_heb_marseille {
@@ -1795,7 +1740,7 @@ footer ul {
     }
 
     .height_search {
-        height: 40px;
+        height: 47px;
     }
 
     div.block_center h1, div.block_center h1 + p {
@@ -1808,7 +1753,7 @@ footer ul {
     }
 
     div#container_position_icon i {
-        padding-top: 10px;
+        padding-top: 15px;
         left: 37%;
         font-size: 16px;
     }
@@ -1823,14 +1768,13 @@ footer ul {
         left: 85.5%;
         border-radius: 30%;
         background-color: #0065FC;
-        padding: 15px;
     }
 
     div#magnifier i {
         display: initial;
         position: absolute;
-        left: 91%;
-        top: 30%;
+        left: 90.7%;
+        top: 35%;
         color: white;
         font-size: 16px;
     }
@@ -1922,10 +1866,6 @@ footer ul {
 
     div.container_pop_content i {
         padding: 29% 0 0;
-    }
-
-    div#container_center_heb_marseille {
-        padding: 40px 6% 1% 6%;
     }
 
     div.card_heb_marseille {
@@ -2156,10 +2096,6 @@ footer ul {
 
     div.container_pop_content i {
         padding: 17% 0 0;
-    }
-
-    div#container_center_heb_marseille {
-        padding: 40px 6% 1% 6%;
     }
 
     div.card_heb_marseille {
