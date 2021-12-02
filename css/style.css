@@ -449,6 +449,7 @@ h3 + p {
 
 #afficher_plus {
     font-size: 30px;
+    margin-bottom: 0%;
 }
 
 /* Disposition des intitulés et des étoiles dans le conteneur "Les plus populaires". En colonne et séparé par un espace */
@@ -629,6 +630,18 @@ footer ul {
         border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
+    .padding_left_footer_propos {
+        padding-left: 13%;
+    }
+    
+    .padding_left_footer_heb {
+        padding-left: 8%;
+    }
+    
+    .padding_left_footer_assist {
+        padding-left: 6%;
+    }
+
     div#logo {
         height: 90px;
         padding-left: 0.9%;
@@ -781,10 +794,6 @@ footer ul {
     li a {
         font-size: 16px;
     }
-
-    .padding_left_footer_resp {
-        padding-left: 11.7%;
-    }
 }
 
 /* Responsiv pour les écrans dont la largeur est égale à 1024px */
@@ -795,7 +804,7 @@ footer ul {
     }
 
     a {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     h1 {
@@ -811,11 +820,11 @@ footer ul {
     }
 
     h3 {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     h3 + p {
-        font-size: 12px;
+        font-size: 10.7px;
     }
 
     .height_search {
@@ -839,11 +848,11 @@ footer ul {
     }
 
     .height_img_pop {
-        height: 140px;
+        height: 110px;
     }
 
     .width_img_pop {
-        max-width: 120px;
+        max-width: 100px;
     }
 
     .img_pop {
@@ -851,17 +860,17 @@ footer ul {
     }
 
     div#logo {
-        height: 90px;
-        padding-left: 0.9%;
+        height: 70px;
+        padding-left: 0%;
     }
 
     div#logo img {
-        width: 100px;
-        height: 50px;
+        width: 80px;
+        height: 30px;
     }
 
     .menu {
-        height: 90px;
+        height: 70px;
     }
 
     .menu div {
@@ -869,7 +878,8 @@ footer ul {
     }
 
     .menu div a {
-        font-size: 16px;
+        font-size: 12px;
+        padding: 0 30px 0 30px;
     }
 
     form {
@@ -932,13 +942,17 @@ footer ul {
     }
 
     div.card_heb_marseille {
-        height: 180px;
+        height: 145px;
         margin-bottom: 5%;
     }
 
     div.card_heb_marseille a img {
-        width: 225px;
-        height: 100px;
+        width: 185px;
+        height: 85px;
+    }
+
+    div.container_pop_content i{
+        padding: 26% 0 0;
     }
 
     #afficher_plus {
@@ -950,7 +964,7 @@ footer ul {
     }
 
     div#img_act_marseille {
-        height: 500px;
+        height: 370px;
     }
 
     #img_act_marseille div {
@@ -958,53 +972,49 @@ footer ul {
     }
 
     .card_figure_1 img {
-        object-position: 48% 13.7%;
+        object-position: 50% 13.7%;
     }
 
     figure#card_fort_pomegues img {
-        height: 210px;
+        height: 142px;
         object-position: 0 41%;
     }
 
     figure#card_iles_frioul img {
-        height: 120px;
+        height: 94.3px;
         object-position: 0 14%;
     }
 
     figure#card_dame_garde img {
-        height: 160px;
-        object-position: 0 11%;
+        height: 114px;
+        object-position: 0 4%;
     }
 
     figure#card_longchamp img {
-        height: 170px;
-        object-position: 0 22.9%;
+        height: 123px;
+        object-position: 0 18%;
     }
 
     figcaption.figcaption_card_figure_1 {
-       bottom: 61px;
+       bottom: 45px;
     }
 
     figcaption {
-        font-size: 16px;
-        height: 55px;
-        padding: 5% 0 0 5.7%;
+        font-size: 13px;
+        height: 43px;
+        padding: 6% 0 0 5.7%;
     }
 
     footer {
-        height: 200px;
+        height: 170px;
     }
 
     footer div p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     li a {
-        font-size: 16px;
-    }
-
-    .padding_left_footer_resp {
-        padding-left: 11.7%;
+        font-size: 13.4px;
     }
 }
 
@@ -1090,10 +1100,6 @@ footer ul {
 
     #block_center_act {
         padding: 0 6.8% 0 6.8%;
-    }
-
-    .padding_left_footer_resp {
-        padding-left: 7%;
     }
 
     main {
@@ -1519,10 +1525,6 @@ footer ul {
     li a {
         font-size: 35px;
     }
-
-    .padding_left_footer_resp {
-        padding-left: 8%;
-    }
 }
 
 /* Responsiv pour les mobiles dont la largeur est égale à 540px */
@@ -1726,10 +1728,6 @@ footer ul {
 
     li a {
         font-size: 27px;
-    }
-
-    .padding_left_footer_resp {
-        padding-left: 8%;
     }
 }
 
@@ -1939,10 +1937,6 @@ footer ul {
     li a {
         font-size: 21.3px;
     }
-
-    .padding_left_footer_resp {
-        padding-left: 8%;
-    }
 }
 
 /* Responsiv pour les mobiles dont la largeur est égale à 375px */
@@ -2150,10 +2144,6 @@ footer ul {
 
     li a {
         font-size: 18.4px;
-    }
-
-    .padding_left_footer_resp {
-        padding-left: 8%;
     }
 }
 
@@ -2379,10 +2369,6 @@ footer ul {
     li a {
         font-size: 15.7px;
     }
-
-    .padding_left_footer_resp {
-        padding-left: 8%;
-    }
 }
 
 /* Responsiv pour les mobiles dont la largeur est égale à 280px */
@@ -2604,9 +2590,5 @@ footer ul {
 
     li a {
         font-size: 13.7px;
-    }
-
-    .padding_left_footer_resp {
-        padding-left: 8%;
     }
 }
