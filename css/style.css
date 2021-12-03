@@ -567,15 +567,15 @@ footer ul {
     padding: 0 0 2% 0;
 }
 
-/* Responsiv pour les écrans dont la largeur est égale à 1280px */
+/* Responsiv pour les écrans dont la largeur est égale à 1440px */
 
-@media all and (max-width: 1490px) {
+@media all and (max-width: 1680px) {
     div#block_page {
         width: 100%;
     }
 
     a {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     h1 {
@@ -587,7 +587,7 @@ footer ul {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 22.4px;
     }
 
     h3 {
@@ -595,7 +595,7 @@ footer ul {
     }
 
     h3 + p {
-        font-size: 12px;
+        font-size: 13.4px;
     }
 
     .height_search {
@@ -623,7 +623,7 @@ footer ul {
     }
 
     .width_img_pop {
-        max-width: 120px;
+        max-width: 140px;
     }
 
     .img_pop {
@@ -724,13 +724,242 @@ footer ul {
     }
 
     div.card_heb_marseille {
-        height: 180px;
-        margin-bottom: 5%;
+        height: 195px;
+        margin-bottom: 4%;
     }
 
     div.card_heb_marseille a img {
-        width: 225px;
+        width: 230px;
+        height: 120px;
+    }
+
+    #afficher_plus {
+        font-size: 17px;
+    }
+
+    div#title_graph div i {
+        font-size: 20px;
+    }
+
+    div#img_act_marseille {
+        height: 500px;
+    }
+
+    #img_act_marseille div {
+        width: 100%;
+    }
+
+    .card_figure_1 img {
+        object-position: 48% 13.7%;
+    }
+
+    figure#card_fort_pomegues img {
+        height: 210px;
+        object-position: 0 41%;
+    }
+
+    figure#card_iles_frioul img {
+        height: 120px;
+        object-position: 0 14%;
+    }
+
+    figure#card_dame_garde img {
+        height: 160px;
+        object-position: 0 11%;
+    }
+
+    figure#card_longchamp img {
+        height: 170px;
+        object-position: 0 22.9%;
+    }
+
+    figcaption.figcaption_card_figure_1 {
+       bottom: 61px;
+    }
+
+    figcaption {
+        font-size: 16px;
+        height: 55px;
+        padding: 5% 0 0 5.7%;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    footer div p {
+        font-size: 18px;
+    }
+
+    li a {
+        font-size: 16px;
+    }
+}
+
+/* Responsiv pour les écrans dont la largeur est égale à 1280px */
+
+@media all and (max-width: 1490px) {
+    div#block_page {
+        width: 100%;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+
+    h1 + p {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22.4px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h3 + p {
+        font-size: 13.4px;
+    }
+
+    .height_search {
+        height: 53px;
+    }
+
+    .border_radius_inside_main {
+        border-radius: 20px / 20px;
+    }
+
+    .border_radius_img_heb {
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    }
+
+    .border_radius_img_act {
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    }
+
+    .border_white {
+        border: 3px solid white;
+    }
+
+    .height_img_pop {
+        height: 140px;
+    }
+
+    .width_img_pop {
+        max-width: 140px;
+    }
+
+    .img_pop {
+        border-radius: 20px 0 0 20px / 20px 0 0 20px;
+    }
+
+    .padding_left_footer_propos {
+        padding-left: 13%;
+    }
+    
+    .padding_left_footer_heb {
+        padding-left: 8%;
+    }
+    
+    .padding_left_footer_assist {
+        padding-left: 6%;
+    }
+
+    div#logo {
+        height: 90px;
+        padding-left: 0.9%;
+    }
+
+    div#logo img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .menu {
+        height: 90px;
+    }
+
+    .menu div {
+        padding: 5% 0 5% 0;
+    }
+
+    .menu div a {
+        font-size: 16px;
+    }
+
+    form {
+        width: 30.7%;
+    }
+
+    div#container_position_icon {
+        width: 11.8%;
+    }
+
+    div#container_position_icon i {
+        padding-top: 34%;
+        font-size: 18px;
+    }
+
+    form input {
+        width: 57.5%;
+        left: 11.8%;
+        padding-left: 4%;
+        font-size: 18px;
+    }
+
+    div#submit input {
+        width: 32%;
+        left: 68.8%;
+        padding-left: 2%;
+        font-size: 18px;
+    }
+
+    p#filter_title {
+        font-size: 17px;
+    }
+
+    div.filter_icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    div.filter_icon div i {
+        font-size: 17px;
+    }
+    
+    div.filter_element p {
+        font-size: 17px;
+        margin: 1% 0 0 10px;
+    }
+    
+    div#info {
         height: 100px;
+        font-size: 17px;
+    }
+
+    div#container_circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    div#info_circle {
+        font-size: 17px;
+    }
+
+    div.card_heb_marseille {
+        height: 195px;
+        margin-bottom: 4%;
+    }
+
+    div.card_heb_marseille a img {
+        width: 230px;
+        height: 120px;
     }
 
     #afficher_plus {
@@ -816,7 +1045,7 @@ footer ul {
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     h3 {
@@ -865,8 +1094,8 @@ footer ul {
     }
 
     div#logo img {
-        width: 80px;
-        height: 30px;
+        width: 75px;
+        height: 35px;
     }
 
     .menu {
@@ -956,11 +1185,11 @@ footer ul {
     }
 
     #afficher_plus {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     div#title_graph div i {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     div#img_act_marseille {
@@ -1045,36 +1274,65 @@ footer ul {
         width: auto;
     }
 
+    .height_search {
+        height: 115px;
+    }
+
     .height_img_pop {
-        height: 270px;
+        height: 320px;
     }
 
     .width_img_pop {
         max-width: 300px;
     }
 
+    .border_white {
+        border: 10px solid white;
+    }
+
+    .border_radius_inside_main {
+        border-radius: 50px / 50px;
+    }
+
+    .border_radius_img_heb {
+        border-radius: 50px 50px 0 0 / 50px 50px 0 0;
+    }
+
+    .border_radius_img_act {
+        border-radius: 50px 50px 0 0 / 50px 50px 0 0;
+    }
+
     .space_betw_card_resp {
         margin-bottom: 7%;
     }
 
+    .padding_left_footer_resp {
+        padding-left: 8%;
+    }
+
     a {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 48px;
     }
 
     h1 + p {
-        font-size: 37.5px;
+        font-size: 36.4px;
+        margin: 3% 0 0 0;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 47px;
     }
 
     h3 {
-        font-size: 27px;
+        font-size: 36px;
+    }
+
+    h3 + p {
+        font-size: 32.4px;
     }
 
     .margin_search {
@@ -1118,6 +1376,7 @@ footer ul {
     /* Pour la priorité, sinon pas appliqué */
 
     div#logo {
+        height: 150px;
         width: 100%;
     }
 
@@ -1136,7 +1395,7 @@ footer ul {
     }
 
     nav.menu div a {
-        font-size: 30px;
+        font-size: 36.8px;
         padding: 0 2% 0 2%;
     }
 
@@ -1160,13 +1419,36 @@ footer ul {
     }
 
     form input {
-        width: 49.9%;
-        left: 15.1%;
+        width: 70.2%;
+        left: 15%;
+        font-size: 40px;
+    }
+
+    div#container_position_icon i {
+        padding-top: 30%;
+        left: 37%;
+        font-size: 40px;
     }
 
     div#submit input {
-        left: 65%;
-        width: 35.7%;
+        display: none;
+    }
+
+    div#magnifier input {
+        display: initial;
+        width: 15%;
+        left: 85.5%;
+        border-radius: 30%;
+        background-color: #0065FC;
+    }
+
+    div#magnifier i {
+        display: initial;
+        position: absolute;
+        left: 90.7%;
+        top: 35%;
+        color: white;
+        font-size: 40px;
     }
 
     div#container_position_icon {
@@ -1178,28 +1460,48 @@ footer ul {
         flex-wrap: wrap;
     }
 
+    div.filter_icon {
+        height: 90px;
+        width: 90px;
+    }
+
+    div.filter_icon div i {
+        font-size: 37px;
+    }
+
     p#filter_title {
-        font-size: 32px;
+        font-size: 37px;
         margin-bottom: 2%;
     }
 
     div.filter_element {
         margin: 2% 1% 0 0;
-        padding: 0 5% 0 0;
+        padding: 0 4% 0 0;
     }
 
     div.filter_element p {
-        font-size: 32px;
+        font-size: 37px;
+        margin: 1% 0 0 30px;
+    }
+
+    div#info {
+        height: 220px;
+        font-size: 36.5px;
+    }
+
+    div#info_circle {
+        font-size: 29px;
     }
 
     div#container_circle {
-        width: 50px;
-        margin: 0 5% 5.7% 0;
+        height: 50px;
+        width: 70px;
+        margin: 0 3% 5.7% 0;
     }
 
     div#info p {
-        padding-top: 5%;
-        margin-bottom: 10%;
+        padding-top: 0%;
+        margin: 0;
     }
 
     section {
@@ -1221,13 +1523,13 @@ footer ul {
         padding: 8% 6% 1% 6%;
     }
 
+    div.card_heb_marseille {
+        height: 430px;
+    }
+
     div.card_heb_marseille a img {
         width: 100%;
         height: 250px;
-    }
-    
-    div.card_heb_marseille {
-        height: 420px;
     }
 
     div#img_act_marseille {
@@ -1240,16 +1542,40 @@ footer ul {
         width: 100%;
     }
 
+    #afficher_plus {
+        font-size: 40px;
+        margin-bottom: 8%;
+    }
+
     div#container_center_pop {
         width: 86.7%;
     }
+
+    div#title_graph div i {
+        font-size: 47px;
+    }
+
+    .img_pop {
+        margin: 0 4% 0 0;
+        border-radius: 50px 0 0 50px / 50px 0 0 50px;
+        object-position: 51% 40%;
+        clip-path: inset(0 3% 0 0);
+    }
+
+    div.container_pop_content {
+        padding-right: 7%;
+    }
+
+    div.container_pop_content i {
+        padding: 20% 0 0;
+    }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 357px;
+        height: 420px;
     }
     
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 273px;
+        height: 320px;
     }
 
     .card_figure_1 img {
@@ -1278,7 +1604,7 @@ footer ul {
     }
 
     figcaption {
-        font-size: 29px;
+        font-size: 35px;
         height: 0;
         padding: 3% 0 0 5.7%;
     }
@@ -1287,243 +1613,16 @@ footer ul {
         margin-top: 50px;
     }
 
-    .margin_bottom_footer {
-        margin-bottom: 8%;
-    }
-}
-
-/* Responsiv pour les mobiles double écran dont la largeur est égale à 1114px */
-
-@media all and (max-width: 1300px) {
-
-    div#block_page {
-        width: 100%;
-    }
-
-}
-
-/* Responsiv pour les mobiles dont la largeur est égale à 717px */
-
-@media all and (max-width: 840px) {
-
-    a {
-        font-size: 21.7px;
-    }
-
-    div#logo {
-        height: 140px;
-    }
-
-    div#logo img {
-        width: 120px;
-        height: 70px;  
-    }
-
-    nav.menu div a {
-        font-size: 30px;
-    }
-
-    h1 {
-        font-size: 44px;
-    }
-
-    h1 + p {
-        font-size: 33.2px;
-    }
-
-    h2 {
-        font-size: 43px;
-    }
-
-    h3 {
-        font-size: 33px;
-    }
-
-    h3 + p {
-        font-size: 29.7px;
-    }
-
-    .height_search {
-        height: 107px;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
-        text-align: initial;
-    }
-
-    form input {
-        width: 70.2%;
-        font-size: 37px;
-    }
-
-    div#container_position_icon i {
-        padding-top: 30%;
-        left: 37%;
-        font-size: 37px;
-    }
-
-    div#submit input {
-        display: none;
-    }
-
-    div#magnifier input {
-        display: initial;
-        width: 15%;
-        left: 85.5%;
-        border-radius: 30%;
-        background-color: #0065FC;
-        padding: 15px;
-    }
-
-    div#magnifier i {
-        display: initial;
-        position: absolute;
-        left: 90.7%;
-        top: 34%;
-        color: white;
-        font-size: 37px;
-    }
-
-    div.filter_icon {
-        height: 90px;
-        width: 90px;
-    }
-
-    div.filter_icon div i {
-        font-size: 35px;
-    }
-
-    p#filter_title {
-        font-size: 35px;
-    }
-
-    div.filter_element p {
-        font-size: 35px;
-        margin: 1% 0 0 30px;
-    }
-
-    div#info {
-        height: 200px;
-        font-size: 35px;
-    }
-
-    div#info_circle {
-        font-size: 30px;
-    }
-
-    div#container_circle {
-        height: 50px;
-        width: 75px;
-        margin: 0 3% 6% 0;
-    }
-
-    div#info p {
-        padding-top: 0%;
-        margin: 0;
-    }
-
-    .border_radius_inside_main {
-        border-radius: 20px / 20px;
-    }
-
-    .border_radius_img_heb {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
-    .border_radius_img_act {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
-    .border_white {
-        border: 4px solid white;
-    }
-
-    #afficher_plus {
-        font-size: 35.5px;
-    }
-
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
-    div#title_graph div i {
-        font-size: 33px;
-    }
-
-    .width_img_pop {    
-        max-width: 280px;
-    }
-
-    .height_img_pop {
-        height: 290px;
-    }
-
-    .img_pop {
-        margin: 0 4% 0 0;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
-    }
-
-    div.container_pop_content {
-        padding-right: 7%;
-    }
-
-    div.container_pop_content i {
-        padding: 20% 0 0;
-    }
-
-    div.card_heb_marseille {
-        height: 415px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 242px;
-    }
-
-    #container_act_marseille {
-        align-items: center;
-    }
-
-    figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 400px;
-    }
-
-    figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 302px;
-    }
-
-    .card_figure_1 img {
-        object-position: 0 10%;
-    }
-
-    figure#card_iles_frioul img {
-        object-position: 0 10%;
-    }
-
-    figure#card_dame_garde img {
-        object-position: 0 6%;
-    }
-
-    figure#card_longchamp img {
-        object-position: 0 21%;
-    }
-    
-    figcaption {
-        font-size: 33px;
-        padding: 4% 0 0 5.7%;
-    }
-    
-    footer {
-        height: auto;
-    }
-
     footer div p {
-        font-size: 38px;
+        font-size: 42px;
     }
 
     li a {
-        font-size: 35px;
+        font-size: 37px;
+    }
+
+    .margin_bottom_footer {
+        margin-bottom: 10%;
     }
 }
 
