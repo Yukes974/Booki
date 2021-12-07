@@ -90,7 +90,7 @@
 }
 
 .bottom_0px{
-    bottom: 0px;
+    bottom: 0;
 }
 
 .width_100_percent {
@@ -105,6 +105,18 @@
     margin-bottom: 2%;
 }
 
+.width_container_heb_marseille {
+    width: 65%;
+}
+
+.size_star {
+    font-size: 20px;
+}
+
+.padding_pop_star {
+    padding: 25% 0 0;
+}
+
 .card_pop {
     margin-bottom: 8%;
 }
@@ -113,17 +125,25 @@
     margin-bottom: 2%;
 }
 
+.width_container_pop {
+    width: 32%;
+}
+
+.padding_container_pop {
+    padding: 3%;
+}
+
 .img_pop {
     margin: 0 6% 0 0;
     border-radius: 40px 0 0 40px / 40px 0 0 40px; 
 }
 
 .width_img_pop {
-    max-width: 250px;  
+    max-width: 240px;  
 }
 
 .height_img_pop {
-    height: 270px;
+    height: 250px;
 }
 
 .width_propos {
@@ -154,10 +174,6 @@
     padding-top: 3.6%;
 }
 
-h2 {
-    font-size: 37px;
-}
-
 .border_radius_inside_main {
     border-radius: 50px / 50px;
 }
@@ -171,19 +187,19 @@ h2 {
 }
 
 .shadow_box_heb {
-    box-shadow: 0px 4px 12px 5px #e4e4e4;
+    box-shadow: 0 4px 12px 5px #e4e4e4;
 }
 
 .shadow_box_pop {
-    box-shadow: 0px 4px 11px 4px #e4e4e4;
+    box-shadow: 0 4px 11px 4px #e4e4e4;
 }
 
 .shadow_box_act {
-    box-shadow: 0px 4px 10px 6px #f0f0f0;
+    box-shadow: 0 4px 10px 6px #f0f0f0;
 }
 
 .shadow_deep_heb {
-    box-shadow: 0px 4px 20px 11px #e4e4e4;
+    box-shadow: 0 4px 20px 11px #e4e4e4;
 }
 
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
@@ -258,7 +274,6 @@ div#logo img {
 /* Les élément du menu nav ont un espace vers la gauche */
 
 a {
-    font-size: 24.8px;
     text-decoration: none;
 }
 
@@ -281,26 +296,39 @@ h1 + p {
     margin-top: 0;
 }
 
+h2 {
+    margin-top: 0;
+    font-size: 41.8px;
+}
+
+h3 {
+    font-size: 29.7px;
+}
+
+h3 + p {
+    font-size: 26.3px;
+}
+
 /* Comportement du Formulaire */
 
 form {
-    width: 840px;
+    width: 32%;
 }
 
 div#container_position_icon {
-    width: 102px;
-    bottom: 0px;
+    width: 12.3%;
+    bottom: 0;
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
 }
 
 div#container_position_icon i {
-    padding-top: 34px;
+    padding-top: 28%;
     left: 35%;
     font-size: 35px;
 }
 
 form input {
-    width: 471px;
+    width: 56.1%;
     height: 100px;
     left: 12.2%;
     padding-left: 2%;
@@ -309,7 +337,7 @@ form input {
 }
 
 div#submit input {
-    width: 268px;
+    width: 32%;
     left: 68.3%;
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
     background-color: #0065FC;
@@ -365,7 +393,7 @@ div.filter_element:hover {
 
 div#info {
     height: 192px;
-    font-size: 30px;
+    font-size: 31.4px;
 }
 
 div#container_circle {
@@ -383,38 +411,16 @@ main {
     padding: 0 4% 0 4%;
 }
 
-#block_center_heb {  
-    width: 64%;
-}
-
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
 
 div#container_center_heb_marseille {
     padding: 5%;
 }
 
-#block_center_aside {
-    width: 32.9%;
-}
-
-/* Conteneur "Les plus populaires" dont la couleur de fond est grisée */
-
-aside#container_pop {
-    height: 100%;
-}
-
-div#title_graph div i {
-    font-size: 43px;
-}
-
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
 
 div#container_center_pop {
     width: 82%;
-}
-
-h2#hebergements {
-    margin-top: 0%;
 }
 
 /* Bloc contenant les blocs qui contiennent les images et leur intitulé qui ont des espaces autour d'eux et qui vont à la ligne lorsqu'ils arrivent à la limite du bloc. A l'intérieur du conteneur "Hébergements à Marseille" */
@@ -431,12 +437,12 @@ div.card_heb_marseille a img {
 }
 
 .card_heb_marseille {
-    height: 381px;
-    margin-bottom: 69px;
+    height: 360px;
+    margin-bottom: 3%;
 }
 
 div.card_heb_marseille:hover {
-    box-shadow: 0px 4px 20px 11px #e9d0d0;
+    box-shadow: 0 4px 20px 11px #e9d0d0;
 }
 
 div.container_heb_marseille_content {
@@ -448,8 +454,12 @@ h3 + p {
 }
 
 #afficher_plus {
-    font-size: 30px;
-    margin-bottom: 0%;
+    font-size: 34.5px;
+    margin-bottom: 0;
+}
+
+#graph {
+    font-size: 43px;
 }
 
 /* Disposition des intitulés et des étoiles dans le conteneur "Les plus populaires". En colonne et séparé par un espace */
@@ -467,10 +477,6 @@ div.container_pop_content div {
 div.container_pop_content div h3 {
     padding: 10% 0 4%;
     margin: 0;
-}
-
-div.container_pop_content i {
-    padding: 22% 0 0;
 }
 
 #container_act_marseille {
@@ -495,7 +501,7 @@ figure#card_fort_pomegues {
 
 figure#card_fort_pomegues img {
     height: 355px;
-    object-position: 0px 40%;
+    object-position: 0 40%;
 }
 
 figure#card_iles_frioul {
@@ -504,7 +510,7 @@ figure#card_iles_frioul {
 
 figure#card_iles_frioul img {
     height: 231.4px;
-    object-position: 0px 14%;
+    object-position: 0 14%;
 }
 
 .card_figure_1 {
@@ -574,16 +580,16 @@ footer ul {
         width: 100%;
     }
 
-    a {
-        font-size: 10px;
+    .size_star {
+        font-size: 11.4px;
     }
 
     h1 {
-        font-size: 21px;
+        font-size: 23.8px;
     }
 
     h1 + p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     h2 {
@@ -591,11 +597,11 @@ footer ul {
     }
 
     h3 {
-        font-size: 15px;
+        font-size: 17.3px;
     }
 
     h3 + p {
-        font-size: 13.4px;
+        font-size: 15.4px;
     }
 
     .height_search {
@@ -619,11 +625,11 @@ footer ul {
     }
 
     .height_img_pop {
-        height: 140px;
+        height: 180px;
     }
 
     .width_img_pop {
-        max-width: 140px;
+        max-width: 170px;
     }
 
     .img_pop {
@@ -685,7 +691,6 @@ footer ul {
     }
 
     div#submit input {
-        width: 32%;
         left: 68.8%;
         padding-left: 2%;
         font-size: 18px;
@@ -724,20 +729,20 @@ footer ul {
     }
 
     div.card_heb_marseille {
-        height: 195px;
+        height: 222px;
         margin-bottom: 4%;
     }
 
     div.card_heb_marseille a img {
-        width: 230px;
-        height: 120px;
+        width: 265px;
+        height: 140px;
     }
 
     #afficher_plus {
         font-size: 17px;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 20px;
     }
 
@@ -803,7 +808,7 @@ footer ul {
         width: 100%;
     }
 
-    a {
+    .size_star {
         font-size: 10px;
     }
 
@@ -897,24 +902,18 @@ footer ul {
         width: 30.7%;
     }
 
-    div#container_position_icon {
-        width: 11.8%;
-    }
-
     div#container_position_icon i {
         padding-top: 34%;
         font-size: 18px;
     }
 
     form input {
-        width: 57.5%;
         left: 11.8%;
         padding-left: 4%;
         font-size: 18px;
     }
 
     div#submit input {
-        width: 32%;
         left: 68.8%;
         padding-left: 2%;
         font-size: 18px;
@@ -966,7 +965,7 @@ footer ul {
         font-size: 17px;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 20px;
     }
 
@@ -1032,7 +1031,7 @@ footer ul {
         width: 100%;
     }
 
-    a {
+    .size_star {
         font-size: 8px;
     }
 
@@ -1090,7 +1089,7 @@ footer ul {
 
     div#logo {
         height: 70px;
-        padding-left: 0%;
+        padding-left: 0;
     }
 
     div#logo img {
@@ -1115,24 +1114,18 @@ footer ul {
         width: 30.7%;
     }
 
-    div#container_position_icon {
-        width: 11.8%;
-    }
-
     div#container_position_icon i {
         padding-top: 33%;
         font-size: 13.8px;
     }
 
     form input {
-        width: 57.5%;
         left: 11.8%;
         padding-left: 4%;
         font-size: 13.8px;
     }
 
     div#submit input {
-        width: 32%;
         left: 68.8%;
         padding-left: 2%;
         font-size: 13.8px;
@@ -1180,7 +1173,7 @@ footer ul {
         height: 85px;
     }
 
-    div.container_pop_content i{
+    .padding_pop_star {
         padding: 26% 0 0;
     }
 
@@ -1188,7 +1181,7 @@ footer ul {
         font-size: 14px;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 17px;
     }
 
@@ -1278,6 +1271,10 @@ footer ul {
         height: 115px;
     }
 
+    .padding_container_pop {
+        padding: 10% 7%;
+    }
+
     .height_img_pop {
         height: 320px;
     }
@@ -1310,7 +1307,7 @@ footer ul {
         padding-left: 8%;
     }
 
-    a {
+    .size_star {
         font-size: 24px;
     }
 
@@ -1348,25 +1345,17 @@ footer ul {
         justify-content: space-between;
     }
 
-    #block_center_heb {
-        width: 100%;
-    }
-
-    #block_center_aside {
-        width: 100%;
-    }
-
     #block_center_act {
         padding: 0 6.8% 0 6.8%;
     }
 
     main {
-        padding: 0%;
+        padding: 0;
     }
 
     div#block_center_logo_nav {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     div.block_center {
@@ -1390,7 +1379,7 @@ footer ul {
     }
 
     nav.menu div {
-        padding-top: 0px;
+        padding-top: 0;
         padding-bottom: 2%;
     }
 
@@ -1400,7 +1389,7 @@ footer ul {
     }
 
     .border_color_nav_heb {
-        border-top: 0px;
+        border-top: 0;
         border-bottom: 2px solid #0065FC;
     }
 
@@ -1410,12 +1399,6 @@ footer ul {
 
     .flex_column_mob {
         flex-direction: column;
-    }
-    
-    /* Pour la priorité, sinon pas appliqué */
-    
-    aside#container_pop {
-        width: 100%;
     }
 
     form input {
@@ -1551,7 +1534,7 @@ footer ul {
         width: 86.7%;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 47px;
     }
 
@@ -1566,8 +1549,8 @@ footer ul {
         padding-right: 7%;
     }
 
-    div.container_pop_content i {
-        padding: 20% 0 0;
+    .padding_pop_star {
+        padding: 28% 0 0;
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -1630,7 +1613,7 @@ footer ul {
 
 @media all and (max-width: 630px) {
 
-    a {
+    .size_star {
         font-size: 16px;
     }
 
@@ -1749,7 +1732,7 @@ footer ul {
         width: 86.8%;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 33px;
     }
 
@@ -1772,7 +1755,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    div.container_pop_content i {
+    .padding_pop_star {
         padding: 20% 0 0;
     }
 
@@ -1834,7 +1817,7 @@ footer ul {
 
 @media all and (max-width: 500px) {
 
-    a {
+    .size_star {
         font-size: 12px;
     }
 
@@ -1860,11 +1843,11 @@ footer ul {
     }
 
     h2 {
-        font-size: 21px;
+        font-size: 25.8px;
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 19.1px;
     }
 
     h3 + p {
@@ -1929,7 +1912,7 @@ footer ul {
     }
 
     div#info p {
-        padding-top: 0%;
+        padding-top: 0;
         margin: 0;
     }
 
@@ -1957,16 +1940,16 @@ footer ul {
         width: 86.8%;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 20px;
     }
 
     .width_img_pop {    
-        max-width: 140px;
+        max-width: 160px;
     }
 
     .height_img_pop {
-        height: 150px;
+        height: 170px;
     }
 
     .img_pop {
@@ -1980,7 +1963,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    div.container_pop_content i {
+    .padding_pop_star {
         padding: 20% 0 0;
     }
 
@@ -2042,7 +2025,7 @@ footer ul {
 
 @media all and (max-width: 450px) {
 
-    a {
+    .size_star {
         font-size: 12px;
     }
 
@@ -2068,11 +2051,11 @@ footer ul {
     }
 
     h2 {
-        font-size: 21px;
+        font-size: 23.7px;
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     h3 + p {
@@ -2137,7 +2120,7 @@ footer ul {
     }
 
     div#info p {
-        padding-top: 0%;
+        padding-top: 0;
         margin: 0;
     }
 
@@ -2165,16 +2148,16 @@ footer ul {
         width: 86.8%;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 20px;
     }
 
     .width_img_pop {    
-        max-width: 140px;
+        max-width: 145px;
     }
 
     .height_img_pop {
-        height: 150px;
+        height: 155px;
     }
 
     .img_pop {
@@ -2188,7 +2171,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    div.container_pop_content i {
+    .padding_pop_star {
         padding: 20% 0 0;
     }
 
@@ -2250,8 +2233,8 @@ footer ul {
 
 @media all and (max-width: 400px) {
 
-    a {
-        font-size: 12px;
+    .size_star {
+        font-size: 8px;
     }
 
     div#logo {
@@ -2284,7 +2267,7 @@ footer ul {
     }
 
     h3 + p {
-        font-size: 12px;
+        font-size: 12.6px;
     }
 
     .height_search {
@@ -2389,7 +2372,7 @@ footer ul {
         width: 86.8%;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 20px;
     }
 
@@ -2412,12 +2395,12 @@ footer ul {
         padding-right: 7%;
     }
 
-    div.container_pop_content i {
-        padding: 29% 0 0;
+    .padding_pop_star {
+        padding: 36% 0 0;
     }
 
     div.card_heb_marseille {
-        height: 190px;
+        height: 185px;
     }
 
     div.card_heb_marseille a img {
@@ -2474,7 +2457,7 @@ footer ul {
 
 @media all and (max-width: 350px) {
 
-    a {
+    .size_star {
         font-size: 8.7px;
     }
 
@@ -2615,7 +2598,7 @@ footer ul {
         width: 86.8%;
     }
 
-    div#title_graph div i {
+    #graph {
         font-size: 20px;
     }
 
@@ -2638,7 +2621,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    div.container_pop_content i {
+    .padding_pop_star {
         padding: 17% 0 0;
     }
 
