@@ -252,7 +252,7 @@
                         </div>
                     </div>
                     <!-- Conteneur "Les plus populaires"-->
-                    <aside id="container_pop" class="background_grey border_radius_inside_main flex flex_column width_container_pop padding_container_pop width_100_resp justify_center">
+                    <div id="container_pop" class="background_grey border_radius_inside_main flex flex_column width_container_pop padding_container_pop width_100_resp justify_center">
                         <!-- Bloc qui contient le titre et l'image "graph"-->
                         <div id="title_graph" class="flex justify_space_between width_100_percent">
                             <h2>
@@ -263,66 +263,84 @@
                             </div>
                         </div>
                         <!-- Conteneur pour l'affichage des images cliquables -->
-                        <div id="container_img_pop" class="flex flex_column justify_space_between width_100_percent">
-                            <a href="#">
+                        <div id="container_img_pop" class="flex flex_column justify_space_between">
+                            <!-- <a href="#">  -->
                                 <!-- Bloc qui contient le bloc image et le bloc "texte et étoiles"-->
                                 <div class="card_pop background_white border_white flex border_radius_inside_main shadow_box_pop space_betw_card_resp">    
                                     <!-- Bloc image -->
-                                    <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />
-                                    <!-- Bloc contenant le text et les étoiles -->
-                                    <div class="container_pop_content width_100_percent">
-                                        <h3 class="color_black margin_bottom_2_percent">
-                                            Hôtel Le soleil du matin
-                                        </h3>
-                                        <p class="color_black">
-                                            Nuit à partir de 128<span class="bold">€</span>
-                                        </p>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                    </div>
+                                    <a href="#">
+                                        <div class="flex width_100_percent">
+                                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />
+                                            <!-- Bloc contenant le text et les étoiles -->
+                                            <div class="container_pop_content width_100_percent">
+                                                <h3 class="color_black margin_bottom_2_percent">
+                                                    Hôtel Le soleil du matin
+                                                </h3>
+                                                <p class="color_black">
+                                                    Nuit à partir de 128<span class="bold">€</span>
+                                                </p>
+                                                <span class="size_star space_top_pop_star relative">
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
-                            <a href="#">
+                            <!-- </a> -->
+                            <!-- <a href="#"> -->
                                 <div class="card_pop background_white border_white flex border_radius_inside_main shadow_box_pop space_betw_card_resp">
-                                    <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />             
-                                    <div class="container_pop_content width_100_percent">
-                                        <h3 class="color_black margin_bottom_2_percent">
-                                            Au coeur de l'eau Chambres d'hôtes
-                                        </h3>
-                                        <p class="color_black">
-                                            Nuit à partir de 71<span class="bold">€</span>
-                                        </p>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_grey size_star padding_pop_star"></i>
-                                    </div>
+                                    <a href="#">
+                                        <div class="flex width_100_percent">
+                                            <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />             
+                                            <div class="container_pop_content width_100_percent">
+                                                <h3 class="color_black margin_bottom_2_percent">
+                                                    Au coeur de l'eau Chambres d'hôtes
+                                                </h3>
+                                                <p class="color_black">
+                                                    Nuit à partir de 71<span class="bold">€</span>
+                                                </p>
+                                                <span class="size_star space_top_pop_star relative">
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_grey"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
-                            <a href="#">
-                                <div class="card_pop_bleu_blanc background_white border_white flex border_radius_inside_main shadow_box_pop">                  
-                                    <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />
-                                    <div class="container_pop_content width_100_percent">
-                                        <h3 class="color_black margin_bottom_2_percent">
-                                            Hôtel Tout bleu et Blanc
-                                        </h3>
-                                        <p class="color_black">
-                                            Nuit à partir de 68<span class="bold">€</span>
-                                        </p>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_blue size_star padding_pop_star"></i>
-                                        <i class="fas fa-star color_grey size_star padding_pop_star"></i>
-                                    </div>
+                            <!-- </a> -->
+                            <!-- <a href="#"> -->
+                                <div class="card_pop background_white border_white flex border_radius_inside_main shadow_box_pop">
+                                    <a href="#">
+                                        <div class="flex width_100_percent">                  
+                                            <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="img_pop width_img_pop height_img_pop width_100_percent object_cover" />
+                                            <div class="container_pop_content width_100_percent">
+                                                <h3 class="color_black margin_bottom_2_percent">
+                                                    Hôtel Tout bleu et Blanc
+                                                </h3>
+                                                <p class="color_black">
+                                                    Nuit à partir de 68<span class="bold">€</span>
+                                                </p>
+                                                <span class="size_star space_top_pop_star relative">
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_blue"></i>
+                                                    <i class="fas fa-star color_grey"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
-                    </aside>
+                    </div>
                 </section>
                 <!-- Conteneur "Activités à Marseille"-->
                 <section id="container_act_marseille" class="flex flex_column justify_space_between width_100_percent">

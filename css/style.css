@@ -113,16 +113,12 @@
     font-size: 20px;
 }
 
-.padding_pop_star {
-    padding: 25% 0 0;
+.space_top_pop_star {
+    top: 10%;
 }
 
 .card_pop {
     margin-bottom: 8%;
-}
-
-.card_pop_bleu_blanc {
-    margin-bottom: 2%;
 }
 
 .width_container_pop {
@@ -216,7 +212,7 @@ p {
     border: 1px solid violet;
 }
 
-aside {
+span {
     border: 1px solid green;
 }
 
@@ -460,23 +456,6 @@ h3 + p {
 
 #graph {
     font-size: 43px;
-}
-
-/* Disposition des intitulés et des étoiles dans le conteneur "Les plus populaires". En colonne et séparé par un espace */
-
-div.container_pop_content {
-    padding-right: 12%;
-}
-
-/* Les mots passent à la ligne quand ils arrivent à la limite du bloc dans le conteneur "Les plus populaires" */
-
-div.container_pop_content div {
-    word-wrap: break-word;
-}
-
-div.container_pop_content div h3 {
-    padding: 10% 0 4%;
-    margin: 0;
 }
 
 #container_act_marseille {
@@ -970,7 +949,7 @@ footer ul {
     }
 
     div#img_act_marseille {
-        height: 500px;
+        height: 470px;
     }
 
     #img_act_marseille div {
@@ -978,11 +957,11 @@ footer ul {
     }
 
     .card_figure_1 img {
-        object-position: 48% 13.7%;
+        object-position: 50% 13.7%;
     }
 
     figure#card_fort_pomegues img {
-        height: 210px;
+        height: 180px;
         object-position: 0 41%;
     }
 
@@ -992,13 +971,13 @@ footer ul {
     }
 
     figure#card_dame_garde img {
-        height: 160px;
-        object-position: 0 11%;
+        height: 144px;
+        object-position: 0 1%;
     }
 
     figure#card_longchamp img {
-        height: 170px;
-        object-position: 0 22.9%;
+        height: 155px;
+        object-position: 0 11%;
     }
 
     figcaption.figcaption_card_figure_1 {
@@ -1173,7 +1152,7 @@ footer ul {
         height: 85px;
     }
 
-    .padding_pop_star {
+    .space_top_pop_star {
         padding: 26% 0 0;
     }
 
@@ -1497,7 +1476,7 @@ footer ul {
         background-color: white;
     }
 
-    div#container_heb_marseille, aside#container_pop {
+    div#container_heb_marseille, div#container_pop {
         border-radius: initial;
     }
 
@@ -1549,7 +1528,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    .padding_pop_star {
+    .space_top_pop_star {
         padding: 28% 0 0;
     }
     
@@ -1755,7 +1734,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    .padding_pop_star {
+    .space_top_pop_star {
         padding: 20% 0 0;
     }
 
@@ -1851,7 +1830,7 @@ footer ul {
     }
 
     h3 + p {
-        font-size: 14.3px;
+        font-size: 17.2px;
     }
 
     .height_search {
@@ -1963,8 +1942,8 @@ footer ul {
         padding-right: 7%;
     }
 
-    .padding_pop_star {
-        padding: 20% 0 0;
+    .space_top_pop_star {
+        padding: 27% 0 0;
     }
 
     div.card_heb_marseille {
@@ -2026,7 +2005,7 @@ footer ul {
 @media all and (max-width: 450px) {
 
     .size_star {
-        font-size: 12px;
+        font-size: 10.5px;
     }
 
     div#logo {
@@ -2059,7 +2038,7 @@ footer ul {
     }
 
     h3 + p {
-        font-size: 14.3px;
+        font-size: 15.3px;
     }
 
     .height_search {
@@ -2171,8 +2150,8 @@ footer ul {
         padding-right: 7%;
     }
 
-    .padding_pop_star {
-        padding: 20% 0 0;
+    .space_top_pop_star {
+        padding: 29% 0 0;
     }
 
     div.card_heb_marseille {
@@ -2395,7 +2374,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    .padding_pop_star {
+    .space_top_pop_star {
         padding: 36% 0 0;
     }
 
@@ -2621,7 +2600,7 @@ footer ul {
         padding-right: 7%;
     }
 
-    .padding_pop_star {
+    .space_top_pop_star {
         padding: 17% 0 0;
     }
 
