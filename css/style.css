@@ -109,12 +109,20 @@
     width: 65%;
 }
 
+.width_img_heb {
+    width: 450px;
+}
+
+.height_img_heb {
+    height: 213px;
+}
+
 .size_star {
     font-size: 20px;
 }
 
 .space_top_pop_star {
-    top: 27%;
+    top: 29%;
 }
 
 .width_container_pop {
@@ -424,19 +432,12 @@ div#container_img_heb_marseille {
     flex-wrap: wrap;
 }
 
-/* Dimension de l'image dans le conteneur "Hébergements à Marseille */
-
-div.card_heb_marseille a img {
-    width: 450px;
-    height: 213px;
-}
-
-.card_heb_marseille {
+.card_heb {
     height: 360px;
     margin-bottom: 3%;
 }
 
-div.card_heb_marseille:hover {
+div.card_heb:hover {
     box-shadow: 0 4px 20px 11px #e9d0d0;
 }
 
@@ -458,7 +459,8 @@ h3 + p {
 }
 
 .container_pop_content {
-    width: 100%;
+    width: 480px;
+    padding-right: 7%;
 }
 
 #container_act_marseille {
@@ -491,8 +493,8 @@ figure#card_iles_frioul {
 }
 
 figure#card_iles_frioul img {
-    height: 231.4px;
-    object-position: 0 14%;
+    height: 210px;
+    object-position: 0 19%;
 }
 
 .card_figure_1 {
@@ -519,8 +521,8 @@ figure#card_longchamp {
 }
 
 figure#card_longchamp img {
-    height: 305px;
-    object-position: 0 14%;
+    height: 290px;
+    object-position: 0 19%;
 }
 
 figcaption {
@@ -576,7 +578,7 @@ ul {
     }
 
     h2 {
-        font-size: 22.4px;
+        font-size: 24px;
     }
 
     h3 {
@@ -607,16 +609,24 @@ ul {
         border: 3px solid white;
     }
 
+    .width_img_heb {
+        width: 265px;
+    }
+    
+    .height_img_heb {
+        height: 125px;
+    }
+
     .height_img_pop {
-        height: 180px;
+        height: 150px;
     }
 
     .width_img_pop {
-        max-width: 170px;
+        max-width: 140px;
     }
 
     .space_top_pop_star {
-        top: 36%;
+        top: 26%;
     }
 
     .img_pop {
@@ -641,8 +651,8 @@ ul {
     }
 
     div#logo img {
-        width: 100px;
-        height: 50px;
+        width: 90px;
+        height: 45px;
     }
 
     .menu {
@@ -684,20 +694,20 @@ ul {
     }
 
     p#filter_title {
-        font-size: 17px;
+        font-size: 19.9px;
     }
 
     div.filter_icon {
-        height: 50px;
-        width: 50px;
+        height: 55px;
+        width: 55px;
     }
 
     div.filter_icon div i {
-        font-size: 17px;
+        font-size: 20px;
     }
     
     div.filter_element p {
-        font-size: 17px;
+        font-size: 19.9px;
         margin: 1% 0 0 10px;
     }
     
@@ -715,26 +725,25 @@ ul {
         font-size: 17px;
     }
 
-    div.card_heb_marseille {
-        height: 222px;
+    div.card_heb {
+        height: 210px;
         margin-bottom: 4%;
     }
 
-    div.card_heb_marseille a img {
-        width: 265px;
-        height: 140px;
-    }
-
     #afficher_plus {
-        font-size: 17px;
+        font-size: 19.5px;
     }
 
     #graph {
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    .container_pop_content {
+        width: 290px;
     }
 
     div#img_act_marseille {
-        height: 500px;
+        height: 520px;
     }
 
     #img_act_marseille div {
@@ -742,27 +751,27 @@ ul {
     }
 
     .card_figure_1 img {
-        object-position: 48% 13.7%;
+        object-position: 50% 13.7%;
     }
 
     figure#card_fort_pomegues img {
-        height: 210px;
+        height: 220px;
         object-position: 0 41%;
     }
 
     figure#card_iles_frioul img {
-        height: 120px;
+        height: 130px;
         object-position: 0 14%;
     }
 
     figure#card_dame_garde img {
-        height: 160px;
-        object-position: 0 11%;
+        height: 158.6px;
+        object-position: 0 7%;
     }
 
     figure#card_longchamp img {
-        height: 170px;
-        object-position: 0 22.9%;
+        height: 190px;
+        object-position: 0 0%;
     }
 
     figcaption.figcaption_card_figure_1 {
@@ -770,7 +779,7 @@ ul {
     }
 
     figcaption {
-        font-size: 16px;
+        font-size: 18.4px;
         height: 55px;
         padding: 5% 0 0 5.7%;
     }
@@ -837,6 +846,14 @@ ul {
 
     .border_white {
         border: 3px solid white;
+    }
+
+    .width_img_heb {
+        width: 230px;
+    }
+    
+    .height_img_heb {
+        height: 120px;
     }
 
     .height_img_pop {
@@ -942,14 +959,9 @@ ul {
         font-size: 17px;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 195px;
         margin-bottom: 4%;
-    }
-
-    div.card_heb_marseille a img {
-        width: 230px;
-        height: 120px;
     }
 
     #afficher_plus {
@@ -1066,6 +1078,14 @@ ul {
         border: 3px solid white;
     }
 
+    .width_img_heb {
+        width: 185px;
+    }
+    
+    .height_img_heb {
+        height: 85px;
+    }
+
     .height_img_pop {
         height: 110px;
     }
@@ -1154,14 +1174,9 @@ ul {
         font-size: 11.7px;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 145px;
         margin-bottom: 5%;
-    }
-
-    div.card_heb_marseille a img {
-        width: 185px;
-        height: 85px;
     }
 
     .space_top_pop_star {
@@ -1268,6 +1283,14 @@ ul {
 
     .padding_container_pop {
         padding: 10% 7%;
+    }
+
+    .width_img_heb {
+        width: 100%;
+    }
+    
+    .height_img_heb {
+        height: 250px;
     }
 
     .height_img_pop {
@@ -1393,11 +1416,11 @@ ul {
 
     .border_color_nav_heb {
         border-top: 0;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 7px solid #0065FC;
     }
 
     .border_color_nav_act {
-        border-bottom: 3px solid #F2F2F2;
+        border-bottom: 7px solid #F2F2F2;
     }
 
     .flex_column_mob {
@@ -1509,13 +1532,8 @@ ul {
         padding: 8% 6% 1% 6%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 430px;
-    }
-
-    div.card_heb_marseille a img {
-        width: 100%;
-        height: 250px;
     }
 
     div#img_act_marseille {
@@ -1743,6 +1761,10 @@ ul {
         font-size: 33px;
     }
 
+    .height_img_heb {
+        height: 180.7px;
+    }
+
     .width_img_pop {    
         max-width: 210px;
     }
@@ -1766,12 +1788,8 @@ ul {
         top: 34%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 310px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 180.7px;
     }
 
     #container_act_marseille {
@@ -1863,6 +1881,10 @@ ul {
 
     .height_search {
         height: 65px;
+    }
+
+    .height_img_heb {
+        height: 142px;
     }
 
     .shadow_box_heb {
@@ -1982,12 +2004,8 @@ ul {
         top: 30%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 235px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 142px;
     }
 
     #container_act_marseille {
@@ -2190,12 +2208,8 @@ ul {
         top: 30%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 235px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 142px;
     }
 
     #container_act_marseille {
@@ -2283,6 +2297,10 @@ ul {
 
     h3 + p {
         font-size: 15.3px;
+    }
+
+    .height_img_heb {
+        height: 125px;
     }
 
     .height_search {
@@ -2398,12 +2416,8 @@ ul {
         top: 30%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 215px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 125px;
     }
 
     #container_act_marseille {
@@ -2606,12 +2620,8 @@ ul {
         top: 30%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 215px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 125px;
     }
 
     #container_act_marseille {
@@ -2699,6 +2709,10 @@ ul {
 
     h3 + p {
         font-size: 12.6px;
+    }
+
+    .height_img_heb {
+        height: 107px;
     }
 
     .height_search {
@@ -2830,12 +2844,8 @@ ul {
         top: 33%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 185px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 107px;
     }
 
     #container_act_marseille {
@@ -2919,6 +2929,10 @@ ul {
 
     h3 + p {
         font-size: 11px;
+    }
+
+    .height_img_heb {
+        height: 90px;
     }
 
     .height_search {
@@ -3056,12 +3070,8 @@ ul {
         top: 25%;
     }
 
-    div.card_heb_marseille {
+    div.card_heb {
         height: 160px;
-    }
-
-    div.card_heb_marseille a img {
-        height: 90px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
