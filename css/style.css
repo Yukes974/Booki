@@ -234,7 +234,7 @@ figure {
 
 /* Pour pouvoir centrer la page par rapport à sa largeur et hauteur */
 
-div#block_page {
+.block_page {
     width: 2880px;
     margin: auto;
 }
@@ -250,9 +250,15 @@ div.block_center {
 /* Bloc contenant le logo */
 
 div#logo {
-    height: 150px;
-    width: 50%;
     padding-left: 0.5%;
+}
+
+.logo_width {
+    width: 50%;
+}
+
+.logo_height {
+    height: 150px;
 }
 
 /* Taille du logo */
@@ -408,7 +414,7 @@ div#info_container_circle {
     font-size: 27px;
 }
 
-main {
+section {
     padding: 0 4% 0 4%;
 }
 
@@ -467,10 +473,6 @@ h3 + p {
 
 div#img_act_marseille {
     height: 894px;
-}
-
-#img_act_marseille div {
-    width: 100%;
 }
 
 figure {
@@ -538,7 +540,7 @@ figcaption {
 footer {
     flex-direction: row;
     height: 335px;
-    margin-top: 3%;
+    margin-top: 100px;
 }
 
 footer div p {
@@ -559,7 +561,8 @@ ul {
 /* Responsiv pour les écrans dont la largeur est égale à 1440px */
 
 @media all and (max-width: 1680px) {
-    div#block_page {
+
+    .block_page {
         width: 100%;
     }
 
@@ -644,8 +647,11 @@ ul {
     }
 
     div#logo {
-        height: 90px;
         padding-left: 0.9%;
+    }
+    
+    .logo_height {
+        height: 90px;
     }
 
     div#logo img {
@@ -715,6 +721,10 @@ ul {
         font-size: 17px;
     }
 
+    section {
+        padding: 0;
+    }
+
     div.card_heb {
         height: 210px;
         margin-bottom: 4%;
@@ -728,16 +738,12 @@ ul {
         font-size: 24px;
     }
 
-    .container_pop_content {
+    .pop_container_content {
         width: 290px;
     }
 
     div#img_act_marseille {
         height: 520px;
-    }
-
-    #img_act_marseille div {
-        width: 100%;
     }
 
     .card_figure_1 img {
@@ -790,9 +796,6 @@ ul {
 /* Responsiv pour les écrans dont la largeur est égale à 1280px */
 
 @media all and (max-width: 1490px) {
-    div#block_page {
-        width: 100%;
-    }
 
     .size_star {
         font-size: 10px;
@@ -874,11 +877,6 @@ ul {
         padding-left: 6%;
     }
 
-    div#logo {
-        height: 90px;
-        padding-left: 0.9%;
-    }
-
     div#logo img {
         width: 100px;
         height: 50px;
@@ -954,12 +952,12 @@ ul {
         font-size: 20px;
     }
 
-    div#img_act_marseille {
-        height: 470px;
+    .pop_container_content {
+        width: 250px;
     }
 
-    #img_act_marseille div {
-        width: 100%;
+    div#img_act_marseille {
+        height: 470px;
     }
 
     .card_figure_1 img {
@@ -1012,9 +1010,6 @@ ul {
 /* Responsiv pour les écrans dont la largeur est égale à 1024px */
 
 @media all and (max-width: 1200px) {
-    div#block_page {
-        width: 100%;
-    }
 
     .size_star {
         font-size: 8px;
@@ -1081,8 +1076,11 @@ ul {
     }
 
     div#logo {
-        height: 70px;
         padding-left: 0;
+    }
+    
+    .logo_height {
+        height: 70px;
     }
 
     div#logo img {
@@ -1161,6 +1159,10 @@ ul {
         font-size: 17px;
     }
 
+    .pop_container_content {
+        width: 200px;
+    }
+
     .pop_star_spadding_top {
         top: 26%;
     }
@@ -1171,10 +1173,6 @@ ul {
 
     div#img_act_marseille {
         height: 370px;
-    }
-
-    #img_act_marseille div {
-        width: 100%;
     }
 
     .card_figure_1 img {
@@ -1227,13 +1225,6 @@ ul {
 /* responsiv pour les tablettes dont la largeur est égale à 768px */
 
 @media all and (max-width: 991px) {
-    div#block_page{
-        width: 100%;
-    }
-
-    .border_grey_deep {
-        border: 5px solid #d9d9d9;
-    }
 
     .width_100_resp {
         width: 100%;
@@ -1257,10 +1248,6 @@ ul {
 
     .search_height {
         height: 115px;
-    }
-
-    .heb_img_width {
-        width: 100%;
     }
     
     .heb_img_height {
@@ -1353,14 +1340,6 @@ ul {
         justify-content: space-between;
     }
 
-    #block_center_act {
-        padding: 0 6.8% 0 6.8%;
-    }
-
-    main {
-        padding: 0;
-    }
-
     div#block_center_logo_nav {
         padding-left: 0;
         padding-right: 0;
@@ -1369,12 +1348,9 @@ ul {
     div.block_center {
         padding: 0 7% 0 7%;
     }
-
-    /* Pour la priorité, sinon pas appliqué */
-
-    div#logo {
+    
+    .logo_height {
         height: 150px;
-        width: 100%;
     }
 
     div#logo img {
@@ -1490,13 +1466,16 @@ ul {
         margin: 0;
     }
 
+    main {
+        padding: 0;
+    }
+
     section {
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
 
     div#container_heb_marseille {
-        width: 100%;
         background-color: white;
     }
 
@@ -1505,12 +1484,15 @@ ul {
     }
 
     div#container_center_heb_marseille {
-        width: 100%;
         padding: 8% 6% 1% 6%;
     }
 
     div.card_heb {
         height: 430px;
+    }
+
+    #block_center_act {
+        padding: 0 6.8% 0 6.8%;
     }
 
     div#img_act_marseille {
@@ -1520,7 +1502,6 @@ ul {
 
     #img_act_marseille div {
         margin: 0 0 7% 0;
-        width: 100%;
     }
 
     #afficher_plus {
@@ -1614,8 +1595,8 @@ ul {
     .size_star {
         font-size: 16px;
     }
-
-    div#logo {
+    
+    .logo_height {
         height: 90px;
     }
 
@@ -1815,13 +1796,13 @@ ul {
         font-size: 12px;
     }
 
-    div#logo {
-        height: 90px;
-    }
-
     div#logo img {
         width: 100px;
         height: 50px;  
+    }
+
+    nav.menu {
+        height: 60px;
     }
 
     nav.menu div a {
@@ -2001,10 +1982,6 @@ ul {
         font-size: 19.3px;
         padding: 5% 0 0 5.7%;
     }
-    
-    footer {
-        height: auto;
-    }
 
     footer div p {
         font-size: 23px;
@@ -2021,10 +1998,6 @@ ul {
 
     .size_star {
         font-size: 12px;
-    }
-
-    div#logo {
-        height: 90px;
     }
 
     div#logo img {
@@ -2193,10 +2166,6 @@ ul {
         font-size: 19.3px;
         padding: 5% 0 0 5.7%;
     }
-    
-    footer {
-        height: auto;
-    }
 
     footer div p {
         font-size: 23px;
@@ -2215,17 +2184,13 @@ ul {
         font-size: 10.5px;
     }
 
-    div#logo {
-        height: 90px;
-    }
-
     div#logo img {
         width: 100px;
         height: 50px;  
     }
 
     nav.menu div a {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     h1 {
@@ -2393,10 +2358,6 @@ ul {
         font-size: 17px;
         padding: 5% 0 0 5.7%;
     }
-    
-    footer {
-        height: auto;
-    }
 
     footer div p {
         font-size: 20px;
@@ -2413,10 +2374,6 @@ ul {
 
     .size_star {
         font-size: 10.5px;
-    }
-
-    div#logo {
-        height: 90px;
     }
 
     div#logo img {
@@ -2585,10 +2542,6 @@ ul {
         font-size: 17px;
         padding: 5% 0 0 5.7%;
     }
-    
-    footer {
-        height: auto;
-    }
 
     footer div p {
         font-size: 20px;
@@ -2607,13 +2560,13 @@ ul {
         font-size: 8px;
     }
 
-    div#logo {
-        height: 90px;
-    }
-
     div#logo img {
         width: 100px;
         height: 50px;  
+    }
+
+    nav.menu {
+        height: 50px;
     }
 
     nav.menu div a {
@@ -2800,10 +2753,6 @@ ul {
     figcaption {
         font-size: 14.4px;
         padding: 5% 0 0 5.7%;
-    }
-    
-    footer {
-        height: auto;
     }
 
     footer div p {
@@ -3022,10 +2971,6 @@ ul {
     figcaption {
         font-size: 12.6px;
         padding: 5% 0 0 5.7%;
-    }
-    
-    footer {
-        height: auto;
     }
 
     footer div p {
