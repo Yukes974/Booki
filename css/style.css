@@ -41,10 +41,6 @@
     border: 10px solid white;
 }
 
-.border_color_nav_hebergement {
-    border-top: 3px solid #0065FC;
-}
-
 .bold {
     font-weight: bold;
 }
@@ -81,20 +77,16 @@
     object-fit: cover;
 }
 
-.search_height {
-    height: 99px;
-}
-
-.search_height_100_per {
-    height: 100%;
-}
-
 .bottom_0px{
     bottom: 0;
 }
 
 .width_100_percent {
     width: 100%;
+}
+
+.height_100_percent {
+    height: 100%;
 }
 
 .margin_top_2_percent {
@@ -105,105 +97,8 @@
     margin-bottom: 2%;
 }
 
-.heb_container_width {
-    width: 65%;
-}
-
-.heb_img_width {
-    width: 450px;
-}
-
-.heb_img_height {
-    height: 213px;
-}
-
 .size_star {
     font-size: 20px;
-}
-
-.pop_star_spadding_top {
-    top: 29%;
-}
-
-.pop_container_width {
-    width: 32%;
-}
-
-.pop_container_padding {
-    padding: 3%;
-}
-
-.pop_img {
-    margin: 0 6% 0 0;
-    border-radius: 40px 0 0 40px / 40px 0 0 40px; 
-}
-
-.pop_img_width {
-    max-width: 240px;  
-}
-
-.pop_img_height {
-    height: 250px;
-}
-
-.margin_bottom_card_pop {
-    margin-bottom: 8%;
-}
-
-.width_propos {
-    width: 90%;
-}
-
-.width_heb {
-    width: 90%;
-}
-
-.margin_right_act_figure {
-    margin-right: 2.5%;
-}
-
-.padding_left_footer_propos {
-    padding-left: 13%;
-}
-
-.padding_left_footer_heb {
-    padding-left: 6%;
-}
-
-.padding_left_footer_assist {
-    padding-left: 4%;
-}
-
-.padding_top_footer_assist {
-    padding-top: 3.6%;
-}
-
-.main_border_radius {
-    border-radius: 50px / 50px;
-}
-
-.act_img_border_radius {
-    border-radius: 50px 50px 0 0 / 50px 50px 0 0;
-}
-
-.border_radius_img_heb {
-    border-radius: 40px 40px 0 0 / 40px 40px 0 0;
-}
-
-.shadow_box_heb {
-    box-shadow: 0 4px 12px 5px #e4e4e4;
-}
-
-.shadow_box_pop {
-    box-shadow: 0 4px 11px 4px #e4e4e4;
-}
-
-.shadow_box_act {
-    box-shadow: 0 4px 10px 6px #f0f0f0;
-}
-
-.shadow_deep_heb {
-    box-shadow: 0 4px 20px 11px #e4e4e4;
 }
 
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
@@ -239,11 +134,13 @@ figure {
     margin: auto;
 }
 
-div#block_center_logo_nav {
+div.block_center {
     padding: 0 4.5% 0 4.5%;
 }
 
-div.block_center {
+/* Partie Nav */
+
+div#block_center_logo_nav {
     padding: 0 4.5% 0 4.5%;
 }
 
@@ -281,11 +178,11 @@ div#logo img {
     justify-content: flex-end;
 }
 
-/* Les élément du menu nav ont un espace vers la gauche */
-
 a {
     text-decoration: none;
 }
+
+/* Les élément du menu nav ont un espace vers la gauche */
 
 .menu div {
     padding: 4% 0 4% 0;
@@ -294,6 +191,10 @@ a {
 .menu div a {
     font-size: 27px;
     padding: 0 50px 0 50px;
+}
+
+.nav_hebergement_border_color {
+    border-top: 3px solid #0065FC;
 }
 
 h1 {
@@ -308,6 +209,9 @@ h1 + p {
 
 h2 {
     margin-top: 0;
+}
+
+.h2_graph_size {
     font-size: 41.8px;
 }
 
@@ -317,21 +221,26 @@ h3 {
 
 h3 + p {
     font-size: 26.3px;
+    margin: 0;
 }
 
-/* Comportement du Formulaire */
+/* Partie Formulaire */
+
+.search_height {
+    height: 99px;
+}
 
 form {
     width: 32%;
 }
 
-div#container_position_icon {
+div#form_container_position_icon {
     width: 12.3%;
     bottom: 0;
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
 }
 
-div#container_position_icon i {
+div#form_container_position_icon i {
     padding-top: 28%;
     left: 35%;
     font-size: 35px;
@@ -346,7 +255,7 @@ form input {
     border: 1px solid  #F2F2F2;
 }
 
-div#submit input {
+div#form_submit input {
     width: 32%;
     left: 68.3%;
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
@@ -358,6 +267,8 @@ div#submit input {
 div#magnifier input, div#magnifier i {
     display: none;
 }
+
+/* Partie "Filtres" */
 
 div#filter {
     padding: 2% 0 1% 0;
@@ -414,14 +325,78 @@ div#info_container_circle {
     font-size: 27px;
 }
 
+.main_border_radius {
+    border-radius: 50px / 50px;
+}
+
 section {
     padding: 0 4% 0 4%;
 }
 
+/*Partie "Hébergements à Marseille" */
+
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
 
-div#container_center_heb_marseille {
+div#heb_container_center {
     padding: 5%;
+}
+
+/* Bloc contenant les blocs qui contiennent les images et leur intitulé qui ont des espaces autour d'eux et qui vont à la ligne lorsqu'ils arrivent à la limite du bloc. A l'intérieur du conteneur "Hébergements à Marseille" */
+
+div#heb_container_img {
+    flex-wrap: wrap;
+}
+
+.heb_card {
+    height: 360px;
+    margin-bottom: 3%;
+}
+
+div.heb_card:hover {
+    box-shadow: 0 4px 20px 11px #e9d0d0;
+}
+
+.heb_container_content {
+    padding-left: 4%;
+}
+
+.heb_container_width {
+    width: 65%;
+}
+
+.heb_img_width {
+    width: 450px;
+}
+
+.heb_img_height {
+    height: 213px;
+}
+
+.heb_star_top {
+    top: 10%;
+}
+
+.shadow_box_heb {
+    box-shadow: 0 4px 12px 5px #e4e4e4;
+}
+
+.shadow_deep_heb {
+    box-shadow: 0 4px 20px 11px #e4e4e4;
+}
+
+.heb_img_border_radius {
+    border-radius: 40px 40px 0 0 / 40px 40px 0 0;
+}
+
+#afficher_plus {
+    font-size: 34.5px;
+    margin-bottom: 0;
+}
+
+/* Partie "Les plus populaires" */
+
+#graph {
+    font-size: 43px;
 }
 
 /* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
@@ -430,41 +405,42 @@ div#container_center_pop {
     width: 82%;
 }
 
-/* Bloc contenant les blocs qui contiennent les images et leur intitulé qui ont des espaces autour d'eux et qui vont à la ligne lorsqu'ils arrivent à la limite du bloc. A l'intérieur du conteneur "Hébergements à Marseille" */
-
-div#container_img_heb_marseille {
-    flex-wrap: wrap;
-}
-
-.card_heb {
-    height: 360px;
-    margin-bottom: 3%;
-}
-
-div.card_heb:hover {
-    box-shadow: 0 4px 20px 11px #e9d0d0;
-}
-
-div.container_heb_marseille_content {
-    padding-left: 4%;
-}
-
-h3 + p {
-    margin: 0;
-}
-
-#afficher_plus {
-    font-size: 34.5px;
-    margin-bottom: 0;
-}
-
-#graph {
-    font-size: 43px;
-}
-
 .pop_container_content {
     width: 480px;
     padding-right: 7%;
+}
+
+.pop_container_width {
+    width: 32%;
+}
+
+.pop_container_padding {
+    padding: 3%;
+}
+
+.pop_img {
+    margin: 0 6% 0 0;
+    border-radius: 40px 0 0 40px / 40px 0 0 40px; 
+}
+
+.pop_img_width {
+    max-width: 240px;  
+}
+
+.pop_img_height {
+    height: 250px;
+}
+
+.pop_card_margin_bottom {
+    margin-bottom: 8%;
+}
+
+.pop_star_top {
+    top: 29%;
+}
+
+.shadow_box_pop {
+    box-shadow: 0 4px 11px 4px #e4e4e4;
 }
 
 #container_act_marseille {
@@ -497,12 +473,7 @@ figure#card_iles_frioul img {
     object-position: 0 19%;
 }
 
-.card_figure_1 {
-    height: 100%;
-}
-
 .card_figure_1 img {
-    height: 100%;
     object-position: -360px;
     clip-path: inset(0 0 12.4% 0);
 }
@@ -535,11 +506,27 @@ figcaption {
     bottom: 110px;
 }
 
+.margin_right_act_figure {
+    margin-right: 2.5%;
+}
+
+.act_img_border_radius {
+    border-radius: 50px 50px 0 0 / 50px 50px 0 0;
+}
+
 /* Les éléments du pied de page sont alignés */
 
 footer {
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 2%;
+}
+
+.footer_propos_width {
+    width: 90%;
+}
+
+.footer_heb_width {
+    width: 90%;
 }
 
 footer div p {
@@ -551,6 +538,22 @@ footer div p {
 ul {
     list-style-type: none;
     font-size: 28px;
+}
+
+.footer_propos_padding_left {
+    padding-left: 13%;
+}
+
+.footer_heb_padding_left {
+    padding-left: 6%;
+}
+
+.footer_assist_padding_left {
+    padding-left: 4%;
+}
+
+.footer_assist_padding_top {
+    padding-top: 3.6%;
 }
 
 .space_between_footer_links {
@@ -634,7 +637,7 @@ ul {
         font-size: 18px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 24px;
     }
 
@@ -690,15 +693,15 @@ ul {
         border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
-    .padding_left_footer_propos {
+    .footer_propos_padding_left {
         padding-left: 13%;
     }
     
-    .padding_left_footer_heb {
+    .footer_heb_padding_left {
         padding-left: 8%;
     }
     
-    .padding_left_footer_assist {
+    .footer_assist_padding_left {
         padding-left: 6%;
     }
 
@@ -731,11 +734,11 @@ ul {
         width: 30.7%;
     }
 
-    div#container_position_icon {
+    div#form_container_position_icon {
         width: 11.8%;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         padding-top: 35%;
         font-size: 20px;
     }
@@ -747,7 +750,7 @@ ul {
         font-size: 20px;
     }
 
-    div#submit input {
+    div#form_submit input {
         left: 68.8%;
         padding-left: 2%;
         font-size: 20px;
@@ -777,7 +780,7 @@ ul {
         font-size: 17px;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 210px;
         margin-bottom: 4%;
     }
@@ -832,6 +835,10 @@ ul {
         padding: 5% 0 0 5.7%;
     }
 
+    .shadow_box_act {
+        box-shadow: 0 4px 10px 6px #f0f0f0;
+    }
+
     footer {
         height: 200px;
     }
@@ -861,7 +868,7 @@ ul {
         font-size: 16px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 22.4px;
     }
 
@@ -917,15 +924,15 @@ ul {
         border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
-    .padding_left_footer_propos {
+    .footer_propos_padding_left {
         padding-left: 13%;
     }
     
-    .padding_left_footer_heb {
+    .footer_heb_padding_left {
         padding-left: 8%;
     }
     
-    .padding_left_footer_assist {
+    .footer_assist_padding_left {
         padding-left: 6%;
     }
 
@@ -950,7 +957,7 @@ ul {
         width: 30.7%;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         padding-top: 34%;
         font-size: 18px;
     }
@@ -961,7 +968,7 @@ ul {
         font-size: 18px;
     }
 
-    div#submit input {
+    div#form_submit input {
         left: 68.8%;
         padding-left: 2%;
         font-size: 18px;
@@ -991,7 +998,7 @@ ul {
         font-size: 17px;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 195px;
         margin-bottom: 4%;
     }
@@ -1075,7 +1082,7 @@ ul {
         font-size: 12.7px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 17px;
     }
 
@@ -1157,7 +1164,7 @@ ul {
         width: 30.7%;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         padding-top: 33%;
         font-size: 13.8px;
     }
@@ -1168,7 +1175,7 @@ ul {
         font-size: 13.8px;
     }
 
-    div#submit input {
+    div#form_submit input {
         left: 68.8%;
         padding-left: 2%;
         font-size: 13.8px;
@@ -1198,7 +1205,7 @@ ul {
         font-size: 11.7px;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 145px;
         margin-bottom: 5%;
     }
@@ -1350,7 +1357,7 @@ ul {
         margin-bottom: 5%;
     }
 
-    .padding_left_footer_resp {
+    .footer_resp_padding_left {
         padding-left: 8%;
     }
 
@@ -1367,7 +1374,7 @@ ul {
         margin: 3% 0 0 0;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 48.9px;
     }
 
@@ -1443,13 +1450,13 @@ ul {
         font-size: 40px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         padding-top: 30%;
         left: 37%;
         font-size: 40px;
     }
 
-    div#submit input {
+    div#form_submit input {
         display: none;
     }
 
@@ -1470,7 +1477,7 @@ ul {
         font-size: 40px;
     }
 
-    div#container_position_icon {
+    div#form_container_position_icon {
         width: 15.1%;
     }
 
@@ -1528,11 +1535,11 @@ ul {
         padding: 0;
     }
 
-    div#container_heb_marseille {
+    div#heb_container {
         background-color: white;
     }
 
-    div#container_heb_marseille, div#pop_container {
+    div#heb_container, div#pop_container {
         border-radius: initial;
     }
 
@@ -1540,7 +1547,7 @@ ul {
         padding: 8% 6% 1% 6%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 430px;
     }
 
@@ -1560,10 +1567,6 @@ ul {
     #afficher_plus {
         font-size: 40px;
         margin-bottom: 8%;
-    }
-
-    div#container_center_pop {
-        width: 86.7%;
     }
 
     #graph {
@@ -1674,7 +1677,7 @@ ul {
         font-size: 25.7px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 33px;
     }
 
@@ -1702,7 +1705,7 @@ ul {
         font-size: 30px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         font-size: 30px;
     }
 
@@ -1760,10 +1763,6 @@ ul {
         font-size: 27px;
     }
 
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
     #graph {
         font-size: 33px;
     }
@@ -1795,7 +1794,7 @@ ul {
         top: 34%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 310px;
     }
 
@@ -1874,7 +1873,7 @@ ul {
         font-size: 20.2px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 25.8px;
     }
 
@@ -1910,11 +1909,11 @@ ul {
         font-size: 23px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         font-size: 23px;
     }
 
-    div#submit input {
+    div#form_submit input {
         display: none;
     }
 
@@ -1972,10 +1971,6 @@ ul {
         font-size: 15px;
     }
 
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
     #graph {
         font-size: 20px;
     }
@@ -2003,7 +1998,7 @@ ul {
         top: 30%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 235px;
     }
 
@@ -2074,7 +2069,7 @@ ul {
         font-size: 20.2px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 25.8px;
     }
 
@@ -2098,11 +2093,11 @@ ul {
         font-size: 23px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         font-size: 23px;
     }
 
-    div#submit input {
+    div#form_submit input {
         display: none;
     }
 
@@ -2156,10 +2151,6 @@ ul {
         font-size: 15px;
     }
 
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
     #graph {
         font-size: 20px;
     }
@@ -2187,7 +2178,7 @@ ul {
         top: 30%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 235px;
     }
 
@@ -2258,7 +2249,7 @@ ul {
         font-size: 17.8px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 23.7px;
     }
 
@@ -2286,11 +2277,11 @@ ul {
         font-size: 20.7px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         font-size: 20.7px;
     }
 
-    div#submit input {
+    div#form_submit input {
         display: none;
     }
 
@@ -2348,10 +2339,6 @@ ul {
         font-size: 15px;
     }
 
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
     #graph {
         font-size: 20px;
     }
@@ -2379,7 +2366,7 @@ ul {
         top: 30%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 215px;
     }
 
@@ -2450,7 +2437,7 @@ ul {
         font-size: 17.8px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 23.7px;
     }
 
@@ -2474,11 +2461,11 @@ ul {
         font-size: 20.7px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         font-size: 20.7px;
     }
 
-    div#submit input {
+    div#form_submit input {
         display: none;
     }
 
@@ -2532,10 +2519,6 @@ ul {
         font-size: 15px;
     }
 
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
     #graph {
         font-size: 20px;
     }
@@ -2563,7 +2546,7 @@ ul {
         top: 30%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 215px;
     }
 
@@ -2638,7 +2621,7 @@ ul {
         font-size: 15px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 20px;
     }
 
@@ -2667,13 +2650,13 @@ ul {
         font-size: 16px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         padding-top: 15px;
         left: 37%;
         font-size: 16px;
     }
 
-    div#submit input {
+    div#form_submit input {
         display: none;
     }
 
@@ -2744,10 +2727,6 @@ ul {
         font-size: 15px;
     }
 
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
     #graph {
         font-size: 20px;
     }
@@ -2775,7 +2754,7 @@ ul {
         top: 33%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 185px;
     }
 
@@ -2854,7 +2833,7 @@ ul {
         font-size: 13.3px;
     }
 
-    h2 {
+    .h2_graph_size {
         font-size: 17px;
     }
 
@@ -2883,13 +2862,13 @@ ul {
         font-size: 16px;
     }
 
-    div#container_position_icon i {
+    div#form_container_position_icon i {
         padding-top: 10px;
         left: 37%;
         font-size: 16px;
     }
 
-    div#submit input {
+    div#form_submit input {
         display: none;
     }
 
@@ -2966,10 +2945,6 @@ ul {
         font-size: 15px;
     }
 
-    div#container_center_pop {
-        width: 86.8%;
-    }
-
     #graph {
         font-size: 20px;
     }
@@ -2997,7 +2972,7 @@ ul {
         top: 25%;
     }
 
-    div.card_heb {
+    div.heb_card {
         height: 160px;
     }
 
