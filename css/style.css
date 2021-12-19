@@ -264,7 +264,7 @@ div#form_submit input {
     font-size: 30px;
 }
 
-div#magnifier input, div#magnifier i {
+div#form_magnifier input, div#form_magnifier i {
     display: none;
 }
 
@@ -337,8 +337,8 @@ section {
 
 /* Les blocs contenant le titre les images et leur intitulé sont centrés et disposés en colonne à l'intérieur du conteneur "Hébergements à Marseille" */
 
-div#heb_container_center {
-    padding: 5%;
+div#heb_container {
+    padding: 3%;
 }
 
 /* Bloc contenant les blocs qui contiennent les images et leur intitulé qui ont des espaces autour d'eux et qui vont à la ligne lorsqu'ils arrivent à la limite du bloc. A l'intérieur du conteneur "Hébergements à Marseille" */
@@ -399,12 +399,6 @@ div.heb_card:hover {
     font-size: 43px;
 }
 
-/* Bloc centrant tous les éléments dans le conteneur "Les plus populaires */
-
-div#container_center_pop {
-    width: 82%;
-}
-
 .pop_container_content {
     width: 480px;
     padding-right: 7%;
@@ -418,9 +412,8 @@ div#container_center_pop {
     padding: 3%;
 }
 
-.pop_img {
-    margin: 0 6% 0 0;
-    border-radius: 40px 0 0 40px / 40px 0 0 40px; 
+.pop_img_margin {
+    margin: 0 6% 0 0; 
 }
 
 .pop_img_width {
@@ -439,15 +432,21 @@ div#container_center_pop {
     top: 29%;
 }
 
-.shadow_box_pop {
+.pop_img_border_radius {
+    border-radius: 40px 0 0 40px / 40px 0 0 40px;
+}
+
+.pop_box_shadow {
     box-shadow: 0 4px 11px 4px #e4e4e4;
 }
 
-#container_act_marseille {
+/* Partie "Activités à Marseille" */
+
+#act_container {
     margin-top: 2%;
 }
 
-div#img_act_marseille {
+div#act_containers_img {
     height: 894px;
 }
 
@@ -506,7 +505,7 @@ figcaption {
     bottom: 110px;
 }
 
-.margin_right_act_figure {
+.act_figure_margin_right {
     margin-right: 2.5%;
 }
 
@@ -599,7 +598,7 @@ ul {
         max-width: 250px;
     }
 
-    div#img_act_marseille {
+    div#act_containers_img {
         height: 908px;
     }
 
@@ -657,7 +656,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -689,7 +688,7 @@ ul {
         top: 26%;
     }
 
-    .pop_img {
+    .pop_img_border_radius {
         border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
@@ -797,7 +796,7 @@ ul {
         width: 290px;
     }
 
-    div#img_act_marseille {
+    div#act_containers_img {
         height: 520px;
     }
 
@@ -888,7 +887,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -918,10 +917,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 30%;
-    }
-
-    .pop_img {
-        border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
     .footer_propos_padding_left {
@@ -1015,7 +1010,7 @@ ul {
         width: 250px;
     }
 
-    div#img_act_marseille {
+    div#act_containers_img {
         height: 470px;
     }
 
@@ -1102,7 +1097,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -1128,10 +1123,6 @@ ul {
 
     .pop_img_width {
         max-width: 100px;
-    }
-
-    .pop_img {
-        border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
     div#logo {
@@ -1230,7 +1221,7 @@ ul {
         width: 270px;
     }
 
-    div#img_act_marseille {
+    div#act_containers_img {
         height: 370px;
     }
 
@@ -1337,7 +1328,7 @@ ul {
         border-radius: 50px / 50px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 50px 50px 0 0 / 50px 50px 0 0;
     }
 
@@ -1460,7 +1451,7 @@ ul {
         display: none;
     }
 
-    div#magnifier input {
+    div#form_magnifier input {
         display: initial;
         width: 15%;
         left: 85.5%;
@@ -1468,7 +1459,7 @@ ul {
         background-color: #0065FC;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         display: initial;
         position: absolute;
         left: 90.7%;
@@ -1536,6 +1527,7 @@ ul {
     }
 
     div#heb_container {
+        padding: 7%;
         background-color: white;
     }
 
@@ -1551,16 +1543,16 @@ ul {
         height: 430px;
     }
 
-    #block_center_act {
+    #act_container {
         padding: 0 6.8% 0 6.8%;
     }
 
-    div#img_act_marseille {
+    div#act_containers_img {
         height: auto;
         flex-wrap: wrap;
     }
 
-    #img_act_marseille div {
+    #act_containers_img div {
         margin: 0 0 7% 0;
     }
 
@@ -1573,11 +1565,17 @@ ul {
         font-size: 47px;
     }
 
-    .pop_img {
-        margin: 0 4% 0 0;
-        border-radius: 50px 0 0 50px / 50px 0 0 50px;
+    .pop_img_resp {              
         object-position: 51% 40%;
         clip-path: inset(0 3% 0 0);
+    }
+
+    .pop_img_margin {
+        margin: 0 4% 0 0;
+    }
+
+    .pop_img_border_radius {
+        border-radius: 50px 0 0 50px / 50px 0 0 50px;
     }
 
     .pop_container_content {
@@ -1709,7 +1707,7 @@ ul {
         font-size: 30px;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         font-size: 30px;
     }
 
@@ -1747,7 +1745,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -1779,11 +1777,8 @@ ul {
         height: 220px;
     }
 
-    .pop_img {
-        margin: 0 4% 0 0;
+    .pop_img_border_radius {
         border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
     }
 
     .pop_container_content {
@@ -1796,10 +1791,6 @@ ul {
 
     div.heb_card {
         height: 310px;
-    }
-
-    #container_act_marseille {
-        align-items: center;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -1917,7 +1908,7 @@ ul {
         display: none;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         font-size: 23px;
     }
 
@@ -1955,7 +1946,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -1983,13 +1974,6 @@ ul {
         height: 170px;
     }
 
-    .pop_img {
-        margin: 0 4% 0 0;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
-    }
-
     .pop_container_content {
         width: 300px;
     }
@@ -2000,10 +1984,6 @@ ul {
 
     div.heb_card {
         height: 235px;
-    }
-
-    #container_act_marseille {
-        align-items: center;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2101,7 +2081,7 @@ ul {
         display: none;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         font-size: 23px;
     }
 
@@ -2135,7 +2115,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -2155,21 +2135,6 @@ ul {
         font-size: 20px;
     }
 
-    .pop_img_width {    
-        max-width: 160px;
-    }
-
-    .pop_img_height {
-        height: 170px;
-    }
-
-    .pop_img {
-        margin: 0 4% 0 0;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
-    }
-
     .pop_container_content {
         width: 280px;
     }
@@ -2180,10 +2145,6 @@ ul {
 
     div.heb_card {
         height: 235px;
-    }
-
-    #container_act_marseille {
-        align-items: center;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2285,7 +2246,7 @@ ul {
         display: none;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         font-size: 20.7px;
     }
 
@@ -2323,7 +2284,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -2351,13 +2312,6 @@ ul {
         height: 155px;
     }
 
-    .pop_img {
-        margin: 0 4% 0 0;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
-    }
-
     .pop_container_content {
         width: 260px;
     }
@@ -2368,10 +2322,6 @@ ul {
 
     div.heb_card {
         height: 215px;
-    }
-
-    #container_act_marseille {
-        align-items: center;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2469,7 +2419,7 @@ ul {
         display: none;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         font-size: 20.7px;
     }
 
@@ -2503,7 +2453,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -2523,21 +2473,6 @@ ul {
         font-size: 20px;
     }
 
-    .pop_img_width {    
-        max-width: 145px;
-    }
-
-    .pop_img_height {
-        height: 155px;
-    }
-
-    .pop_img {
-        margin: 0 4% 0 0;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
-    }
-
     .pop_container_content {
         width: 240px;
     }
@@ -2548,10 +2483,6 @@ ul {
 
     div.heb_card {
         height: 215px;
-    }
-
-    #container_act_marseille {
-        align-items: center;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2660,7 +2591,7 @@ ul {
         display: none;
     }
 
-    div#magnifier input {
+    div#form_magnifier input {
         display: initial;
         width: 15%;
         left: 85.5%;
@@ -2668,7 +2599,7 @@ ul {
         background-color: #0065FC;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         display: initial;
         position: absolute;
         left: 90.7%;
@@ -2711,7 +2642,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -2739,13 +2670,6 @@ ul {
         height: 140px;
     }
 
-    .pop_img {
-        margin: 0 10px 0 0;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
-    }
-
     .pop_container_content {
         width: 200px;
     }
@@ -2756,10 +2680,6 @@ ul {
 
     div.heb_card {
         height: 185px;
-    }
-
-    #container_act_marseille {
-        align-items: center;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2872,7 +2792,7 @@ ul {
         display: none;
     }
 
-    div#magnifier input {
+    div#form_magnifier input {
         display: initial;
         width: 15%;
         left: 85.5%;
@@ -2881,7 +2801,7 @@ ul {
         padding: 15px;
     }
 
-    div#magnifier i {
+    div#form_magnifier i {
         display: initial;
         position: absolute;
         left: 91%;
@@ -2929,7 +2849,7 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .border_radius_img_heb {
+    .heb_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
@@ -2955,13 +2875,6 @@ ul {
 
     .pop_img_height {
         height: 110px;
-    }
-
-    .pop_img {
-        margin: 0 10px 0 0;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
     }
 
     .pop_container_content {
