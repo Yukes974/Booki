@@ -14,29 +14,27 @@
         <!-- Header comprennant le logo, la navigation etc... jusqu'à "i" -->
         <header>
             <div class="block_page">
-                <div id="block_center_logo_nav">
-                    <!-- Conteneur pour le logo et la navigation "Hébergements, activités et s'inscrire"-->
-                    <div id="container_logo_nav" class="flex flex_column_mob">
-                        <!-- Logo Booki -->
-                        <div id="logo" class="flex align_center justify_center_responsiv logo_width logo_height width_100_resp">
-                                <img src="images/logo/Booki@3x.png" alt="Logo de Booki" />
-                        </div>
-                        <!-- Navigation Hébergements, Activités et S'inscrire -->
-                        <nav class="menu flex align_center width_100_resp">
-                            <div class="text_center nav_hebergement_border_color border_color_nav_heb width_100_resp">
-                                <a href="#hebergements" class="color_blue">
-                                    Hébergements
-                                </a>            
-                            </div>
-                            <div class="text_center border_color_nav_act width_100_resp">
-                                <a href="#activites" class="color_black">
-                                    Activités
-                                </a> 
-                            </div>
-                        </nav>
+                <!-- Conteneur pour le logo et la navigation "Hébergements, activités et s'inscrire"-->
+                <div id="container_logo_nav" class="flex flex_column_mob">
+                    <!-- Logo Booki -->
+                    <div id="logo" class="flex align_center justify_center_responsiv logo_width width_100_resp">
+                            <img src="images/logo/Booki@3x.png" alt="Logo de Booki" />
                     </div>
+                    <!-- Navigation Hébergements, Activités et S'inscrire -->
+                    <nav class="menu flex align_center width_100_resp">
+                        <div class="text_center nav_heb_border_color width_100_resp">
+                            <a href="#hebergements" class="color_blue">
+                                Hébergements
+                            </a>            
+                        </div>
+                        <div class="text_center nav_act_border_color width_100_resp">
+                            <a href="#activites" class="color_black">
+                                Activités
+                            </a> 
+                        </div>
+                    </nav>
                 </div>
-                <div class="block_center">
+                <div class="block_centered">
                     <!-- Paragraphe -->
                     <h1>
                         Trouvez votre hébergement pour des vacances de rêve
@@ -45,7 +43,7 @@
                         En plein centre ville ou en pleine nature
                     </p>
                     <!-- Barre de recherche -->
-                    <div id="search" class="search_height relative margin_search">
+                    <div id="search" class="relative">
                         <form method="post" action="transmettre_info.php" class="height_100_percent absolute width_100_resp">
                             <div id="form_container_position_icon" class="background_grey height_100_percent absolute">
                                 <i class="fas fa-map-marker-alt absolute"></i>
@@ -134,9 +132,9 @@
                         <!-- Conteneur pour l'affichage des images cliquables -->
                         <div id="heb_container_img" class="flex justify_space_between justify_center_responsiv flex_column_responsiv">
                             <!-- Bloc qui contient l'image, le texte et les étoiles -->
-                            <div class="heb_card background_white border_white main_border_radius shadow_box_heb space_betw_card_resp">
+                            <div class="heb_card background_white border_white main_border_radius space_betw_card_resp">
                                 <a href="#">
-                                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="heb_img_width heb_img_height width_100_resp heb_img_border_radius object_cover heb_img_pos" />
+                                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="heb_img width_100_resp object_cover" />
                                     <div class="heb_container_content width_100_percent">
                                         <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                             Auberge La Cannebière
@@ -154,9 +152,9 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="heb_card background_white border_white main_border_radius shadow_box_heb space_betw_card_resp">
+                            <div class="heb_card background_white border_white main_border_radius space_betw_card_resp">
                                 <a href="#">
-                                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" class="heb_img_width heb_img_height width_100_resp heb_img_border_radius object_cover heb_img_pos" />
+                                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" class="heb_img width_100_resp object_cover" />
                                     <div class="heb_container_content width_100_percent">
                                         <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                             Hôtel du port
@@ -176,7 +174,7 @@
                             </div>
                             <div class="heb_card background_white border_white main_border_radius shadow_deep_heb space_betw_card_resp">
                                 <a href="#">
-                                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" class="heb_img_width heb_img_height width_100_resp heb_img_border_radius object_cover heb_img_pos" />
+                                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" class="heb_img width_100_resp object_cover" />
                                     <div class="heb_container_content width_100_percent">
                                         <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                             Hôtel Les mouettes
@@ -194,9 +192,9 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="heb_card background_white border_white main_border_radius shadow_box_heb space_betw_card_resp">
+                            <div class="heb_card background_white border_white main_border_radius space_betw_card_resp">
                                 <a href="#">
-                                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" class="heb_img_width heb_img_height width_100_resp heb_img_border_radius object_cover heb_img_pos" />
+                                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" class="heb_img width_100_resp object_cover" />
                                     <div class="heb_container_content width_100_percent">
                                         <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                             Hôtel de la mer
@@ -214,9 +212,9 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="heb_card background_white border_white main_border_radius shadow_box_heb space_betw_card_resp">
+                            <div class="heb_card background_white border_white main_border_radius space_betw_card_resp">
                                 <a href="#">
-                                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" class="heb_img_width heb_img_height width_100_resp heb_img_border_radius object_cover heb_img_pos" />
+                                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" class="heb_img width_100_resp object_cover" />
                                     <div class="heb_container_content width_100_percent">
                                         <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                             Auberge Le Panier
@@ -234,9 +232,9 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="heb_card background_white border_white main_border_radius shadow_box_heb space_betw_card_resp">
+                            <div class="heb_card background_white border_white main_border_radius space_betw_card_resp">
                                 <a href="#">
-                                    <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" class="heb_img_width heb_img_height width_100_resp heb_img_border_radius object_cover heb_img_pos" />
+                                    <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" class="heb_img width_100_resp object_cover" />
                                     <div class="heb_container_content width_100_percent">
                                         <h3 class="color_black margin_top_2_percent margin_bottom_2_percent">
                                             Hôtel chez Amina
@@ -256,13 +254,13 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p id="afficher_plus" class="bold color_black">                                
+                            <p id="heb_show_more" class="bold color_black">                                
                                 Afficher plus
                             </p>
                         </a>
                     </div>
                     <!-- Conteneur "Les plus populaires"-->
-                    <div id="pop_container" class="background_grey main_border_radius flex flex_column pop_container_width pop_container_padding width_100_resp justify_center">
+                    <div id="pop_container" class="background_grey main_border_radius flex flex_column pop_container_width width_100_resp justify_center">
                         <!-- Bloc qui contient le titre et l'image "graph"-->
                         <div class="flex justify_space_between width_100_percent">
                             <h2 class="h2_graph_size">
@@ -275,11 +273,11 @@
                         <!-- Conteneur pour l'affichage des images cliquables -->
                         <div class="flex flex_column justify_space_between">
                             <!-- Bloc qui contient le bloc image et le bloc "texte et étoiles"-->
-                            <div class="card_pop background_white border_white flex main_border_radius pop_box_shadow pop_card_margin_bottom space_betw_card_resp">    
+                            <div class="pop_card background_white border_white flex main_border_radius pop_card_margin_bottom space_betw_card_resp">    
                                 <!-- Bloc image -->
                                 <a href="#">
                                     <div class="flex">
-                                        <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="pop_img_margin pop_img_width pop_img_height pop_img_border_radius pop_img_resp width_100_percent object_cover" />
+                                        <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="pop_img width_100_percent object_cover" />
                                         <!-- Bloc contenant le text et les étoiles -->
                                         <div class="pop_container_content">
                                             <h3 class="color_black margin_bottom_2_percent">
@@ -299,10 +297,10 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="card_pop background_white border_white flex main_border_radius pop_box_shadow pop_card_margin_bottom space_betw_card_resp">
+                            <div class="pop_card background_white border_white flex main_border_radius pop_card_margin_bottom space_betw_card_resp">
                                 <a href="#">
                                     <div class="flex">
-                                        <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="pop_img_margin pop_img_width pop_img_height pop_img_border_radius pop_img_resp width_100_percent object_cover" />             
+                                        <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="pop_img width_100_percent object_cover" />             
                                         <div class="pop_container_content">
                                             <h3 class="color_black margin_bottom_2_percent">
                                                 Au coeur de l'eau Chambres d'hôtes
@@ -321,10 +319,10 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="card_pop background_white border_white flex main_border_radius pop_box_shadow">
+                            <div class="pop_card background_white border_white flex main_border_radius">
                                 <a href="#">
                                     <div class="flex">                  
-                                        <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="pop_img_margin pop_img_width pop_img_height pop_img_border_radius pop_img_resp width_100_percent object_cover" />
+                                        <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="pop_img width_100_percent object_cover" />
                                         <div class="pop_container_content">
                                             <h3 class="color_black margin_bottom_2_percent">
                                                 Hôtel Tout bleu et Blanc
@@ -347,7 +345,7 @@
                     </div>
                 </section>
                 <!-- Conteneur "Activités à Marseille"-->
-                <section id="act_container" class="flex flex_column justify_space_between width_100_percent">
+                <section id="act_container" class="flex flex_column justify_space_between width_100_percent margin_top_2_percent">
                     <h2 id="activites" class="h2_graph_size">
                         Activités à Marseille
                     </h2>
@@ -417,7 +415,7 @@
                 </section>
             </div>
         </main>
-        <footer>
+        <footer class="margin_top_2_percent">
             <div class="block_page flex flex_column_responsiv">
                 <!-- Conteneur "A propos de nous" -->
                 <div class="footer_propos_width width_auto background_grey">

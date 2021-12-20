@@ -134,28 +134,25 @@ figure {
     margin: auto;
 }
 
-div.block_center {
+div.block_centered {
     padding: 0 4.5% 0 4.5%;
 }
 
 /* Partie Nav */
 
-div#block_center_logo_nav {
+div#container_logo_nav {
     padding: 0 4.5% 0 4.5%;
 }
 
 /* Bloc contenant le logo */
 
 div#logo {
+    height: 150px;
     padding-left: 0.5%;
 }
 
 .logo_width {
     width: 50%;
-}
-
-.logo_height {
-    height: 150px;
 }
 
 /* Taille du logo */
@@ -193,7 +190,7 @@ a {
     padding: 0 50px 0 50px;
 }
 
-.nav_hebergement_border_color {
+.nav_heb_border_color {
     border-top: 3px solid #0065FC;
 }
 
@@ -226,7 +223,7 @@ h3 + p {
 
 /* Partie Formulaire */
 
-.search_height {
+#search {
     height: 99px;
 }
 
@@ -350,6 +347,7 @@ div#heb_container_img {
 .heb_card {
     height: 360px;
     margin-bottom: 3%;
+    box-shadow: 0 4px 12px 5px #e4e4e4;
 }
 
 div.heb_card:hover {
@@ -364,40 +362,26 @@ div.heb_card:hover {
     width: 65%;
 }
 
-.heb_img_width {
+.heb_img {
     width: 450px;
-}
-
-.heb_img_height {
     height: 213px;
+    border-radius: 40px 40px 0 0 / 40px 40px 0 0;
 }
 
 .heb_star_top {
     top: 10%;
 }
 
-.shadow_box_heb {
-    box-shadow: 0 4px 12px 5px #e4e4e4;
-}
-
 .shadow_deep_heb {
     box-shadow: 0 4px 20px 11px #e4e4e4;
 }
 
-.heb_img_border_radius {
-    border-radius: 40px 40px 0 0 / 40px 40px 0 0;
-}
-
-#afficher_plus {
+#heb_show_more {
     font-size: 34.5px;
     margin-bottom: 0;
 }
 
 /* Partie "Les plus populaires" */
-
-#graph {
-    font-size: 43px;
-}
 
 .pop_container_content {
     width: 480px;
@@ -408,20 +392,19 @@ div.heb_card:hover {
     width: 32%;
 }
 
-.pop_container_padding {
+#pop_container {
     padding: 3%;
 }
 
-.pop_img_margin {
-    margin: 0 6% 0 0; 
+.pop_card {
+    box-shadow: 0 4px 11px 4px #e4e4e4;
 }
 
-.pop_img_width {
-    max-width: 240px;  
-}
-
-.pop_img_height {
+.pop_img {
+    max-width: 240px;
     height: 250px;
+    margin: 0 6% 0 0;
+    border-radius: 40px 0 0 40px / 40px 0 0 40px; 
 }
 
 .pop_card_margin_bottom {
@@ -432,19 +415,7 @@ div.heb_card:hover {
     top: 29%;
 }
 
-.pop_img_border_radius {
-    border-radius: 40px 0 0 40px / 40px 0 0 40px;
-}
-
-.pop_box_shadow {
-    box-shadow: 0 4px 11px 4px #e4e4e4;
-}
-
 /* Partie "Activités à Marseille" */
-
-#act_container {
-    margin-top: 2%;
-}
 
 div#act_containers_img {
     height: 894px;
@@ -578,23 +549,17 @@ ul {
         font-size: 33px;
     }
 
-    .search_height {
+    #search {
         height: 100px;
     }
 
-    .heb_img_height {
+    .heb_img {
+        width: 480px;
         height: 230px;
     }
 
-    .heb_img_width {
-        width: 480px;
-    }
-
-    .pop_img_height {
+    .pop_img {
         height: 255px;
-    }
-
-    .pop_img_width {
         max-width: 250px;
     }
 
@@ -648,16 +613,12 @@ ul {
         font-size: 15.4px;
     }
 
-    .search_height {
+    #search {
         height: 60px;
     }
 
     .main_border_radius {
         border-radius: 20px / 20px;
-    }
-
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
     .act_img_border_radius {
@@ -668,28 +629,20 @@ ul {
         border: 3px solid white;
     }
 
-    .heb_img_width {
+    .heb_img {
         width: 265px;
-    }
-    
-    .heb_img_height {
         height: 125px;
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
-    .pop_img_height {
-        height: 150px;
-    }
-
-    .pop_img_width {
+    .pop_img {
         max-width: 140px;
+        height: 150px;
+        border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
     .pop_star_spadding_top {
         top: 26%;
-    }
-
-    .pop_img_border_radius {
-        border-radius: 20px 0 0 20px / 20px 0 0 20px;
     }
 
     .footer_propos_padding_left {
@@ -705,11 +658,8 @@ ul {
     }
 
     div#logo {
-        padding-left: 0.9%;
-    }
-    
-    .logo_height {
         height: 90px;
+        padding-left: 0.9%;
     }
 
     div#logo img {
@@ -779,17 +729,13 @@ ul {
         font-size: 17px;
     }
 
-    div.heb_card {
+    .heb_card {
         height: 210px;
         margin-bottom: 4%;
     }
 
-    #afficher_plus {
+    #heb_show_more {
         font-size: 19.5px;
-    }
-
-    #graph {
-        font-size: 24px;
     }
 
     .pop_container_content {
@@ -879,16 +825,12 @@ ul {
         font-size: 13.4px;
     }
 
-    .search_height {
+    #search {
         height: 53px;
     }
 
     .main_border_radius {
         border-radius: 20px / 20px;
-    }
-
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
     .act_img_border_radius {
@@ -899,20 +841,15 @@ ul {
         border: 3px solid white;
     }
 
-    .heb_img_width {
+    .heb_img {
         width: 230px;
-    }
-    
-    .heb_img_height {
         height: 120px;
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
-    .pop_img_height {
-        height: 140px;
-    }
-
-    .pop_img_width {
+    .pop_img {
         max-width: 140px;
+        height: 140px;
     }
 
     .pop_star_spadding_top {
@@ -993,17 +930,13 @@ ul {
         font-size: 17px;
     }
 
-    div.heb_card {
+    .heb_card {
         height: 195px;
         margin-bottom: 4%;
     }
 
-    #afficher_plus {
+    #heb_show_more {
         font-size: 17px;
-    }
-
-    #graph {
-        font-size: 20px;
     }
 
     .pop_container_content {
@@ -1089,16 +1022,12 @@ ul {
         font-size: 10.7px;
     }
 
-    .search_height {
+    #search {
         height: 40px;
     }
 
     .main_border_radius {
         border-radius: 20px / 20px;
-    }
-
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
     .act_img_border_radius {
@@ -1109,28 +1038,20 @@ ul {
         border: 3px solid white;
     }
 
-    .heb_img_width {
+    .heb_img {
         width: 185px;
-    }
-    
-    .heb_img_height {
         height: 85px;
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
-    .pop_img_height {
+    .pop_img {
+        max-width: 100px;
         height: 108px;
     }
 
-    .pop_img_width {
-        max-width: 100px;
-    }
-
     div#logo {
-        padding-left: 0;
-    }
-    
-    .logo_height {
         height: 70px;
+        padding-left: 0;
     }
 
     div#logo img {
@@ -1196,17 +1117,13 @@ ul {
         font-size: 11.7px;
     }
 
-    div.heb_card {
+    .heb_card {
         height: 145px;
         margin-bottom: 5%;
     }
 
-    #afficher_plus {
+    #heb_show_more {
         font-size: 14px;
-    }
-
-    #graph {
-        font-size: 17px;
     }
 
     .pop_container_content {
@@ -1296,28 +1213,18 @@ ul {
         width: auto;
     }
 
-    .search_height {
+    #search {
         height: 115px;
     }
     
-    .heb_img_height {
+    .heb_img {
         height: 250px;
-    }
-
-    .heb_img_pos {
+        border-radius: 50px 50px 0 0 / 50px 50px 0 0;
         object-position: 0 50%;
     }
 
-    .pop_container_padding {
+    #pop_container {
         padding: 10% 7%;
-    }
-
-    .pop_img_height {
-        height: 320px;
-    }
-
-    .pop_img_width {
-        max-width: 300px;
     }
 
     .border_white {
@@ -1328,16 +1235,8 @@ ul {
         border-radius: 50px / 50px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 50px 50px 0 0 / 50px 50px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 50px 50px 0 0 / 50px 50px 0 0;
-    }
-
-    .shadow_box_heb {
-        box-shadow: 0 8px 20px 8px #e4e4e4;
     }
 
     .shadow_box_act {
@@ -1377,10 +1276,6 @@ ul {
         font-size: 33.4px;
     }
 
-    .margin_search {
-        margin: 10% 0 8% 0;
-    }
-
     .margin_bottom_pop {
         margin-bottom: 10%;
     }
@@ -1390,16 +1285,16 @@ ul {
         justify-content: space-between;
     }
 
-    div#block_center_logo_nav {
+    div#container_logo_nav {
         padding-left: 0;
         padding-right: 0;
     }
 
-    div.block_center {
+    div.block_centered {
         padding: 0 7% 0 7%;
     }
-    
-    .logo_height {
+
+    div#logo {
         height: 150px;
     }
 
@@ -1422,17 +1317,21 @@ ul {
         padding: 0 2% 0 2%;
     }
 
-    .border_color_nav_heb {
+    .nav_heb_border_color {
         border-top: 0;
         border-bottom: 3px solid #0065FC;
     }
 
-    .border_color_nav_act {
+    .nav_act_border_color {
         border-bottom: 3px solid #F2F2F2;
     }
 
     .flex_column_mob {
         flex-direction: column;
+    }
+
+    #search {
+        margin: 10% 0 8% 0;
     }
 
     form input {
@@ -1535,12 +1434,9 @@ ul {
         border-radius: initial;
     }
 
-    div#container_center_heb_marseille {
-        padding: 8% 6% 1% 6%;
-    }
-
-    div.heb_card {
+    .heb_card {
         height: 430px;
+        box-shadow: 0 8px 20px 8px #e4e4e4;
     }
 
     #act_container {
@@ -1556,25 +1452,17 @@ ul {
         margin: 0 0 7% 0;
     }
 
-    #afficher_plus {
+    #heb_show_more {
         font-size: 40px;
         margin-bottom: 8%;
     }
 
-    #graph {
-        font-size: 47px;
-    }
-
-    .pop_img_resp {              
+    .pop_img {
+        max-width: 300px;
+        height: 320px;
+        margin: 0 4% 0 0;              
         object-position: 51% 40%;
         clip-path: inset(0 3% 0 0);
-    }
-
-    .pop_img_margin {
-        margin: 0 4% 0 0;
-    }
-
-    .pop_img_border_radius {
         border-radius: 50px 0 0 50px / 50px 0 0 50px;
     }
 
@@ -1653,8 +1541,8 @@ ul {
     .size_star {
         font-size: 16px;
     }
-    
-    .logo_height {
+
+    div#logo {
         height: 90px;
     }
 
@@ -1687,15 +1575,11 @@ ul {
         font-size: 21.7px;
     }
 
-    .search_height {
+    #search {
         height: 80px;
     }
 
-    .shadow_box_heb {
-        box-shadow: 0 2px 11px 0px #e4e4e4;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
+    div.block_centered h1, div.block_centered h1 + p {
         text-align: initial;
     }
 
@@ -1745,10 +1629,6 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
@@ -1757,27 +1637,23 @@ ul {
         border: 4px solid white;
     }
 
-    #afficher_plus {
+    .heb_card {
+        height: 310px;
+        box-shadow: 0 2px 11px 0px #e4e4e4;
+    }
+
+    #heb_show_more {
         font-size: 27px;
     }
 
-    #graph {
-        font-size: 33px;
-    }
-
-    .heb_img_height {
+    .heb_img {
         height: 180.7px;
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
-    .pop_img_width {    
+    .pop_img {    
         max-width: 210px;
-    }
-
-    .pop_img_height {
         height: 220px;
-    }
-
-    .pop_img_border_radius {
         border-radius: 17px 0 0 17px / 17px 0 0 17px;
     }
 
@@ -1787,10 +1663,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 34%;
-    }
-
-    div.heb_card {
-        height: 310px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -1876,24 +1748,16 @@ ul {
         font-size: 17.2px;
     }
 
-    .search_height {
+    #search {
         height: 65px;
     }
 
-    .heb_img_height {
+    .heb_img {
         height: 142px;
-    }
-
-    .shadow_box_heb {
-        box-shadow: 0 6px 11px 2px #e4e4e4;
     }
 
     .shadow_box_act {
         box-shadow: 0 4px 11px 4px #f0f0f0;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
-        text-align: initial;
     }
 
     form input {
@@ -1946,10 +1810,6 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
@@ -1958,19 +1818,17 @@ ul {
         border: 4px solid white;
     }
 
-    #afficher_plus {
+    .heb_card {
+        height: 235px;
+        box-shadow: 0 6px 11px 2px #e4e4e4;
+    }
+
+    #heb_show_more {
         font-size: 15px;
     }
 
-    #graph {
-        font-size: 20px;
-    }
-
-    .pop_img_width {    
+    .pop_img {    
         max-width: 160px;
-    }
-
-    .pop_img_height {
         height: 170px;
     }
 
@@ -1980,10 +1838,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 30%;
-    }
-
-    div.heb_card {
-        height: 235px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2061,12 +1915,8 @@ ul {
         font-size: 17.2px;
     }
 
-    .search_height {
+    #search {
         height: 65px;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
-        text-align: initial;
     }
 
     form input {
@@ -2115,10 +1965,6 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
@@ -2127,12 +1973,12 @@ ul {
         border: 4px solid white;
     }
 
-    #afficher_plus {
-        font-size: 15px;
+    .heb_card {
+        height: 235px;
     }
 
-    #graph {
-        font-size: 20px;
+    #heb_show_more {
+        font-size: 15px;
     }
 
     .pop_container_content {
@@ -2141,10 +1987,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 30%;
-    }
-
-    div.heb_card {
-        height: 235px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2222,16 +2064,12 @@ ul {
         font-size: 15.3px;
     }
 
-    .search_height {
+    #search {
         height: 60px;
     }
 
-    .heb_img_height {
+    .heb_img {
         height: 125px;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
-        text-align: initial;
     }
 
     form input {
@@ -2284,10 +2122,6 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
@@ -2296,19 +2130,16 @@ ul {
         border: 4px solid white;
     }
 
-    #afficher_plus {
+    .heb_card {
+        height: 215px;
+    }
+
+    #heb_show_more {
         font-size: 15px;
     }
 
-    #graph {
-        font-size: 20px;
-    }
-
-    .pop_img_width {    
+    .pop_img {    
         max-width: 145px;
-    }
-
-    .pop_img_height {
         height: 155px;
     }
 
@@ -2318,10 +2149,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 30%;
-    }
-
-    div.heb_card {
-        height: 215px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2399,12 +2226,8 @@ ul {
         font-size: 15.3px;
     }
 
-    .search_height {
+    #search {
         height: 60px;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
-        text-align: initial;
     }
 
     form input {
@@ -2453,10 +2276,6 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
@@ -2465,12 +2284,12 @@ ul {
         border: 4px solid white;
     }
 
-    #afficher_plus {
-        font-size: 15px;
+    .heb_card {
+        height: 215px;
     }
 
-    #graph {
-        font-size: 20px;
+    #heb_show_more {
+        font-size: 15px;
     }
 
     .pop_container_content {
@@ -2479,10 +2298,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 30%;
-    }
-
-    div.heb_card {
-        height: 215px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2564,16 +2379,12 @@ ul {
         font-size: 12.6px;
     }
 
-    .search_height {
+    #search {
         height: 47px;
     }
 
-    .heb_img_height {
+    .heb_img {
         height: 107px;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
-        text-align: initial;
     }
 
     form input {
@@ -2642,10 +2453,6 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
@@ -2654,19 +2461,16 @@ ul {
         border: 4px solid white;
     }
 
-    #afficher_plus {
+    .heb_card {
+        height: 185px;
+    }
+
+    #heb_show_more {
         font-size: 15px;
     }
 
-    #graph {
-        font-size: 20px;
-    }
-
-    .pop_img_width {    
+    .pop_img {    
         max-width: 130px;
-    }
-
-    .pop_img_height {
         height: 140px;
     }
 
@@ -2676,10 +2480,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 33%;
-    }
-
-    div.heb_card {
-        height: 185px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2765,16 +2565,12 @@ ul {
         font-size: 11px;
     }
 
-    .search_height {
+    #search {
         height: 40px;
     }
 
-    .heb_img_height {
+    .heb_img {
         height: 90px;
-    }
-
-    div.block_center h1, div.block_center h1 + p {
-        text-align: initial;
     }
 
     form input {
@@ -2849,10 +2645,6 @@ ul {
         border-radius: 20px / 20px;
     }
 
-    .heb_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
-    }
-
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
@@ -2861,19 +2653,16 @@ ul {
         border: 4px solid white;
     }
 
-    #afficher_plus {
+    .heb_card {
+        height: 160px;
+    }
+
+    #heb_show_more {
         font-size: 15px;
     }
 
-    #graph {
-        font-size: 20px;
-    }
-
-    .pop_img_width {    
+    .pop_img {    
         max-width: 100px;
-    }
-
-    .pop_img_height {
         height: 110px;
     }
 
@@ -2883,10 +2672,6 @@ ul {
 
     .pop_star_spadding_top {
         top: 25%;
-    }
-
-    div.heb_card {
-        height: 160px;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
