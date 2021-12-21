@@ -129,7 +129,7 @@ figure {
 
 /* Pour pouvoir centrer la page par rapport à sa largeur et hauteur */
 
-.block_page {
+div.block_page {
     width: 2880px;
     margin: auto;
 }
@@ -164,14 +164,14 @@ div#logo img {
 
 /* Le menu du nav */
 
-.menu {
+nav.menu {
     height: 150px;
     width: 50%;
 }
 
 /* Comportement et disposition des éléments du nav */
 
-.menu {
+nav.menu {
     justify-content: flex-end;
 }
 
@@ -181,11 +181,11 @@ a {
 
 /* Les élément du menu nav ont un espace vers la gauche */
 
-.menu div {
+nav.menu div {
     padding: 4% 0 4% 0;
 }
 
-.menu div a {
+nav.menu div a {
     font-size: 27px;
     padding: 0 50px 0 50px;
 }
@@ -223,7 +223,7 @@ h3 + p {
 
 /* Partie Formulaire */
 
-#search {
+div#search {
     height: 99px;
 }
 
@@ -275,36 +275,36 @@ p#filter_title {
     margin: 0 2.4% 0 0.5%;
 }
 
-div.filter_element {
+div.filter_elements {
     margin: 0 2% 0 0;
     border-radius: 60px;
     padding: 0 1.3% 0 0;
 }
 
-.filter_size_char_icon {
+.filter_icon_label_size {
     font-size: 32px;
 }
 
-div.filter_element p {
-    margin: 1% 0 0 30px;
-}
-
-div.filter_icon {
+div.filter_container_circle_icon {
     height: 95px;
     width: 95px;
     margin-left: -1.1%;
 }
 
-div.filter_icon div {
+div.filter_circle {
     background-color: #DEEBFF;
     border-radius: 100%;
 }
 
-div.filter_icon div i {
+i.filter_icon {
     padding: 25%;
 }
 
-div.filter_element:hover {
+p.filter_label {
+    margin: 1% 0 0 30px;
+}
+
+div.filter_elements:hover {
     color: white;
     background-color: #0065FC;
 }
@@ -537,7 +537,7 @@ ul {
 /* Responsiv pour les écrans dont la largeur est égale à 2560px */
 
 @media all and (max-width: 2980px) {
-    .block_page {
+    div.block_page {
         width: 100%;
     }
 
@@ -549,7 +549,7 @@ ul {
         font-size: 33px;
     }
 
-    #search {
+    div#search {
         height: 100px;
     }
 
@@ -613,7 +613,7 @@ ul {
         font-size: 15.4px;
     }
 
-    #search {
+    div#search {
         height: 60px;
     }
 
@@ -667,15 +667,15 @@ ul {
         height: 45px;
     }
 
-    .menu {
+    nav.menu {
         height: 90px;
     }
 
-    .menu div {
+    nav.menu div {
         padding: 5% 0 5% 0;
     }
 
-    .menu div a {
+    nav.menu div a {
         font-size: 16px;
     }
 
@@ -705,16 +705,16 @@ ul {
         font-size: 20px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 55px;
         width: 55px;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 19.9px;
     }
     
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 10px;
     }
     
@@ -825,7 +825,7 @@ ul {
         font-size: 13.4px;
     }
 
-    #search {
+    div#search {
         height: 53px;
     }
 
@@ -873,15 +873,15 @@ ul {
         height: 50px;
     }
 
-    .menu {
+    nav.menu {
         height: 90px;
     }
 
-    .menu div {
+    nav.menu div {
         padding: 5% 0 5% 0;
     }
 
-    .menu div a {
+    nav.menu div a {
         font-size: 16px;
     }
 
@@ -906,16 +906,16 @@ ul {
         font-size: 18px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 50px;
         width: 50px;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 17px;
     }
     
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 10px;
     }
     
@@ -1022,7 +1022,7 @@ ul {
         font-size: 10.7px;
     }
 
-    #search {
+    div#search {
         height: 40px;
     }
 
@@ -1059,15 +1059,15 @@ ul {
         height: 35px;
     }
 
-    .menu {
+    nav.menu {
         height: 70px;
     }
 
-    .menu div {
+    nav.menu div {
         padding: 5% 0 5% 0;
     }
 
-    .menu div a {
+    nav.menu div a {
         font-size: 12px;
         padding: 0 30px 0 30px;
     }
@@ -1093,16 +1093,16 @@ ul {
         font-size: 13.8px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 37px;
         width: 37px;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 13.8px;
     }
     
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 10px;
     }
     
@@ -1213,7 +1213,7 @@ ul {
         width: auto;
     }
 
-    #search {
+    div#search {
         height: 115px;
     }
     
@@ -1330,7 +1330,7 @@ ul {
         flex-direction: column;
     }
 
-    #search {
+    div#search {
         margin: 10% 0 8% 0;
     }
 
@@ -1376,7 +1376,7 @@ ul {
         flex-wrap: wrap;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 100px;
         width: 100px;
     }
@@ -1385,16 +1385,16 @@ ul {
         margin-bottom: 2%;
     }
 
-    div.filter_element {
+    div.filter_elements {
         margin: 2% 1% 0 0;
         padding: 0 4% 0 0;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 38px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 30px;
     }
 
@@ -1575,7 +1575,7 @@ ul {
         font-size: 21.7px;
     }
 
-    #search {
+    div#search {
         height: 80px;
     }
 
@@ -1595,16 +1595,16 @@ ul {
         font-size: 30px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 70px;
         width: 70px;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 25px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 20px;
     }
 
@@ -1748,7 +1748,7 @@ ul {
         font-size: 17.2px;
     }
 
-    #search {
+    div#search {
         height: 65px;
     }
 
@@ -1776,16 +1776,16 @@ ul {
         font-size: 23px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 50px;
         width: 50px;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 19px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 20px;
     }
 
@@ -1915,7 +1915,7 @@ ul {
         font-size: 17.2px;
     }
 
-    #search {
+    div#search {
         height: 65px;
     }
 
@@ -1935,12 +1935,12 @@ ul {
         font-size: 23px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 50px;
         width: 50px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 20px;
     }
 
@@ -2064,7 +2064,7 @@ ul {
         font-size: 15.3px;
     }
 
-    #search {
+    div#search {
         height: 60px;
     }
 
@@ -2088,16 +2088,16 @@ ul {
         font-size: 20.7px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 45px;
         width: 45px;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 17px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 15px;
     }
 
@@ -2226,7 +2226,7 @@ ul {
         font-size: 15.3px;
     }
 
-    #search {
+    div#search {
         height: 60px;
     }
 
@@ -2246,12 +2246,12 @@ ul {
         font-size: 20.7px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 45px;
         width: 45px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 15px;
     }
 
@@ -2379,7 +2379,7 @@ ul {
         font-size: 12.6px;
     }
 
-    #search {
+    div#search {
         height: 47px;
     }
 
@@ -2419,16 +2419,16 @@ ul {
         font-size: 16px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 40px;
         width: 40px;
     }
     
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 15px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 10px;
     }
 
@@ -2565,7 +2565,7 @@ ul {
         font-size: 11px;
     }
 
-    #search {
+    div#search {
         height: 40px;
     }
 
@@ -2606,21 +2606,21 @@ ul {
         font-size: 16px;
     }
 
-    div.filter_icon {
+    div.filter_container_circle_icon {
         height: 40px;
         width: 40px;
     }
 
-    div.filter_element {
+    div.filter_elements {
         margin: 2% 1% 0 0;
         padding: 0 5% 0 0;
     }
 
-    .filter_size_char_icon {
+    .filter_icon_label_size {
         font-size: 12px;
     }
 
-    div.filter_element p {
+    p.filter_label {
         margin: 1% 0 0 10px;
     }
 
