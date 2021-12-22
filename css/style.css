@@ -13,10 +13,6 @@
     color: black;
 }
 
-.color_blue {
-    color: #0065FC;
-}
-
 .color_grey {
     color: #F2F2F2;
 }
@@ -29,11 +25,7 @@
     background-color: white;
 }
 
-.border_grey_deep {
-    border: 3px solid #d9d9d9;
-}
-
-.border_grey_info {
+.border_grey {
     border: 3px solid #F2F2F2;
 }
 
@@ -101,6 +93,10 @@
     font-size: 20px;
 }
 
+.icon_blue {
+    stroke: #0065FC;
+}
+
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
 
 div {
@@ -164,14 +160,9 @@ div#logo img {
 
 /* Le menu du nav */
 
-nav.menu {
+.menu {
     height: 150px;
     width: 50%;
-}
-
-/* Comportement et disposition des éléments du nav */
-
-nav.menu {
     justify-content: flex-end;
 }
 
@@ -181,11 +172,11 @@ a {
 
 /* Les élément du menu nav ont un espace vers la gauche */
 
-nav.menu div {
+.menu div {
     padding: 4% 0 4% 0;
 }
 
-nav.menu div a {
+.menu div a {
     font-size: 27px;
     padding: 0 50px 0 50px;
 }
@@ -667,15 +658,15 @@ ul {
         height: 45px;
     }
 
-    nav.menu {
+    .menu {
         height: 90px;
     }
 
-    nav.menu div {
+    .menu div {
         padding: 5% 0 5% 0;
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 16px;
     }
 
@@ -873,15 +864,15 @@ ul {
         height: 50px;
     }
 
-    nav.menu {
+    .menu {
         height: 90px;
     }
 
-    nav.menu div {
+    .menu div {
         padding: 5% 0 5% 0;
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 16px;
     }
 
@@ -1059,15 +1050,15 @@ ul {
         height: 35px;
     }
 
-    nav.menu {
+    .menu {
         height: 70px;
     }
 
-    nav.menu div {
-        padding: 5% 0 5% 0;
+    .menu div {
+        padding: 4% 0 5% 0;
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 12px;
         padding: 0 30px 0 30px;
     }
@@ -1303,16 +1294,16 @@ ul {
         height: 90px;  
     }
 
-    nav.menu {
+    .menu {
         height: 80px;
     }
 
-    nav.menu div {
+    .menu div {
         padding-top: 0;
         padding-bottom: 2%;
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 36.8px;
         padding: 0 2% 0 2%;
     }
@@ -1551,7 +1542,7 @@ ul {
         height: 70px;  
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 24px;
     }
 
@@ -1720,11 +1711,11 @@ ul {
         height: 50px;  
     }
 
-    nav.menu {
+    .menu {
         height: 60px;
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 20px;
     }
 
@@ -1891,7 +1882,7 @@ ul {
         height: 50px;  
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 20px;
     }
 
@@ -2040,7 +2031,7 @@ ul {
         height: 50px;  
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 18px;
     }
 
@@ -2202,7 +2193,7 @@ ul {
         height: 50px;  
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 15px;
     }
 
@@ -2351,11 +2342,11 @@ ul {
         height: 50px;  
     }
 
-    nav.menu {
+    .menu {
         height: 50px;
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 15px;
     }
 
@@ -2537,11 +2528,11 @@ ul {
         height: 50px;  
     }
 
-    nav.menu {
+    .menu {
         height: 50px;
     }
 
-    nav.menu div a {
+    .menu div a {
         font-size: 15px;
     }
 
@@ -2607,8 +2598,8 @@ ul {
     }
 
     div.filter_container_circle_icon {
-        height: 40px;
-        width: 40px;
+        height: 31px;
+        width: 31px;
     }
 
     div.filter_elements {
@@ -2617,7 +2608,7 @@ ul {
     }
 
     .filter_icon_label_size {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     p.filter_label {
