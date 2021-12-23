@@ -65,6 +65,10 @@
     position: relative;
 }
 
+.display_block {
+    display: block;
+}
+
 .object_cover {
     object-fit: cover;
 }
@@ -357,10 +361,6 @@ div.heb_card:hover {
     width: 450px;
     height: 213px;
     border-radius: 40px 40px 0 0 / 40px 40px 0 0;
-}
-
-.heb_star_top {
-    top: 10%;
 }
 
 .shadow_deep_heb {
