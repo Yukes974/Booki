@@ -17,6 +17,10 @@
     color: #F2F2F2;
 }
 
+.color_blue {
+    color: #0065FC;
+}
+
 .background_grey {
     background-color: #F2F2F2;
 }
@@ -94,11 +98,8 @@
 }
 
 .size_star {
-    font-size: 20px;
-}
-
-.icon_blue {
-    stroke: #0065FC;
+    width: 20px;
+    height: 20px;
 }
 
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
@@ -232,10 +233,11 @@ div#form_container_position_icon {
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
 }
 
-div#form_container_position_icon i {
-    padding-top: 28%;
-    left: 35%;
-    font-size: 35px;
+img#form_position_icon {
+    width: 40px;
+    height: 60px;
+    padding-top: 23%;
+    left: 31%;
 }
 
 form input {
@@ -291,6 +293,11 @@ div.filter_circle {
     border-radius: 100%;
 }
 
+.filter_icon_size {
+    width: 40px;
+    height: 40px;
+}
+
 i.filter_icon {
     padding: 25%;
 }
@@ -315,6 +322,11 @@ div#info_container_circle {
     margin: 0 1% 0 0.5%;
     border-radius: 100%;
     font-size: 27px;
+}
+
+img#info_icon_size {
+    width: 20px;
+    height: 20px;
 }
 
 .main_border_radius {
@@ -373,6 +385,11 @@ div.heb_card:hover {
 }
 
 /* Partie "Les plus populaires" */
+
+img#graph {
+    width: 50px;
+    width: 50px;
+}
 
 .pop_container_content {
     width: 480px;
