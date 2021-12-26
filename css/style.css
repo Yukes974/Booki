@@ -97,9 +97,9 @@
     margin-bottom: 2%;
 }
 
-.size_star {
-    width: 20px;
-    height: 20px;
+.star_size {
+    width: 22px;
+    height: 22px;
 }
 
 /* Pour avoir une meilleure visibilité sur les éléments de la page web */
@@ -258,7 +258,7 @@ div#form_submit input {
     font-size: 30px;
 }
 
-div#form_magnifier input, div#form_magnifier i {
+div#form_magnifier input, div#form_magnifier img {
     display: none;
 }
 
@@ -270,16 +270,13 @@ div#filter {
 
 p#filter_title {
     margin: 0 2.4% 0 0.5%;
+    font-size: 33px;
 }
 
 div.filter_elements {
     margin: 0 2% 0 0;
     border-radius: 60px;
     padding: 0 1.3% 0 0;
-}
-
-.filter_icon_label_size {
-    font-size: 32px;
 }
 
 div.filter_container_circle_icon {
@@ -304,6 +301,7 @@ i.filter_icon {
 
 p.filter_label {
     margin: 1% 0 0 30px;
+    font-size: 33px;
 }
 
 div.filter_elements:hover {
@@ -321,12 +319,11 @@ div#info_container_circle {
     height: 50px;
     margin: 0 1% 0 0.5%;
     border-radius: 100%;
-    font-size: 27px;
 }
 
 img#info_icon_size {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
 }
 
 .main_border_radius {
@@ -375,6 +372,10 @@ div.heb_card:hover {
     border-radius: 40px 40px 0 0 / 40px 40px 0 0;
 }
 
+.heb_star {
+    margin-top: 2%;
+}
+
 .shadow_deep_heb {
     box-shadow: 0 4px 20px 11px #e4e4e4;
 }
@@ -387,7 +388,6 @@ div.heb_card:hover {
 /* Partie "Les plus populaires" */
 
 img#graph {
-    width: 50px;
     width: 50px;
 }
 
@@ -561,6 +561,18 @@ ul {
         height: 100px;
     }
 
+    img#form_position_icon {
+        padding-top: 30%;
+    }
+
+    p#filter_title {
+        font-size: 35px;
+    }
+
+    p.filter_label {
+        font-size: 35px;
+    }
+
     .heb_img {
         width: 480px;
         height: 230px;
@@ -597,8 +609,9 @@ ul {
 
 @media all and (max-width: 1680px) {
 
-    .size_star {
-        font-size: 11.4px;
+    .star_size {
+        width: 11px;
+        height: 11px;
     }
 
     h1 {
@@ -713,17 +726,23 @@ ul {
         font-size: 20px;
     }
 
+    p#filter_title {
+        font-size: 20px;
+    }
+
     div.filter_container_circle_icon {
         height: 55px;
         width: 55px;
     }
 
-    .filter_icon_label_size {
-        font-size: 19.9px;
+    .filter_icon_size {
+        width: 25px;
+        height: 25px;
     }
     
     p.filter_label {
         margin: 1% 0 0 10px;
+        font-size: 20px;
     }
     
     div#info {
@@ -734,7 +753,11 @@ ul {
     div#info_container_circle {
         width: 35px;
         height: 35px;
-        font-size: 17px;
+    }
+
+    img#info_icon_size {
+        width: 14px;
+        height: 14px;
     }
 
     .heb_card {
@@ -744,6 +767,10 @@ ul {
 
     #heb_show_more {
         font-size: 19.5px;
+    }
+
+    img#graph {
+        width: 25px;
     }
 
     .pop_container_content {
@@ -809,8 +836,9 @@ ul {
 
 @media all and (max-width: 1490px) {
 
-    .size_star {
-        font-size: 10px;
+    .star_size {
+        width: 9px;
+        height: 9px;
     }
 
     h1 {
@@ -914,17 +942,23 @@ ul {
         font-size: 18px;
     }
 
+    p#filter_title {
+        font-size: 17.3px;
+    }
+
     div.filter_container_circle_icon {
         height: 50px;
         width: 50px;
     }
 
-    .filter_icon_label_size {
-        font-size: 17px;
+    .filter_icon_size {
+        width: 20px;
+        height: 20px;
     }
     
     p.filter_label {
         margin: 1% 0 0 10px;
+        font-size: 17.3px;
     }
     
     div#info {
@@ -935,7 +969,6 @@ ul {
     div#info_container_circle {
         width: 35px;
         height: 35px;
-        font-size: 17px;
     }
 
     .heb_card {
@@ -1006,8 +1039,9 @@ ul {
 
 @media all and (max-width: 1200px) {
 
-    .size_star {
-        font-size: 8px;
+    .star_size {
+        width: 7px;
+        height: 7px;
     }
 
     h1 {
@@ -1101,17 +1135,23 @@ ul {
         font-size: 13.8px;
     }
 
+    p#filter_title {
+        font-size: 39px;
+    }
+
     div.filter_container_circle_icon {
         height: 37px;
         width: 37px;
     }
 
-    .filter_icon_label_size {
-        font-size: 13.8px;
+    .filter_icon_size {
+        width: 45px;
+        height: 45px;
     }
     
     p.filter_label {
         margin: 1% 0 0 10px;
+        font-size: 38px;
     }
     
     div#info {
@@ -1122,7 +1162,11 @@ ul {
     div#info_container_circle {
         width: 25px;
         height: 25px;
-        font-size: 11.7px;
+    }
+
+    img#info_icon_size {
+        width: 28px;
+        height: 28px;
     }
 
     .heb_card {
@@ -1132,6 +1176,10 @@ ul {
 
     #heb_show_more {
         font-size: 14px;
+    }
+
+    img#graph {
+        width: 20px;
     }
 
     .pop_container_content {
@@ -1259,8 +1307,9 @@ ul {
         padding-left: 8%;
     }
 
-    .size_star {
-        font-size: 24px;
+    .star_size {
+        width: 29px;
+        height: 29px;
     }
 
     h1 {
@@ -1366,13 +1415,14 @@ ul {
         background-color: #0065FC;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         display: initial;
         position: absolute;
         left: 90.7%;
         top: 35%;
         color: white;
-        font-size: 40px;
+        width: 40px;
+        height: 40px;
     }
 
     div#form_container_position_icon {
@@ -1398,10 +1448,6 @@ ul {
         padding: 0 4% 0 0;
     }
 
-    .filter_icon_label_size {
-        font-size: 38px;
-    }
-
     p.filter_label {
         margin: 1% 0 0 30px;
     }
@@ -1415,7 +1461,6 @@ ul {
         height: 50px;
         width: 70px;
         margin: 0 3% 5.7% 0;
-        font-size: 29px;
     }
 
     div#info p {
@@ -1463,6 +1508,10 @@ ul {
     #heb_show_more {
         font-size: 40px;
         margin-bottom: 8%;
+    }
+
+    img#graph {
+        width: 55px;
     }
 
     .pop_img {
@@ -1546,8 +1595,9 @@ ul {
 
 @media all and (max-width: 630px) {
 
-    .size_star {
-        font-size: 16px;
+    .star_size {
+        width: 18px;
+        height: 18px;
     }
 
     div#logo {
@@ -1599,8 +1649,12 @@ ul {
         font-size: 30px;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         font-size: 30px;
+    }
+
+    p#filter_title {
+        font-size: 28px;
     }
 
     div.filter_container_circle_icon {
@@ -1608,12 +1662,14 @@ ul {
         width: 70px;
     }
 
-    .filter_icon_label_size {
-        font-size: 25px;
+    .filter_icon_size {
+        width: 30px;
+        height: 30px;
     }
 
     p.filter_label {
         margin: 1% 0 0 20px;
+        font-size: 27px;
     }
 
     div#info {
@@ -1625,7 +1681,11 @@ ul {
         height: 35px;
         width: 50px;
         margin: 0 3% 6% 0;
-        font-size: 20px;
+    }
+
+    img#info_icon_size {
+        width: 19px;
+        height: 19px;
     }
 
     div#info p {
@@ -1657,6 +1717,10 @@ ul {
     .heb_img {
         height: 180.7px;
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    }
+
+    img#graph {
+        width: 37px;
     }
 
     .pop_img {    
@@ -1719,7 +1783,7 @@ ul {
 
 @media all and (max-width: 495px) {
 
-    .size_star {
+    .star_size {
         font-size: 12px;
     }
 
@@ -1780,17 +1844,13 @@ ul {
         display: none;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         font-size: 23px;
     }
 
     div.filter_container_circle_icon {
         height: 50px;
         width: 50px;
-    }
-
-    .filter_icon_label_size {
-        font-size: 19px;
     }
 
     p.filter_label {
@@ -1806,7 +1866,6 @@ ul {
         height: 25px;
         width: 32px;
         margin: 0 3% 5% 0;
-        font-size: 12px;
     }
 
     div#info p {
@@ -1890,7 +1949,7 @@ ul {
 
 @media all and (max-width: 493.1px) {
 
-    .size_star {
+    .star_size {
         font-size: 12px;
     }
 
@@ -1939,7 +1998,7 @@ ul {
         display: none;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         font-size: 23px;
     }
 
@@ -1961,7 +2020,6 @@ ul {
         height: 25px;
         width: 32px;
         margin: 0 3% 5% 0;
-        font-size: 12px;
     }
 
     div#info p {
@@ -2039,7 +2097,7 @@ ul {
 
 @media all and (max-width: 450px) {
 
-    .size_star {
+    .star_size {
         font-size: 10.5px;
     }
 
@@ -2092,17 +2150,13 @@ ul {
         display: none;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         font-size: 20.7px;
     }
 
     div.filter_container_circle_icon {
         height: 45px;
         width: 45px;
-    }
-
-    .filter_icon_label_size {
-        font-size: 17px;
     }
 
     p.filter_label {
@@ -2118,7 +2172,6 @@ ul {
         height: 25px;
         width: 32px;
         margin: 0 3% 5% 0;
-        font-size: 12px;
     }
 
     div#info p {
@@ -2201,7 +2254,7 @@ ul {
 
 @media all and (max-width: 425px) {
 
-    .size_star {
+    .star_size {
         font-size: 10.5px;
     }
 
@@ -2250,7 +2303,7 @@ ul {
         display: none;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         font-size: 20.7px;
     }
 
@@ -2272,7 +2325,6 @@ ul {
         height: 25px;
         width: 32px;
         margin: 0 3% 5% 0;
-        font-size: 12px;
     }
 
     div#info p {
@@ -2350,7 +2402,7 @@ ul {
 
 @media all and (max-width: 400px) {
 
-    .size_star {
+    .star_size {
         font-size: 8px;
     }
 
@@ -2418,7 +2470,7 @@ ul {
         background-color: #0065FC;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         display: initial;
         position: absolute;
         left: 90.7%;
@@ -2430,10 +2482,6 @@ ul {
     div.filter_container_circle_icon {
         height: 40px;
         width: 40px;
-    }
-    
-    .filter_icon_label_size {
-        font-size: 15px;
     }
 
     p.filter_label {
@@ -2449,7 +2497,6 @@ ul {
         height: 25px;
         width: 32px;
         margin: 0 3% 5% 0;
-        font-size: 12px;
     }
 
     div#info p {
@@ -2532,7 +2579,7 @@ ul {
 
 @media all and (max-width: 350px) {
 
-    .size_star {
+    .star_size {
         font-size: 8.7px;
     }
 
@@ -2605,7 +2652,7 @@ ul {
         padding: 15px;
     }
 
-    div#form_magnifier i {
+    div#form_magnifier img {
         display: initial;
         position: absolute;
         left: 91%;
@@ -2624,10 +2671,6 @@ ul {
         padding: 0 5% 0 0;
     }
 
-    .filter_icon_label_size {
-        font-size: 14px;
-    }
-
     p.filter_label {
         margin: 1% 0 0 10px;
     }
@@ -2641,7 +2684,6 @@ ul {
         height: 25px;
         width: 32px;
         margin: 0 3% 5% 0;
-        font-size: 12px;
     }
 
     div#info p {
