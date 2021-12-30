@@ -248,8 +248,8 @@ form input {
     width: 56.1%;
     height: 100px;
     left: 12.2%;
-    padding-left: 2%;
-    font-size: 37px;
+    padding-left: 4%;
+    font-size: 35.2px;
     border: 1px solid  #F2F2F2;
 }
 
@@ -693,8 +693,8 @@ ul {
     form input {
         width: 57.5%;
         left: 11.8%;
-        padding-left: 4%;
-        font-size: 20px;
+        padding-left: 4.6%;
+        font-size: 19.8px;
     }
 
     div#form_submit input {
@@ -910,8 +910,7 @@ ul {
 
     form input {
         left: 11.8%;
-        padding-left: 4%;
-        font-size: 18px;
+        font-size: 17.7px;
     }
 
     div#form_submit input {
@@ -947,10 +946,6 @@ ul {
     div#info_container_circle {
         width: 35px;
         height: 35px;
-    }
-
-    .main_border_radius {
-        border-radius: 20px / 20px;
     }
 
     .heb_card {
@@ -1119,7 +1114,6 @@ ul {
 
     form input {
         left: 11.8%;
-        padding-left: 4%;
         font-size: 13.8px;
     }
 
@@ -1161,10 +1155,6 @@ ul {
     img#info_icon_size {
         width: 10px;
         height: 10px;
-    }
-
-    .main_border_radius {
-        border-radius: 20px / 20px;
     }
 
     .heb_card {
@@ -1296,7 +1286,7 @@ ul {
     }
 
     .space_betw_card_resp {
-        margin-bottom: 5%;
+        margin-bottom: 7%;
     }
 
     h1 {
@@ -1379,19 +1369,24 @@ ul {
         margin: 10% 0 8% 0;
     }
 
-    form input {
-        width: 70.2%;
-        left: 15%;
-        font-size: 40px;
-    }
-
     img#form_position_icon {
         width: 40px;
         height: 78px;
     }
 
+    form input {
+        width: 70.2%;
+        left: 15%;
+        padding-left: 5.4%;
+        font-size: 40px;
+    }
+
     div#form_submit input {
         display: none;
+    }
+
+    div#form_container_position_icon {
+        width: 15.1%;
     }
 
     div#form_magnifier input {
@@ -1412,13 +1407,19 @@ ul {
         height: 40px;
     }
 
-    div#form_container_position_icon {
-        width: 15.1%;
-    }
-
     div#filter {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    p#filter_title {
+        margin-bottom: 2%;
+        font-size: 40px;
+    }
+
+    div.filter_elements {
+        margin: 2% 1% 1% 0;
+        padding: 0 4% 0 0;
     }
 
     div.filter_container_circle_icon {
@@ -1429,16 +1430,6 @@ ul {
     .filter_icon_size {
         width: 45px;
         height: 45px;
-    }
-
-    p#filter_title {
-        margin-bottom: 2%;
-        font-size: 40px;
-    }
-
-    div.filter_elements {
-        margin: 2% 1% 0 0;
-        padding: 0 4% 0 0;
     }
 
     p.filter_label {
@@ -1670,14 +1661,14 @@ ul {
         height: 80px;
     }
 
-    form input {
-        font-size: 29px;
-    }
-
     img#form_position_icon {
         padding-top: 31%;
         width: 28px;
         height: 53px;
+    }
+
+    form input {
+        font-size: 29px;
     }
 
     div#form_magnifier img {
@@ -1820,10 +1811,6 @@ ul {
         font-size: 3px;
     }
 
-    .border_white {
-        border: 4px solid white;
-    }
-
     h1 {
         font-size: 27px;
     }
@@ -1861,17 +1848,13 @@ ul {
         height: 65px;
     }
 
-    form input {
-        font-size: 23px;
-    }
-
     img#form_position_icon {
         width: 25px;
         height: 43px;
     }
 
-    div#form_submit input {
-        display: none;
+    form input {
+        font-size: 22.5px;
     }
 
     div#form_magnifier img {
@@ -1917,10 +1900,6 @@ ul {
     div#info p {
         padding-top: 0;
         margin: 0;
-    }
-
-    .main_border_radius {
-        border-radius: 20px / 20px;
     }
 
     .heb_card {
@@ -2001,11 +1980,7 @@ ul {
 
 /* Responsiv pour les mobiles dont la largeur est égale à 411px et 414 px */
 
-@media all and (max-width: 493.1px) {
-
-    .border_white {
-        border: 4px solid white;
-    }
+@media all and (max-width: 493px) {
 
     h1 {
         font-size: 25.7px;
@@ -2036,17 +2011,13 @@ ul {
         font-size: 20px;
     }
 
-    form input {
-        font-size: 23px;
-    }
-
     img#form_position_icon {
         width: 24px;
         height: 42px;
     }
 
-    div#form_submit input {
-        display: none;
+    form input {
+        font-size: 21.3px;
     }
 
     div#form_magnifier img {
@@ -2084,8 +2055,151 @@ ul {
         font-size: 19.2px;
     }
 
-    .main_border_radius {
-        border-radius: 20px / 20px;
+    .heb_card {
+        height: 245px;
+    }
+
+    #heb_show_more {
+        font-size: 15px;
+    }
+
+    img#graph {
+        width: 27px;
+    }
+
+    .pop_container_content {
+        width: 280px;
+    }
+
+    .pop_star {
+        top: 30%;
+    }
+
+    figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
+        height: 240px;
+    }
+
+    figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
+        height: 178px;
+    }
+
+    .card_figure_1 img {
+        object-position: 0 10%;
+    }
+
+    figure#card_iles_frioul img {
+        object-position: 0 10%;
+    }
+
+    figure#card_dame_garde img {
+        object-position: 0 6%;
+    }
+
+    figure#card_longchamp img {
+        object-position: 0 21%;
+    }
+    
+    figcaption {
+        font-size: 19.3px;
+        padding: 5% 0 0 5.7%;
+    }
+
+    .act_img_border_radius {
+        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    }
+
+    footer div p {
+        font-size: 23px;
+    }
+
+    ul{
+        font-size: 21.3px;
+    }
+}
+
+/* Responsiv pour les mobiles dont la largeur est égale à 390 px */
+
+@media all and (max-width: 470px) {
+
+    h1 {
+        font-size: 24.4px;
+    }
+
+    h1 + p {
+        font-size: 18.5px;
+    }
+
+    h2 {
+        font-size: 25.8px;
+    }
+
+    h3 {
+        font-size: 19.1px;
+    }
+
+    h3 + p {
+        font-size: 17.2px;
+    }
+
+    div#logo img {
+        width: 100px;
+        height: 50px;  
+    }
+
+    .menu div a {
+        font-size: 20px;
+    }
+
+    div#search {
+        height: 60px;
+    }
+
+    img#form_position_icon {
+        width: 20px;
+        height: 38px;
+    }
+
+    form input {
+        font-size: 20.6px;
+    }
+
+    div#form_magnifier img {
+        width: 18px;
+        height: 18px;
+    }
+
+    p#filter_title {
+        font-size: 18px;
+    }
+
+    div.filter_container_circle_icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    p.filter_label {
+        margin: 1% 0 0 15px;
+        font-size: 19px;
+    }
+
+    div#info {
+        height: 100px;
+        font-size: 19.7px;
+    }
+
+    div#info_container_circle {
+        height: 28px;
+        width: 40px;
+        margin: 0 3% 5.5% 0;
+    }
+
+    img#info_icon_size {
+        width: 14px;
+        height: 14px;
+    }
+
+    div#info p {
+        font-size: 18.4px;
     }
 
     .heb_card {
@@ -2159,10 +2273,6 @@ ul {
         height: 14.5px;
     }
 
-    .border_white {
-        border: 4px solid white;
-    }
-
     h1 {
         font-size: 23.7px;
     }
@@ -2196,17 +2306,13 @@ ul {
         height: 58px;
     }
 
-    form input {
-        font-size: 19.7px;
-    }
-
     img#form_position_icon {
         width: 20px;
         height: 38px;
     }
 
-    div#form_submit input {
-        display: none;
+    form input {
+        font-size: 19.7px;
     }
 
     div#form_magnifier img {
@@ -2246,10 +2352,6 @@ ul {
 
     div#info p {
         font-size: 17.7px;
-    }
-
-    .main_border_radius {
-        border-radius: 20px / 20px;
     }
 
     .heb_card {
@@ -2327,10 +2429,6 @@ ul {
 
 @media all and (max-width: 425px) {
 
-    .border_white {
-        border: 4px solid white;
-    }
-
     h1 {
         font-size: 22.5px;
     }
@@ -2364,22 +2462,18 @@ ul {
         height: 54px;
     }
 
-    form input {
-        font-size: 19px;
-    }
-
     img#form_position_icon {
         width: 19px;
         height: 35px;
     }
 
+    form input {
+        font-size: 19px;
+    }
+
     div#form_magnifier img {
         width: 17px;
         height: 17px;
-    }
-
-    div#form_submit input {
-        display: none;
     }
 
     p#filter_title {
@@ -2414,10 +2508,6 @@ ul {
 
     div#info p {
         font-size: 16.7px;
-    }
-
-    .main_border_radius {
-        border-radius: 20px / 20px;
     }
 
     .heb_card {
@@ -2491,10 +2581,6 @@ ul {
         font-size: 4px;
     }
 
-    .border_white {
-        border: 4px solid white;
-    }
-
     h1 {
         font-size: 20px;
     }
@@ -2532,18 +2618,14 @@ ul {
         height: 49px;
     }
 
-    form input {
-        width: 70.2%;
-        font-size: 16.7px;
-    }
-
     img#form_position_icon {
         width: 16px;
         height: 32px;
     }
 
-    div#form_submit input {
-        display: none;
+    form input {
+        width: 70.2%;
+        font-size: 16.7px;
     }
 
     p#filter_title {
@@ -2583,10 +2665,6 @@ ul {
 
     div#info p {
         font-size: 14.7px;
-    }
-
-    .main_border_radius {
-        border-radius: 20px / 20px;
     }
 
     .heb_card {
@@ -2669,10 +2747,6 @@ ul {
         height: 10px;
     }
 
-    .border_white {
-        border: 4px solid white;
-    }
-
     h1 {
         font-size: 17.7px;
     }
@@ -2710,17 +2784,13 @@ ul {
         height: 43px;
     }
 
-    form input {
-        font-size: 14.7px;
-    }
-
     img#form_position_icon {
         width: 15px;
         height: 28px;
     }
 
-    div#form_submit input {
-        display: none;
+    form input {
+        font-size: 14.7px;
     }
 
     div#form_magnifier img {
@@ -2770,10 +2840,6 @@ ul {
 
     div#info p {
         font-size: 12.8px;
-    }
-
-    .main_border_radius {
-        border-radius: 20px / 20px;
     }
 
     .heb_card {
