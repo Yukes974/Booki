@@ -1493,7 +1493,7 @@ ul {
     }
 
     #heb_show_more {
-        font-size: 40px;
+        font-size: 42px;
         margin-bottom: 8%;
     }
 
@@ -1711,11 +1711,6 @@ ul {
         height: 19px;
     }
 
-    div#info p {
-        padding-top: 0%;
-        margin: 0;
-    }
-
     .main_border_radius {
         border-radius: 20px / 20px;
     }
@@ -1726,7 +1721,7 @@ ul {
     }
 
     #heb_show_more {
-        font-size: 27px;
+        font-size: 27.5px;
     }
 
     .heb_img {
@@ -1798,9 +1793,9 @@ ul {
     }
 }
 
-/* Responsiv pour les mobiles dont la largeur est égale à 425px */
+/* Responsiv pour les mobiles dont la largeur est égale à 425px et 428px */
 
-@media all and (max-width: 495px) {
+@media all and (max-width: 500px) {
 
     .star_size {
         width: 16.2px;
@@ -1883,7 +1878,7 @@ ul {
 
     div#info {
         height: 100px;
-        font-size: 20.4px;
+        font-size: 20.2px;
     }
 
     div#info_container_circle {
@@ -1897,11 +1892,6 @@ ul {
         height: 15px;
     }
 
-    div#info p {
-        padding-top: 0;
-        margin: 0;
-    }
-
     .heb_card {
         height: 248px;
         box-shadow: 0 6px 11px 2px #e4e4e4;
@@ -1912,7 +1902,7 @@ ul {
     }
 
     #heb_show_more {
-        font-size: 15px;
+        font-size: 22.4px;
     }
 
     img#graph {
@@ -2037,7 +2027,7 @@ ul {
 
     div#info {
         height: 100px;
-        font-size: 19.7px;
+        font-size: 19.2px;
     }
 
     div#info_container_circle {
@@ -2051,16 +2041,12 @@ ul {
         height: 14px;
     }
 
-    div#info p {
-        font-size: 19.2px;
-    }
-
     .heb_card {
         height: 245px;
     }
 
     #heb_show_more {
-        font-size: 15px;
+        font-size: 22px;
     }
 
     img#graph {
@@ -2130,7 +2116,7 @@ ul {
     }
 
     h2 {
-        font-size: 25.8px;
+        font-size: 25px;
     }
 
     h3 {
@@ -2184,7 +2170,7 @@ ul {
 
     div#info {
         height: 100px;
-        font-size: 19.7px;
+        font-size: 18.4px;
     }
 
     div#info_container_circle {
@@ -2198,20 +2184,21 @@ ul {
         height: 14px;
     }
 
-    div#info p {
-        font-size: 18.4px;
-    }
-
     .heb_card {
         height: 245px;
     }
 
     #heb_show_more {
-        font-size: 15px;
+        font-size: 22.2px;
     }
 
     img#graph {
         width: 27px;
+    }
+
+    .pop_img {
+        max-width: 150px;
+        height: 160px;
     }
 
     .pop_container_content {
@@ -2219,7 +2206,7 @@ ul {
     }
 
     .pop_star {
-        top: 30%;
+        top: 26%;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2336,7 +2323,7 @@ ul {
 
     div#info {
         height: 100px;
-        font-size: 17.9px;
+        font-size: 17.7px;
     }
 
     div#info_container_circle {
@@ -2350,10 +2337,6 @@ ul {
         height: 12px;
     }
 
-    div#info p {
-        font-size: 17.7px;
-    }
-
     .heb_card {
         height: 220px;
     }
@@ -2363,7 +2346,7 @@ ul {
     }
 
     #heb_show_more {
-        font-size: 15px;
+        font-size: 19.5px;
     }
 
     img#graph {
@@ -2492,7 +2475,7 @@ ul {
 
     div#info {
         height: 100px;
-        font-size: 17.1px;
+        font-size: 16.7px;
     }
 
     div#info_container_circle {
@@ -2506,16 +2489,12 @@ ul {
         height: 12.8px;
     }
 
-    div#info p {
-        font-size: 16.7px;
-    }
-
     .heb_card {
         height: 215px;
     }
 
     #heb_show_more {
-        font-size: 15px;
+        font-size: 19.5px;
     }
 
     .pop_container_content {
@@ -2649,7 +2628,7 @@ ul {
 
     div#info {
         height: 100px;
-        font-size: 15px;
+        font-size: 14.7px;
     }
 
     div#info_container_circle {
@@ -2663,10 +2642,6 @@ ul {
         height: 12px;
     }
 
-    div#info p {
-        font-size: 14.7px;
-    }
-
     .heb_card {
         height: 185px;
     }
@@ -2676,7 +2651,7 @@ ul {
     }
 
     #heb_show_more {
-        font-size: 15px;
+        font-size: 16.7px;
     }
 
     img#graph {
@@ -2838,10 +2813,6 @@ ul {
         height: 10px;
     }
 
-    div#info p {
-        font-size: 12.8px;
-    }
-
     .heb_card {
         height: 160px;
     }
@@ -2851,7 +2822,7 @@ ul {
     }
 
     #heb_show_more {
-        font-size: 15px;
+        font-size: 14.7px;
     }
 
     img#graph {
