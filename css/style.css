@@ -98,8 +98,8 @@
 }
 
 .star_size {
-    width: 19px;
-    height: 19px;
+    width: 25px;
+    height: 25px;
 }
 
 .star_space_between {
@@ -222,9 +222,9 @@ img#form_position_icon {
     left: 31%;
 }
 
-form input {
+input#search_input {
     width: 56.1%;
-    height: 100px;
+    height: 100%;
     left: 12.2%;
     padding-left: 4%;
     font-size: 35.2px;
@@ -289,7 +289,7 @@ div.filter_elements:hover {
 
 div#info {
     height: 192px;
-    font-size: 31.4px;
+    font-size: 30.3px;
 }
 
 div#info_container_circle {
@@ -421,8 +421,8 @@ figure#card_iles_frioul {
 }
 
 figure#card_iles_frioul img {
-    height: 210px;
-    object-position: 0 19%;
+    height: 225px;
+    object-position: 0 18%;
 }
 
 .card_figure_1 img {
@@ -444,7 +444,7 @@ figure#card_longchamp {
 }
 
 figure#card_longchamp img {
-    height: 290px;
+    height: 300px;
     object-position: 0 19%;
 }
 
@@ -466,9 +466,13 @@ figcaption {
     border-radius: 50px 50px 0 0 / 50px 50px 0 0;
 }
 
+.act_box_shadow {
+    box-shadow: 0 4px 17px 8px #F2F2F2;
+}
+
 footer {
     flex-direction: row;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .footer_propos_width {
@@ -543,7 +547,7 @@ ul {
         height: 70px;
     }
 
-    form input {
+    input#search_input {
         font-size: 38px;
     }
 
@@ -592,6 +596,10 @@ ul {
     figure#card_longchamp img {
         height: 300px;
         object-position: 0 23%;
+    }
+
+    footer {
+        margin-top: 3.5%;
     }
 }
 
@@ -668,7 +676,7 @@ ul {
         height: 39px;
     }
 
-    form input {
+    input#search_input {
         width: 57.5%;
         left: 11.8%;
         padding-left: 4.6%;
@@ -799,7 +807,7 @@ ul {
     }
 
     .act_box_shadow {
-        box-shadow: 0 4px 10px 6px #F2F2F2;
+        box-shadow: 0 4px 12px 4px #F2F2F2;
     }
 
     footer {
@@ -890,7 +898,7 @@ ul {
         height: 34px;
     }
 
-    form input {
+    input#search_input {
         left: 11.8%;
         font-size: 17.7px;
     }
@@ -995,6 +1003,10 @@ ul {
         padding: 5% 0 0 5.7%;
     }
 
+    .act_box_shadow {
+        box-shadow: 0 4px 12px 3px #F2F2F2;
+    }
+
     footer {
         height: 200px;
     }
@@ -1089,7 +1101,7 @@ ul {
         height: 26px;
     }
 
-    form input {
+    input#search_input {
         left: 11.8%;
         font-size: 13.8px;
     }
@@ -1207,6 +1219,10 @@ ul {
         padding: 5% 0 0 5.7%;
     }
 
+    .act_box_shadow {
+        box-shadow: 0 4px 10px 1px #F2F2F2;
+    }
+
     footer {
         height: 170px;
     }
@@ -1258,6 +1274,10 @@ ul {
     }
 
     .space_betw_card_resp {
+        margin-bottom: 4%;
+    }
+
+    .act_space_betw_card_resp {
         margin-bottom: 7%;
     }
 
@@ -1346,7 +1366,7 @@ ul {
         height: 78px;
     }
 
-    form input {
+    input#search_input {
         width: 70.2%;
         left: 15%;
         padding-left: 5.4%;
@@ -1455,7 +1475,7 @@ ul {
 
     .heb_card {
         height: 440px;
-        box-shadow: 0 8px 20px 8px #e4e4e4;
+        box-shadow: 0 2px 27px 0px #e4e4e4;
     }
 
     div.heb_card:hover {
@@ -1500,15 +1520,12 @@ ul {
 
     #act_container {
         padding: 0 6.8% 0 6.8%;
+        margin-bottom: 13%;
     }
 
     div#act_containers_img {
         height: auto;
         flex-wrap: wrap;
-    }
-
-    #act_containers_img div {
-        margin: 0 0 7% 0;
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -1555,11 +1572,11 @@ ul {
     }
 
     .act_box_shadow {
-        box-shadow: 0 9px 14px 2px #F2F2F2;
+        box-shadow: 0 9px 27px 3px #F2F2F2;
     }
 
     footer {
-        margin-top: 50px;
+        height: auto;
     }
 
     footer div p {
@@ -1643,7 +1660,7 @@ ul {
         height: 53px;
     }
 
-    form input {
+    input#search_input {
         font-size: 29px;
     }
 
@@ -1693,7 +1710,7 @@ ul {
 
     .heb_card {
         height: 310px;
-        box-shadow: 0 2px 11px 0px #e4e4e4;
+        box-shadow: 0 2px 25px 0px #e4e4e4;
     }
 
     #heb_show_more {
@@ -1755,9 +1772,9 @@ ul {
     .act_img_border_radius {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
-    
-    footer {
-        height: auto;
+
+    .act_box_shadow {
+        box-shadow: 0 9px 18px 1px #F2F2F2;
     }
 
     footer div p {
@@ -1774,8 +1791,8 @@ ul {
 @media all and (max-width: 500px) {
 
     .star_size {
-        width: 16.2px;
-        height: 16.2px;
+        width: 16.7px;
+        height: 16.7px;
     }
 
     .star_space_between {
@@ -1795,11 +1812,11 @@ ul {
     }
 
     h3 {
-        font-size: 19.1px;
+        font-size: 19.7px;
     }
 
     h3 + p {
-        font-size: 17.2px;
+        font-size: 17.7px;
     }
 
     div#logo img {
@@ -1824,7 +1841,7 @@ ul {
         height: 43px;
     }
 
-    form input {
+    input#search_input {
         font-size: 22.5px;
     }
 
@@ -1870,7 +1887,7 @@ ul {
 
     .heb_card {
         height: 248px;
-        box-shadow: 0 6px 11px 2px #e4e4e4;
+        box-shadow: 0 2px 20px 0px #e4e4e4;
     }
 
     div.heb_card:hover {
@@ -1882,7 +1899,7 @@ ul {
     }
 
     #heb_show_more {
-        font-size: 22.4px;
+        font-size: 22px;
     }
 
     img#graph {
@@ -1982,7 +1999,7 @@ ul {
         height: 42px;
     }
 
-    form input {
+    input#search_input {
         font-size: 21.3px;
     }
 
@@ -2100,7 +2117,7 @@ ul {
         height: 38px;
     }
 
-    form input {
+    input#search_input {
         font-size: 20.6px;
     }
 
@@ -2141,6 +2158,7 @@ ul {
 
     .heb_card {
         height: 245px;
+        box-shadow: 0 2px 18px 0px #e4e4e4;
     }
 
     #heb_show_more {
@@ -2232,7 +2250,7 @@ ul {
         height: 38px;
     }
 
-    form input {
+    input#search_input {
         font-size: 19.7px;
     }
 
@@ -2363,7 +2381,7 @@ ul {
         height: 35px;
     }
 
-    form input {
+    input#search_input {
         font-size: 19px;
     }
 
@@ -2494,7 +2512,7 @@ ul {
         height: 32px;
     }
 
-    form input {
+    input#search_input {
         width: 70.2%;
         font-size: 16.7px;
     }
@@ -2639,7 +2657,7 @@ ul {
         height: 28px;
     }
 
-    form input {
+    input#search_input {
         font-size: 14.7px;
     }
 

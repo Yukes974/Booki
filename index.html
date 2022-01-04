@@ -47,7 +47,7 @@
                             <div id="form_container_position_icon" class="background_grey height_100_percent absolute">
                                 <img src="images/icone/map-marker-alt.png" id="form_position_icon" class="absolute" alt="" />
                             </div>
-                            <input type="search" name="search" placeholder="Marseille, France" class="absolute height_100_percent bottom_0px bold" />
+                            <input id="search_input" type="search" name="search" placeholder="Marseille, France" class="absolute height_100_percent bottom_0px bold" />
                             <div id="form_submit">
                                 <input type="submit" value="Rechercher" class="absolute height_100_percent bottom_0px bold" />
                             </div>
@@ -124,7 +124,6 @@
                 <section class="flex justify_space_between">
                     <!-- Conteneur "Hébergements à Marseille" -->
                     <div id="heb_container" class="background_grey flex main_border_radius flex_column heb_container_width width_100_resp">
-                        <!-- Pour centrer les éléments dans le conteneur -->
                         <h2 id="hebergements">
                             Hébergements à Marseille
                         </h2>
@@ -260,7 +259,7 @@
                     </div>
                     <!-- Conteneur "Les plus populaires"-->
                     <div id="pop_container" class="background_grey main_border_radius flex flex_column pop_container_width width_100_resp justify_center">
-                        <!-- Bloc qui contient le titre et l'image "graph"-->
+                        <!-- Bloc qui contient le titre et l'icône "graph"-->
                         <div class="flex justify_space_between width_100_percent">
                             <h2>
                                 Les plus populaires
@@ -277,7 +276,7 @@
                                 <a href="#">
                                     <div class="flex">
                                         <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="pop_img width_100_percent object_cover" alt="" />
-                                        <!-- Bloc contenant le text et les étoiles -->
+                                        <!-- Bloc contenant le texte et les étoiles -->
                                         <div class="pop_container_content">
                                             <h3 class="color_black margin_bottom_2_percent">
                                                 Hôtel Le soleil du matin
@@ -351,7 +350,7 @@
                     <!-- Conteneur englobant tous les conteneurs images -->
                     <div id="act_containers_img" class="flex justify_space_between">
                         <!-- Conteneur qui affiche 1 image cliquable -->
-                        <div class="width_100_percent act_figure_margin_right">
+                        <div class="width_100_percent act_figure_margin_right act_space_betw_card_resp">
                             <a href="#">
                                 <figure class="card_figure_1 main_border_radius act_box_shadow height_100_percent width_100_resp">
                                     <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="width_100_percent height_100_percent act_img_border_radius object_cover" alt="" />
@@ -362,9 +361,9 @@
                             </a>
                         </div>
                         <!-- Conteneur qui affiche 2 images cliquables -->
-                        <div class="flex flex_column justify_space_between width_100_percent act_figure_margin_right">
+                        <div class="flex flex_column justify_space_between width_100_percent act_figure_margin_right act_space_betw_card_resp">
                             <a href="#">
-                                <figure id="card_fort_pomegues" class="main_border_radius act_box_shadow width_100_resp space_betw_card_resp">
+                                <figure id="card_fort_pomegues" class="main_border_radius act_box_shadow width_100_resp act_space_betw_card_resp">
                                     <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="width_100_percent act_img_border_radius object_cover" alt="" />
                                     <figcaption class="color_black bold">
                                         Fort de Pomègues
@@ -381,7 +380,7 @@
                             </a>                               
                         </div>
                         <!-- Conteneur qui affiche 1 image cliquable -->
-                        <div class="width_100_percent act_figure_margin_right">
+                        <div class="width_100_percent act_figure_margin_right act_space_betw_card_resp">
                             <a href="#">
                                 <figure class="card_figure_1 main_border_radius act_box_shadow height_100_percent width_100_resp">
                                     <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="width_100_percent height_100_percent act_img_border_radius object_cover" alt="" />
@@ -394,7 +393,7 @@
                         <!-- Conteneur qui affiche 2 images cliquables -->
                         <div class="flex_column justify_space_between flex width_100_percent">
                             <a href="#">
-                                <figure id="card_dame_garde" class="main_border_radius act_box_shadow space_betw_card_resp width_100_resp">
+                                <figure id="card_dame_garde" class="main_border_radius act_box_shadow act_space_betw_card_resp width_100_resp">
                                     <img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="width_100_percent act_img_border_radius object_cover" alt="" />
                                     <figcaption class="color_black bold">
                                         Notre-Dame-de-la-Garde
@@ -414,7 +413,7 @@
                 </section>
             </div>
         </main>
-        <footer class="margin_top_2_percent">
+        <footer>
             <div class="block_page flex flex_column_responsiv">
                 <!-- Conteneur "A propos de nous" -->
                 <div class="footer_propos_width width_auto background_grey">
