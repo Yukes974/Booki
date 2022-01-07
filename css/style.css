@@ -247,9 +247,8 @@ div#filter {
     padding: 2% 0 1% 0;
 }
 
-p#filter_title {
+span#filter_title {
     margin: 0 2.4% 0 0.5%;
-    font-size: 33px;
 }
 
 div.filter_elements {
@@ -271,14 +270,17 @@ div.filter_circle {
     height: 40px;
 }
 
-p.filter_label {
+span.filter_label {
     margin: 1% 0 0 30px;
-    font-size: 33px;
 }
 
 div.filter_elements:hover {
     color: white;
     background-color: #0065FC;
+}
+
+span.filter_title_label_font_size_desktop {
+    font-size: 33px;
 }
 
 div#info {
@@ -348,7 +350,7 @@ div.heb_card:hover {
     box-shadow: 0 4px 20px 11px #e4e4e4;
 }
 
-#heb_show_more {
+span#heb_show_more {
     font-size: 34.5px;
     margin-bottom: 0;
 }
@@ -477,7 +479,7 @@ footer {
     width: 90%;
 }
 
-footer div p {
+footer div span {
     font-size: 30px;
     padding-top: 4%;
     margin-bottom: 3%;
@@ -545,11 +547,7 @@ ul {
         font-size: 38px;
     }
 
-    p#filter_title {
-        font-size: 35px;
-    }
-
-    p.filter_label {
+    span.filter_title_label_font_size_desktop {
         font-size: 35px;
     }
 
@@ -674,10 +672,6 @@ ul {
         font-size: 18px;
     }
 
-    p#filter_title {
-        font-size: 20px;
-    }
-
     div.filter_circle {
         height: 55px;
         width: 55px;
@@ -688,8 +682,11 @@ ul {
         height: 25px;
     }
     
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 10px;
+    }
+
+    span.filter_title_label_font_size_desktop {
         font-size: 20px;
     }
     
@@ -727,7 +724,7 @@ ul {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 19.5px;
     }
 
@@ -799,7 +796,7 @@ ul {
         height: 200px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 18px;
     }
 
@@ -894,10 +891,6 @@ ul {
         font-size: 18px;
     }
 
-    p#filter_title {
-        font-size: 17.3px;
-    }
-
     div.filter_circle {
         height: 50px;
         width: 50px;
@@ -908,8 +901,11 @@ ul {
         height: 20px;
     }
     
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 10px;
+    }
+
+    span.filter_title_label_font_size_desktop {
         font-size: 17.3px;
     }
     
@@ -933,7 +929,7 @@ ul {
         height: 120px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 17px;
     }
 
@@ -996,7 +992,7 @@ ul {
         height: 200px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 18px;
     }
 
@@ -1097,10 +1093,6 @@ ul {
         font-size: 13.8px;
     }
 
-    p#filter_title {
-        font-size: 13.7px;
-    }
-
     div.filter_circle {
         height: 37px;
         width: 37px;
@@ -1111,8 +1103,11 @@ ul {
         height: 16px;
     }
     
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 10px;
+    }
+
+    span.filter_title_label_font_size_desktop {
         font-size: 13.7px;
     }
     
@@ -1141,7 +1136,7 @@ ul {
         height: 85px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 14px;
     }
 
@@ -1212,7 +1207,7 @@ ul {
         height: 170px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 15px;
     }
 
@@ -1389,7 +1384,7 @@ ul {
         flex-wrap: wrap;
     }
 
-    p#filter_title {
+    span#filter_title {
         margin-bottom: 2%;
         font-size: 40px;
     }
@@ -1409,7 +1404,7 @@ ul {
         height: 45px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 30px;
         font-size: 39px;
     }
@@ -1473,7 +1468,7 @@ ul {
         object-position: 0 50%;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 42px;
         margin-bottom: 8%;
     }
@@ -1564,7 +1559,7 @@ ul {
         height: auto;
     }
 
-    footer div p {
+    footer div span {
         font-size: 42px;
     }
 
@@ -1654,7 +1649,7 @@ ul {
         height: 25px;
     }
 
-    p#filter_title {
+    span#filter_title {
         font-size: 28px;
     }
 
@@ -1668,7 +1663,7 @@ ul {
         height: 30px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 20px;
         font-size: 27px;
     }
@@ -1698,7 +1693,7 @@ ul {
         box-shadow: 0 2px 25px 0px #e4e4e4;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 27.5px;
     }
 
@@ -1762,7 +1757,7 @@ ul {
         box-shadow: 0 9px 18px 1px #F2F2F2;
     }
 
-    footer div p {
+    footer div span {
         font-size: 30px;
     }
 
@@ -1835,7 +1830,7 @@ ul {
         height: 21px;
     }
 
-    p#filter_title {
+    span#filter_title {
         font-size: 20px;
     }
 
@@ -1849,7 +1844,7 @@ ul {
         height: 20px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 20px;
         font-size: 21px;
     }
@@ -1883,7 +1878,7 @@ ul {
         height: 142px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 22px;
     }
 
@@ -1937,7 +1932,7 @@ ul {
         box-shadow: 0 4px 11px 4px #F2F2F2;
     }
 
-    footer div p {
+    footer div span {
         font-size: 23px;
     }
 
@@ -1998,7 +1993,7 @@ ul {
         width: 50px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 20px;
         font-size: 19.7px;
     }
@@ -2023,7 +2018,7 @@ ul {
         height: 245px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 22px;
     }
 
@@ -2051,7 +2046,7 @@ ul {
         font-size: 18.8px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 23px;
     }
 
@@ -2111,7 +2106,7 @@ ul {
         height: 18px;
     }
 
-    p#filter_title {
+    span#filter_title {
         font-size: 18px;
     }
 
@@ -2120,7 +2115,7 @@ ul {
         width: 50px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 15px;
         font-size: 19px;
     }
@@ -2146,7 +2141,7 @@ ul {
         box-shadow: 0 2px 18px 0px #e4e4e4;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 22.2px;
     }
 
@@ -2179,7 +2174,7 @@ ul {
         font-size: 19.3px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 23px;
     }
 
@@ -2244,7 +2239,7 @@ ul {
         height: 18px;
     }
 
-    p#filter_title {
+    span#filter_title {
         font-size: 18px;
     }
 
@@ -2253,7 +2248,7 @@ ul {
         width: 45px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 15px;
         font-size: 18.5px;
     }
@@ -2282,7 +2277,7 @@ ul {
         height: 125px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 19.5px;
     }
 
@@ -2315,7 +2310,7 @@ ul {
         font-size: 17px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 20.9px;
     }
 
@@ -2375,7 +2370,7 @@ ul {
         height: 17px;
     }
 
-    p#filter_title {
+    span#filter_title {
         font-size: 17px;
     }
 
@@ -2384,7 +2379,7 @@ ul {
         width: 45px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 15px;
         font-size: 17px;
     }
@@ -2409,7 +2404,7 @@ ul {
         height: 215px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 19.5px;
     }
 
@@ -2433,7 +2428,7 @@ ul {
         font-size: 16.4px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 20.4px;
     }
 
@@ -2502,7 +2497,7 @@ ul {
         font-size: 16.7px;
     }
 
-    p#filter_title {
+    span#filter_title {
         font-size: 15px;
     }
 
@@ -2516,7 +2511,7 @@ ul {
         height: 17px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 10px;
         font-size: 15.8px;
     }
@@ -2549,7 +2544,7 @@ ul {
         height: 107px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 16.7px;
     }
 
@@ -2582,7 +2577,7 @@ ul {
         font-size: 14.4px;
     }
 
-    footer div p {
+    footer div span {
         font-size: 18px;
     }
 
@@ -2651,7 +2646,7 @@ ul {
         height: 14px;
     }
 
-    p#filter_title {
+    span#filter_title {
         font-size: 12px;
     }
 
@@ -2670,7 +2665,7 @@ ul {
         height: 14px;
     }
 
-    p.filter_label {
+    span.filter_label {
         margin: 1% 0 0 10px;
         font-size: 13.5px;
     }
@@ -2703,7 +2698,7 @@ ul {
         height: 90px;
     }
 
-    #heb_show_more {
+    span#heb_show_more {
         font-size: 14.7px;
     }
 
@@ -2740,7 +2735,7 @@ ul {
         box-shadow: 0 4px 9px 4px #F2F2F2;
     }
 
-    footer div p {
+    footer div span {
         font-size: 15.5px;
     }
 
