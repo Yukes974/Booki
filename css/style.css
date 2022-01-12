@@ -699,9 +699,24 @@ ul {
         width: 55px;
     }
 
+    .filter_economique_icon_size {
+        width: 23px;
+        height: 30px;
+    }
+
     .filter_familial_icon_size {
         width: 25px;
         height: 25px;
+    }
+    
+    .filter_romantique_icon_size {
+        width: 24px;
+        height: 27px;
+    }
+    
+    .filter_animaux_icon_size {
+        width: 27px;
+        height: 29px;
     }
     
     span.filter_label {
@@ -914,9 +929,24 @@ ul {
         width: 50px;
     }
 
+    .filter_economique_icon_size {
+        width: 19px;
+        height: 26px;
+    }
+
     .filter_familial_icon_size {
         width: 20px;
         height: 20px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 19px;
+        height: 21px;
+    }
+    
+    .filter_animaux_icon_size {
+        width: 21px;
+        height: 23px;
     }
     
     span.filter_label {
@@ -1112,9 +1142,24 @@ ul {
         width: 37px;
     }
 
+    .filter_economique_icon_size {
+        width: 14px;
+        height: 21px;
+    }
+
     .filter_familial_icon_size {
         width: 16px;
         height: 16px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 15px;
+        height: 17px;
+    }
+    
+    .filter_animaux_icon_size {
+        width: 17px;
+        height: 19px;
     }
     
     span.filter_label {
@@ -1665,13 +1710,28 @@ ul {
     }
 
     div.filter_circle {
-        height: 100px;
-        width: 100px;
+        height: 104px;
+        width: 104px;
+    }
+
+    .filter_economique_icon_size {
+        width: 40px;
+        height: 51px;
     }
 
     .filter_familial_icon_size {
         width: 45px;
         height: 45px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 37px;
+        height: 43px;
+    }
+
+    .filter_animaux_icon_size {
+        width: 45px;
+        height: 50px;
     }
 
     span.filter_label {
@@ -1808,13 +1868,28 @@ ul {
     }
 
     div.filter_circle {
-        height: 70px;
-        width: 70px;
+        height: 75px;
+        width: 75px;
+    }
+
+    .filter_economique_icon_size {
+        width: 29px;
+        height: 40px;
     }
 
     .filter_familial_icon_size {
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 27px;
+        height: 33px;
+    }
+
+    .filter_animaux_icon_size {
+        width: 32px;
+        height: 37px;
     }
 
     span.filter_label {
@@ -1993,9 +2068,24 @@ ul {
         width: 50px;
     }
 
+    .filter_economique_icon_size {
+        width: 20px;
+        height: 28px;
+    }
+
     .filter_familial_icon_size {
         width: 20px;
         height: 20px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 18px;
+        height: 22px;
+    }
+
+    .filter_animaux_icon_size {
+        width: 22px;
+        height: 27px;
     }
 
     span.filter_label {
@@ -2398,8 +2488,28 @@ ul {
     }
 
     div.filter_circle {
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .filter_economique_icon_size {
+        width: 19px;
+        height: 27px;
+    }
+
+    .filter_familial_icon_size {
+        width: 22px;
+        height: 22px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 18px;
+        height: 22px;
+    }
+
+    .filter_animaux_icon_size {
+        width: 22px;
+        height: 27px;
     }
 
     span.filter_label {
@@ -2529,8 +2639,8 @@ ul {
     }
 
     div.filter_circle {
-        height: 45px;
-        width: 45px;
+        height: 51px;
+        width: 51px;
     }
 
     span.filter_label {
@@ -2656,13 +2766,28 @@ ul {
     }
 
     div.filter_circle {
-        height: 40px;
-        width: 40px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .filter_economique_icon_size {
+        width: 17px;
+        height: 23px;
     }
 
     .filter_familial_icon_size {
-        width: 17px;
-        height: 17px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 16px;
+        height: 20px;
+    }
+
+    .filter_animaux_icon_size {
+        width: 18px;
+        height: 23px;
     }
 
     span.filter_label {
