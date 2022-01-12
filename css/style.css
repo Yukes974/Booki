@@ -244,7 +244,7 @@ div#form_magnifier input, div#form_magnifier img {
 /* Partie "Filtres" */
 
 div#filter {
-    padding: 2% 0 1% 0;
+    padding: 2% 0 0 0;
 }
 
 span#filter_title {
@@ -306,7 +306,7 @@ div#info {
 div#info_container_circle {
     width: 50px;
     height: 50px;
-    margin: 0 1% 0 0.5%;
+    margin: 0 1% 0.2% 0.5%;
     border-radius: 100%;
 }
 
@@ -1255,6 +1255,217 @@ ul {
     figcaption {
         font-size: 13px;
         height: 41px;
+        padding: 5% 0 0 5.7%;
+    }
+
+    .act_box_shadow {
+        box-shadow: 0 4px 10px 1px #F2F2F2;
+    }
+
+    footer div span {
+        font-size: 15px;
+    }
+
+    ul {
+        font-size: 13.4px;
+    }
+}
+
+/* Responsiv pour les écrans dont la largeur est égale à 912px */
+
+@media all and (max-width: 1100px) {
+
+    .star_size {
+        width: 9.7px;
+        height: 9.7px;
+    }
+
+    .border_white {
+        border: 3px solid white;
+    }
+
+    h1 {
+        font-size: 15.2px;
+    }
+
+    h1 + p {
+        font-size: 11.4px;
+    }
+
+    h2 {
+        font-size: 15.5px;
+    }
+
+    h3 {
+        font-size: 11.3px;
+    }
+
+    h3 + p {
+        font-size: 10.1px;
+    }
+
+    div#logo img {
+        width: 71px;
+        height: 31px;
+    }
+
+    .menu {
+        height: 70px;
+    }
+
+    .menu div {
+        padding: 4% 0 5% 0;
+    }
+
+    .menu div a {
+        font-size: 12px;
+        padding: 0 22px 0 22px;
+    }
+
+    div#search {
+        height: 35px;
+    }
+
+    img#form_position_icon {
+        width: 11px;
+        height: 24px;
+    }
+
+    input#search_input {
+        left: 11.8%;
+        font-size: 12.2px;
+    }
+
+    div#form_submit input {
+        left: 68.8%;
+        padding-left: 2%;
+        font-size: 12.2px;
+    }
+
+    div.filter_circle {
+        height: 30px;
+        width: 30px;
+    }
+
+    .filter_economique_icon_size {
+        width: 12px;
+        height: 17px;
+    }
+
+    .filter_familial_icon_size {
+        width: 14px;
+        height: 14px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 12px;
+        height: 14px;
+    }
+    
+    .filter_animaux_icon_size {
+        width: 13px;
+        height: 15px;
+    }
+    
+    span.filter_label {
+        margin: 1% 0 0 10px;
+    }
+
+    span.filter_title_label_font_size_desktop {
+        font-size: 12.8px;
+    }
+    
+    div#info {
+        height: 55px;
+        font-size: 10.9px;
+    }
+
+    div#info_container_circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    div#info_container_circle img {
+        width: 8px;
+        height: 8px;
+    }
+
+    .main_border_radius {
+        border-radius: 13px;
+    }
+
+    .heb_card {
+        height: 139px;
+        margin-bottom: 3.5%;
+    }
+
+    .heb_img {
+        width: 170px;
+        height: 80px;
+        border-radius: 11px 11px 0 0 / 11px 11px 0 0;
+    }
+
+    span#heb_show_more {
+        font-size: 13px;
+    }
+
+    img#graph {
+        width: 17px;
+    }
+
+    .pop_img {
+        max-width: 85px;
+        height: 93px;
+        border-radius: 10px 0 0 10px / 10px 0 0 10px;
+    }
+
+    .pop_container_content {
+        width: 200px;
+    }
+
+    .pop_star {
+        top: 26%;
+    }
+
+    .container_pop_content {
+        width: 270px;
+    }
+
+    div#act_containers_img {
+        height: 335px;
+    }
+
+    .card_figure_1 img {
+        object-position: 50% 13.7%;
+    }
+
+    figure#card_fort_pomegues img {
+        height: 130px;
+        object-position: 0 41%;
+    }
+
+    figure#card_iles_frioul img {
+        height: 87px;
+        object-position: 0 13.7%;
+    }
+
+    figure#card_dame_garde img {
+        height: 102px;
+        object-position: 0 4%;
+    }
+
+    figure#card_longchamp img {
+        height: 115px;
+        object-position: 0 10%;
+    }
+
+    figcaption.figcaption_card_figure_1 {
+       bottom: 45px;
+    }
+
+    figcaption {
+        font-size: 11.8px;
+        height: 37px;
         padding: 5% 0 0 5.7%;
     }
 
