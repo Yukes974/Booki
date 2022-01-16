@@ -106,10 +106,6 @@
     font-size: 1px;
 }
 
-/* Pour avoir une meilleure visibilité sur les éléments de la page web */
-
-
-
 /* Pour pouvoir centrer la page par rapport à sa largeur et hauteur */
 
 div.block_page {
@@ -141,8 +137,8 @@ div#logo {
 /* Taille du logo */
 
 div#logo img {
-    width: 150px;
-    height: 70px;  
+    width: 180px;
+    height: 90px;  
 }
 
 /* Le menu du nav */
@@ -316,7 +312,7 @@ div#info_container_circle img {
 }
 
 .main_border_radius {
-    border-radius: 35px / 35px;
+    border-radius: 45px;
 }
 
 section {
@@ -338,7 +334,7 @@ div#heb_container_img {
 }
 
 .heb_card {
-    height: 377px;
+    height: 385px;
     margin-bottom: 4%;
 }
 
@@ -357,7 +353,7 @@ div.heb_card:hover {
 .heb_img {
     width: 475px;
     height: 230px;
-    border-radius: 27px 27px 0 0 / 27px 27px 0 0;
+    border-radius: 35px 35px 0 0;
 }
 
 .heb_container_content {
@@ -368,9 +364,9 @@ div.heb_card:hover {
     margin-top: 2%;
 }
 
-span#heb_show_more {
+p#heb_show_more {
     font-size: 34.5px;
-    margin-bottom: 0;
+    margin: 1.5% 0 0;
 }
 
 /* Partie "Les plus populaires" */
@@ -383,7 +379,7 @@ img#graph {
     max-width: 240px;
     height: 270px;
     margin: 0 6% 0 0;
-    border-radius: 27px 0 0 27px / 27px 0 0 27px; 
+    border-radius: 35px 0 0 35px; 
 }
 
 .pop_container_content {
@@ -426,7 +422,7 @@ figure {
 }
 
 .card_figure_1 img {
-    object-position: -360px;
+    object-position: 50%;
     clip-path: inset(0 0 12.4% 0);
 }
 
@@ -436,7 +432,7 @@ figure#card_fort_pomegues {
 
 figure#card_fort_pomegues img {
     height: 355px;
-    object-position: 0 40%;
+    object-position: 0 41%;
 }
 
 figure#card_iles_frioul {
@@ -445,7 +441,7 @@ figure#card_iles_frioul {
 
 figure#card_iles_frioul img {
     height: 225px;
-    object-position: 0 18%;
+    object-position: 0 17%;
 }
 
 figure#card_dame_garde {
@@ -454,7 +450,7 @@ figure#card_dame_garde {
 
 figure#card_dame_garde img {
     height: 277px;
-    object-position: 0 0%;
+    object-position: 0 5%;
 }
 
 figure#card_longchamp {
@@ -477,11 +473,11 @@ figcaption {
 }
 
 .act_figure_margin_right {
-    margin-right: 2.5%;
+    margin-right: 3%;
 }
 
 .act_img_border_radius {
-    border-radius: 50px 50px 0 0 / 50px 50px 0 0;
+    border-radius: 45px 45px 0 0;
 }
 
 .act_box_shadow {
@@ -556,6 +552,11 @@ ul {
         height: 75px;  
     }
 
+    .menu div a {
+        font-size: 25px;
+        padding: 0 47px 0 47px;
+    }
+
     h1 {
         font-size: 37.8px;
     }
@@ -565,7 +566,7 @@ ul {
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 39px;
     }
 
     h3 {
@@ -626,6 +627,27 @@ ul {
         margin: 1% 0 0 25px;
     }
 
+    div#info {
+        height: 170px;
+        font-size: 28.5px;
+    }
+    
+    div#info_container_circle {
+        width: 47px;
+        height: 47px;
+        margin: 0 0.7% 0.2% 0.5%;
+        border-radius: 100%;
+    }
+    
+    div#info_container_circle img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .main_border_radius {
+        border-radius: 35px;
+    }
+
     .heb_card {
         height: 338px;
     }
@@ -633,10 +655,12 @@ ul {
     .heb_img {
         width: 420px;
         height: 201px;
+        border-radius: 25px 25px 0 0;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 30.5px;
+        margin: 1.2% 0 0;
     }
 
     img#graph {
@@ -646,14 +670,11 @@ ul {
     .pop_img {
         height: 230px;
         max-width: 210px;
+        border-radius: 25px 0 0 25px;
     }
 
     div#act_containers_img {
-        height: 815px;
-    }
-
-    .card_figure_1 img {
-        object-position: -335px;
+        height: 800px;
     }
 
     figure#card_fort_pomegues img {
@@ -666,11 +687,12 @@ ul {
 
     figure#card_dame_garde img {
         height: 250px;
+        object-position: 0 0;
     }
 
     figure#card_longchamp img {
-        height: 257px;
-        object-position: 0 23%;
+        height: 270px;
+        object-position: 0 14%;
     }
 
     figcaption {
@@ -679,8 +701,20 @@ ul {
         padding: 6% 0 0 5.6%;
     }
 
+    .act_img_border_radius {
+        border-radius: 25px 25px 0 0;
+    }
+
     footer {
         margin-top: 3.5%;
+    }
+
+    .footer_heb_padding_left {
+        padding-left: 9.5%;
+    }
+    
+    .footer_assist_padding_left {
+        padding-left: 8%;
     }
 }
 
@@ -819,7 +853,7 @@ ul {
     }
 
     .main_border_radius {
-        border-radius: 20px / 20px;
+        border-radius: 20px;
     }
 
     .heb_card {
@@ -837,7 +871,7 @@ ul {
         border-radius: 20px 20px 0 0 / 20px 20px 0 0;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 19.5px;
     }
 
@@ -1053,7 +1087,7 @@ ul {
         height: 120px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 17px;
     }
 
@@ -1271,7 +1305,7 @@ ul {
         height: 85px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 14px;
     }
 
@@ -1481,7 +1515,7 @@ ul {
         border-radius: 11px 11px 0 0 / 11px 11px 0 0;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 13px;
     }
 
@@ -1792,7 +1826,7 @@ ul {
     }
 
     .main_border_radius {
-        border-radius: 50px / 50px;
+        border-radius: 50px;
     }
 
     section {
@@ -1828,7 +1862,7 @@ ul {
         object-position: 0 50%;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 42.5px;
         margin-bottom: 8%;
     }
@@ -2053,7 +2087,7 @@ ul {
         height: 250px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 42px;
     }
 
@@ -2204,7 +2238,7 @@ ul {
     }
 
     .main_border_radius {
-        border-radius: 20px / 20px;
+        border-radius: 20px;
     }
 
     .heb_card {
@@ -2215,7 +2249,7 @@ ul {
         box-shadow: 0 2px 25px 0px #e4e4e4;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 27.5px;
     }
 
@@ -2418,7 +2452,7 @@ ul {
         height: 142px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 22px;
     }
 
@@ -2558,7 +2592,7 @@ ul {
         height: 245px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 22px;
     }
 
@@ -2684,7 +2718,7 @@ ul {
         box-shadow: 0 2px 18px 0px #e4e4e4;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 22.2px;
     }
 
@@ -2840,7 +2874,7 @@ ul {
         height: 125px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 19.5px;
     }
 
@@ -2967,7 +3001,7 @@ ul {
         height: 215px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 19.5px;
     }
 
@@ -3122,7 +3156,7 @@ ul {
         height: 107px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 16.7px;
     }
 
@@ -3276,7 +3310,7 @@ ul {
         height: 90px;
     }
 
-    span#heb_show_more {
+    p#heb_show_more {
         font-size: 14.7px;
     }
 
