@@ -189,7 +189,7 @@ h3 {
 
 h3 + p {
     font-size: 27.5px;
-    margin: 0;
+    margin: 3% 0 3% 0;
 }
 
 /* Partie Formulaire */
@@ -291,7 +291,7 @@ div.filter_elements:hover {
 }
 
 span.filter_title_label_font_size_desktop {
-    font-size: 35px;
+    font-size: 34px;
 }
 
 div#info {
@@ -326,7 +326,7 @@ div#heb_container {
 }
 
 .heb_container_width {
-    width: 67%;
+    width: 66%;
 }
 
 div#heb_container_img {
@@ -334,7 +334,7 @@ div#heb_container_img {
 }
 
 .heb_card {
-    height: 385px;
+    height: 392px;
     margin-bottom: 4%;
 }
 
@@ -371,8 +371,20 @@ p#heb_show_more {
 
 /* Partie "Les plus populaires" */
 
+#pop_container {
+    padding: 3%;
+}
+
+.pop_container_width {
+    width: 31%;
+}
+
 img#graph {
     width: 45px;
+}
+
+.pop_card {
+    box-shadow: 0 4px 11px 4px #e4e4e4;
 }
 
 .pop_img {
@@ -387,24 +399,12 @@ img#graph {
     padding-right: 8%;
 }
 
-.pop_container_width {
-    width: 30%;
-}
-
-#pop_container {
-    padding: 3%;
-}
-
-.pop_card {
-    box-shadow: 0 4px 11px 4px #e4e4e4;
+.pop_star {
+    top: 26%;
 }
 
 .pop_card_margin_bottom {
     margin-bottom: 8%;
-}
-
-.pop_star {
-    top: 29%;
 }
 
 /* Partie "Activités à Marseille" */
@@ -552,9 +552,17 @@ ul {
         height: 75px;  
     }
 
+    .menu div {
+        padding: 5% 0 5% 0;
+    }
+
     .menu div a {
         font-size: 25px;
         padding: 0 47px 0 47px;
+    }
+
+    .nav_heb_border_color {
+        border-top: 2px solid #0065FC;
     }
 
     h1 {
@@ -620,7 +628,7 @@ ul {
     }
 
     span.filter_title_label_font_size_desktop {
-        font-size: 31.5px;
+        font-size: 30.5px;
     }
 
     span.filter_label {
@@ -649,7 +657,7 @@ ul {
     }
 
     .heb_card {
-        height: 338px;
+        height: 348px;
     }
 
     .heb_img {
@@ -671,6 +679,10 @@ ul {
         height: 230px;
         max-width: 210px;
         border-radius: 25px 0 0 25px;
+    }
+
+    .pop_star {
+        top: 24%;
     }
 
     div#act_containers_img {
@@ -723,42 +735,47 @@ ul {
 @media all and (max-width: 1440px) {
 
     .star_size {
-        width: 15px;
-        height: 15px;
+        width: 13px;
+        height: 13px;
     }
 
     .border_white {
-        border: 3px solid white;
+        border: 4px solid white;
+    }
+
+    .border_grey {
+        border: 2px solid #F2F2F2;
     }
 
     h1 {
-        font-size: 23.8px;
+        font-size: 20.7px;
     }
 
     h1 + p {
-        font-size: 18px;
+        font-size: 15.6px;
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 21.4px;
     }
 
     h3 {
-        font-size: 17.3px;
+        font-size: 15.5px;
     }
 
     h3 + p {
-        font-size: 15.4px;
+        font-size: 14px;
+        margin: 3.5% 0 3.5% 0;
     }
 
     div#logo {
         height: 90px;
-        padding-left: 0.9%;
+        padding-left: 0%;
     }
 
     div#logo img {
-        width: 90px;
-        height: 45px;
+        width: 95px;
+        height: 50px;
     }
 
     .menu {
@@ -766,19 +783,20 @@ ul {
     }
 
     .menu div {
-        padding: 5% 0 5% 0;
+        padding: 5.1% 0 5.1% 0;
     }
 
     .menu div a {
         font-size: 16px;
+        padding: 0 30px 0 30px;
     }
 
     div#search {
-        height: 60px;
+        height: 50px;
     }
 
     form {
-        width: 30.7%;
+        width: 31%;
     }
 
     div#form_container_position_icon {
@@ -786,47 +804,47 @@ ul {
     }
 
     img#form_position_icon {
-        padding-top: 33%;
-        width: 20px;
-        height: 39px;
+        padding-top: 37%;
+        width: 18px;
+        height: 35px;
     }
 
     input#search_input {
         width: 57.5%;
         left: 11.8%;
-        padding-left: 4.6%;
-        font-size: 19.8px;
+        padding-left: 4%;
+        font-size: 17px;
     }
 
     div#form_submit input {
         left: 68.8%;
         padding-left: 2%;
-        font-size: 18px;
+        font-size: 16.2px;
     }
 
     div.filter_circle {
-        height: 55px;
-        width: 55px;
+        height: 48px;
+        width: 48px;
     }
 
     .filter_economique_icon_size {
-        width: 23px;
-        height: 30px;
+        width: 18px;
+        height: 25px;
     }
 
     .filter_familial_icon_size {
-        width: 25px;
-        height: 25px;
+        width: 21px;
+        height: 21px;
     }
     
     .filter_romantique_icon_size {
-        width: 24px;
-        height: 27px;
+        width: 18px;
+        height: 21px;
     }
     
     .filter_animaux_icon_size {
-        width: 27px;
-        height: 29px;
+        width: 21px;
+        height: 23px;
     }
     
     span.filter_label {
@@ -834,22 +852,22 @@ ul {
     }
 
     span.filter_title_label_font_size_desktop {
-        font-size: 20px;
+        font-size: 17.5px;
     }
     
     div#info {
         height: 100px;
-        font-size: 17px;
+        font-size: 15.5px;
     }
 
     div#info_container_circle {
-        width: 35px;
-        height: 35px;
+        width: 27px;
+        height: 27px;
     }
 
     div#info_container_circle img {
-        width: 14px;
-        height: 14px;
+        width: 13px;
+        height: 13px;
     }
 
     .main_border_radius {
@@ -857,7 +875,7 @@ ul {
     }
 
     .heb_card {
-        height: 210px;
+        height: 200px;
         margin-bottom: 3.8%;
     }
 
@@ -866,23 +884,23 @@ ul {
     }
 
     .heb_img {
-        width: 265px;
-        height: 125px;
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+        width: 237px;
+        height: 115px;
+        border-radius: 16px 16px 0 0;
     }
 
     p#heb_show_more {
-        font-size: 19.5px;
+        font-size: 17.6px;
     }
 
     img#graph {
-        width: 25px;
+        width: 23px;
     }
 
     .pop_img {
-        max-width: 140px;
-        height: 150px;
-        border-radius: 20px 0 0 20px / 20px 0 0 20px;
+        max-width: 125px;
+        height: 140px;
+        border-radius: 16px 0 0 16px;
     }
 
     .pop_container_content {
@@ -890,11 +908,11 @@ ul {
     }
 
     .pop_star {
-        top: 28%;
+        top: 26%;
     }
 
     div#act_containers_img {
-        height: 520px;
+        height: 445px;
     }
 
     .card_figure_1 img {
@@ -902,23 +920,23 @@ ul {
     }
 
     figure#card_fort_pomegues img {
-        height: 220px;
-        object-position: 0 38%;
+        height: 177px;
+        object-position: 0 40%;
     }
 
     figure#card_iles_frioul img {
-        height: 130px;
-        object-position: 0 17.3%;
+        height: 109px;
+        object-position: 0 20%;
     }
 
     figure#card_dame_garde img {
-        height: 158.6px;
+        height: 135px;
         object-position: 0 7%;
     }
 
     figure#card_longchamp img {
-        height: 190px;
-        object-position: 0 0%;
+        height: 150px;
+        object-position: 0 16%;
     }
 
     figcaption.figcaption_card_figure_1 {
@@ -926,13 +944,17 @@ ul {
     }
 
     figcaption {
-        font-size: 18.4px;
-        height: 55px;
+        font-size: 16px;
+        height: 51px;
         padding: 5% 0 0 5.7%;
     }
 
+    .act_figure_margin_right {
+        margin-right: 3.2%;
+    }
+
     .act_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+        border-radius: 20px 20px 0 0;
     }
 
     .act_box_shadow {
@@ -944,19 +966,7 @@ ul {
     }
 
     ul {
-        font-size: 16px;
-    }
-
-    .footer_propos_padding_left {
-        padding-left: 13%;
-    }
-    
-    .footer_heb_padding_left {
-        padding-left: 8%;
-    }
-    
-    .footer_assist_padding_left {
-        padding-left: 6%;
+        font-size: 15px;
     }
 }
 
