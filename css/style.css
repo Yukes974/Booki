@@ -1072,8 +1072,8 @@ ul {
     }
 
     .filter_familial_icon_size {
-        width: 17px;
-        height: 17px;
+        width: 19px;
+        height: 19px;
     }
 
     .filter_romantique_icon_size {
@@ -1296,8 +1296,8 @@ ul {
     }
 
     .filter_familial_icon_size {
-        width: 14px;
-        height: 14px;
+        width: 15px;
+        height: 15px;
     }
 
     .filter_romantique_icon_size {
@@ -1437,206 +1437,406 @@ ul {
 
 @media all and (max-width: 991px) {
 
+    .width_100_resp {
+        width: 100%;
+    }
+
+    .text_center {
+        text-align: center;
+    }
+
+    .justify_center_responsiv {
+        justify-content: center ;
+    }
+
+    .flex_column_responsiv {
+        flex-direction: column;
+    }
+
+    .width_auto {
+        width: auto;
+    }
+
     .star_size {
-        width: 9.7px;
-        height: 9.7px;
+        width: 31.2px;
+        height: 31.2px;
+    }
+
+    .star_space_between {
+        font-size: 10px;
     }
 
     .border_white {
-        border: 3px solid white;
+        border: 10px solid white;
+    }
+
+    .border_grey {
+        border: 4px solid #F2F2F2;
+    }
+
+    .space_betw_card_resp {
+        margin-bottom: 4%;
+    }
+
+    .act_space_betw_card_resp {
+        margin-bottom: 7%;
     }
 
     h1 {
-        font-size: 15.2px;
+        font-size: 52.5px;
     }
 
     h1 + p {
-        font-size: 11.4px;
+        font-size: 39.5px;
+        margin: 3% 0 0 0;
     }
 
     h2 {
-        font-size: 15.5px;
+        font-size: 51.3px;
     }
 
     h3 {
-        font-size: 11.3px;
+        font-size: 37px;
     }
 
     h3 + p {
-        font-size: 10.1px;
+        font-size: 33.5px;
+    }
+
+    .margin_bottom_pop {
+        margin-bottom: 10%;
+    }
+
+    div#filter_box {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    div#container_logo_nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.block_centered {
+        padding: 0 5% 0 5%;
+    }
+
+    div#logo {
+        height: 150px;
     }
 
     div#logo img {
-        width: 71px;
-        height: 31px;
+        width: 207px;
+        height: 107px;  
     }
 
     .menu {
-        height: 70px;
+        height: 150px;
     }
 
     .menu div {
-        padding: 4% 0 5% 0;
+        padding-top: 0;
+        padding-bottom: 3%;
     }
 
     .menu div a {
-        font-size: 12px;
-        padding: 0 22px 0 22px;
+        font-size: 40px;
+        padding: 0 2% 0 2%;
+    }
+
+    .nav_heb_border_color {
+        border-top: 0;
+        border-bottom: 5px solid #0065FC;
+    }
+
+    .nav_act_border_color {
+        border-bottom: 5px solid #F2F2F2;
+    }
+
+    .flex_column_mob {
+        flex-direction: column;
     }
 
     div#search {
-        height: 35px;
+        height: 122px;
+        margin: 10% 0 8% 0;
     }
 
     img#form_position_icon {
-        width: 11px;
-        height: 24px;
+        width: 42px;
+        height: 83px;
     }
 
     input#search_input {
-        left: 11.8%;
-        font-size: 12.2px;
+        width: 70.2%;
+        left: 15%;
+        padding-left: 5.4%;
+        font-size: 42px;
     }
 
     div#form_submit input {
-        left: 68.8%;
-        padding-left: 2%;
-        font-size: 12.2px;
+        display: none;
+    }
+
+    div#form_container_position_icon {
+        width: 15.1%;
+    }
+
+    div#form_magnifier input {
+        display: initial;
+        width: 15%;
+        left: 85.5%;
+        border-radius: 30%;
+        background-color: #0065FC;
+    }
+
+    div#form_magnifier img {
+        display: initial;
+        position: absolute;
+        left: 90.7%;
+        top: 35%;
+        color: white;
+        width: 42px;
+        height: 42px;
+    }
+
+    div#filter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    span#filter_title {
+        margin-bottom: 2%;
+        font-size: 41px;
+    }
+
+    div.filter_elements {
+        margin: 2% 1% 2% 0;
+        padding: 0 4% 0 0;
     }
 
     div.filter_circle {
-        height: 30px;
-        width: 30px;
+        height: 117px;
+        width: 117px;
     }
 
     .filter_economique_icon_size {
-        width: 12px;
-        height: 17px;
+        width: 44px;
+        height: 57px;
     }
 
     .filter_familial_icon_size {
-        width: 14px;
-        height: 14px;
+        width: 49px;
+        height: 49px;
     }
 
     .filter_romantique_icon_size {
-        width: 12px;
-        height: 14px;
-    }
-    
-    .filter_animaux_icon_size {
-        width: 13px;
-        height: 15px;
-    }
-    
-    span.filter_label {
-        margin: 1% 0 0 10px;
+        width: 40px;
+        height: 46px;
     }
 
-    span.filter_title_label_font_size_desktop {
-        font-size: 12.8px;
+    .filter_animaux_icon_size {
+        width: 46px;
+        height: 51px;
     }
-    
+
+    span.filter_label {
+        margin: 1% 0 0 30px;
+        font-size: 40px;
+    }
+
     div#info {
-        height: 55px;
-        font-size: 10.9px;
+        height: 220px;
+        font-size: 39.4px;
     }
 
     div#info_container_circle {
-        width: 20px;
-        height: 20px;
+        height: 62px;
+        width: 85px;
+        margin: 0 3% 5.7% 0;
     }
 
     div#info_container_circle img {
-        width: 8px;
-        height: 8px;
+        width: 32px;
+        height: 32px;
+    }
+
+    div#info p {
+        padding-top: 0%;
+        margin: 0;
+    }
+
+    main {
+        padding: 0;
     }
 
     .main_border_radius {
-        border-radius: 13px;
+        border-radius: 50px;
+    }
+
+    section {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    div#heb_container {
+        padding: 9% 5% 7% 5%;
+        background-color: white;
+    }
+
+    div#heb_container, div#pop_container {
+        border-radius: initial;
     }
 
     .heb_card {
-        height: 139px;
-        margin-bottom: 3.5%;
+        height: 465px;
+    }
+
+    .heb_card_shadow {
+        box-shadow: 0 2px 27px 0px #e4e4e4;
+    }
+
+    div.heb_card:hover {
+        box-shadow: 0 4px 20px 7px #e9d0d0;
     }
 
     .heb_img {
-        width: 170px;
-        height: 80px;
-        border-radius: 11px 11px 0 0 / 11px 11px 0 0;
+        height: 270px;
+        border-radius: 40px 40px 0 0;
+        object-position: 0 50%;
+    }
+
+    .heb_container_content {
+        padding-left: 3.5%;
     }
 
     p#heb_show_more {
-        font-size: 13px;
+        font-size: 42.5px;
+        margin: 6% 0 0;
+    }
+
+    #pop_container {
+        padding: 10% 5%;
     }
 
     img#graph {
-        width: 17px;
+        width: 52px;
     }
 
     .pop_img {
-        max-width: 85px;
-        height: 93px;
-        border-radius: 10px 0 0 10px / 10px 0 0 10px;
+        max-width: 325px;
+        height: 332px;
+        margin: 0 4% 0 0;              
+        object-position: 51% 40%;
+        clip-path: inset(0 3% 0 0);
+        border-radius: 40px 0 0 40px;
     }
 
     .pop_container_content {
-        width: 200px;
+        width: 525px;
+    }
+
+    .heb_content_p_margin {
+        margin: 2% 0 2% 0;
     }
 
     .pop_star {
-        top: 26%;
+        top: 28.5%;
     }
 
-    .container_pop_content {
-        width: 270px;
+    section#act_container {
+        margin: 6% 0 13% 0;
+        padding: 0 5% 0 5%;
     }
 
     div#act_containers_img {
+        display: initial;
+        height: initial;
+        flex-wrap: wrap;
+    }
+    
+    figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
+        height: 455px;
+    }
+    
+    figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
         height: 335px;
     }
 
+    .card_figure_1 img {
+        object-position: 0 16%;
+        clip-path: initial;
+    }
+
     figure#card_fort_pomegues img {
-        height: 130px;
-        object-position: 0 41%;
+        object-position: 0 42%;
     }
 
     figure#card_iles_frioul img {
-        height: 87px;
-        object-position: 0 13.7%;
+        object-position: 0 16.1%;
     }
 
     figure#card_dame_garde img {
-        height: 102px;
-        object-position: 0 4%;
+        object-position: 0 13.8%;
     }
 
     figure#card_longchamp img {
-        height: 115px;
-        object-position: 0 10%;
+        object-position: 0 24.5%;
     }
 
     figcaption.figcaption_card_figure_1 {
-       bottom: 45px;
+        position: inherit;
     }
 
     figcaption {
-        font-size: 11.8px;
-        height: 37px;
-        padding: 5% 0 0 5.7%;
+        font-size: 38px;
+        height: 0;
+        padding: 4% 0 0 5.7%;
+    }
+
+    .act_img_border_radius {
+        border-radius: 50px 50px 0 0;
     }
 
     .act_box_shadow {
-        box-shadow: 0 4px 10px 1px #F2F2F2;
+        box-shadow: 0 9px 27px 3px #F2F2F2;
+    }
+
+    footer {
+        height: auto;
     }
 
     footer div span {
-        font-size: 15px;
+        font-size: 40px;
     }
 
     ul {
-        font-size: 13.4px;
+        font-size: 35px;
+    }
+
+    .footer_propos_padding_top {
+        padding-top: 13%;
+    }
+
+    .footer_hebergements_padding_top {
+        padding-top: 8%;
+    }
+
+    .footer_assistance_padding_top {
+        padding-top: 10%;
+    }
+
+    .footer_margin_bottom {
+        margin-bottom: 2%;
+    }
+
+    .footer_margin_bottom_responsiv {
+        margin-bottom: 10%;
+    }
+
+    .footer_resp_padding_left {
+        padding-left: 8%;
     }
 }
 
