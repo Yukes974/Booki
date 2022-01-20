@@ -1568,7 +1568,7 @@ ul {
     }
 
     input#search_input {
-        width: 70.2%;
+        width: 73%;
         left: 15%;
         padding-left: 5.4%;
         font-size: 42px;
@@ -1981,31 +1981,31 @@ ul {
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 455px;
+        height: 430px;
     }
     
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 335px;
+        height: 320px;
     }
 
     .card_figure_1 img {
-        object-position: 0 -3%;
+        object-position: 0 6%;
     }
 
     figure#card_fort_pomegues img {
-        object-position: 0 39.3%;
+        object-position: 0 40.5%;
     }
 
     figure#card_iles_frioul img {
-        object-position: 0 -2%;
+        object-position: 0 6%;
     }
 
     figure#card_dame_garde img {
-        object-position: 0 -5%;
+        object-position: 0 5%;
     }
 
     figure#card_longchamp img {
-        object-position: 0 11.9%;
+        object-position: 0 18%;
     }
 
     figcaption {
@@ -2146,11 +2146,27 @@ ul {
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 414px;
+        height: 405px;
     }
     
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 314px;
+        height: 303px;
+    }
+
+    .card_figure_1 img {
+        object-position: 0 5%;
+    }
+
+    figure#card_iles_frioul img {
+        object-position: 0 5%;
+    }
+
+    figure#card_dame_garde img {
+        object-position: 0 2%;
+    }
+
+    figure#card_longchamp img {
+        object-position: 0 17%;
     }
 
     figcaption {
@@ -2159,11 +2175,11 @@ ul {
     }
 
     footer div span {
-        font-size: 37px;
+        font-size: 35px;
     }
 
     ul {
-        font-size: 33px;
+        font-size: 31.4px;
     }
 }
 
@@ -2172,8 +2188,8 @@ ul {
 @media all and (max-width: 540px) {
 
     .star_size {
-        width: 19.8px;
-        height: 19.8px;
+        width: 18px;
+        height: 18px;
     }
 
     .star_space_between {
@@ -2185,23 +2201,23 @@ ul {
     }
 
     h1 {
-        font-size: 34px;
+        font-size: 31.2px;
     }
 
     h1 + p {
-        font-size: 25.7px;
+        font-size: 23.6px;
     }
 
     h2 {
-        font-size: 33px;
+        font-size: 30.5px;
     }
 
     h3 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     h3 + p {
-        font-size: 21.7px;
+        font-size: 20.3px;
     }
 
     div#logo {
@@ -2213,22 +2229,26 @@ ul {
         height: 70px;  
     }
 
+    .menu {
+        height: 90px;
+    }
+
     .menu div a {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     div#search {
-        height: 80px;
+        height: 70px;
     }
 
     img#form_position_icon {
-        padding-top: 31%;
-        width: 28px;
-        height: 53px;
+        padding-top: 30%;
+        width: 27px;
+        height: 50px;
     }
 
     input#search_input {
-        font-size: 29px;
+        font-size: 25.5px;
     }
 
     div#form_magnifier img {
@@ -2237,17 +2257,17 @@ ul {
     }
 
     span#filter_title {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     div.filter_circle {
-        height: 75px;
-        width: 75px;
+        height: 70px;
+        width: 70px;
     }
 
     .filter_economique_icon_size {
-        width: 29px;
-        height: 40px;
+        width: 26px;
+        height: 37px;
     }
 
     .filter_familial_icon_size {
@@ -2256,23 +2276,23 @@ ul {
     }
 
     .filter_romantique_icon_size {
-        width: 27px;
-        height: 33px;
+        width: 25px;
+        height: 31px;
     }
 
     .filter_animaux_icon_size {
-        width: 32px;
-        height: 37px;
+        width: 30px;
+        height: 35px;
     }
 
     span.filter_label {
         margin: 1% 0 0 20px;
-        font-size: 27px;
+        font-size: 22.5px;
     }
 
     div#info {
         height: 140px;
-        font-size: 25.7px;
+        font-size: 23px;
     }
 
     div#info_container_circle {
@@ -2287,11 +2307,11 @@ ul {
     }
 
     .main_border_radius {
-        border-radius: 20px;
+        border-radius: 25px;
     }
 
     .heb_card {
-        height: 310px;
+        height: 285px;
     }
 
     .heb_card_shadow {
@@ -2299,22 +2319,22 @@ ul {
     }
 
     p#heb_show_more {
-        font-size: 27.5px;
+        font-size: 25px;
     }
 
     .heb_img {
-        height: 180.7px;
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+        height: 171px;
+        border-radius: 22px 22px 0 0;
     }
 
     img#graph {
-        width: 37px;
+        width: 32px;
     }
 
     .pop_img {    
-        max-width: 210px;
-        height: 220px;
-        border-radius: 17px 0 0 17px / 17px 0 0 17px;
+        max-width: 195px;
+        height: 210px;
+        border-radius: 22px 0 0 22px;
     }
 
     .pop_container_content {
@@ -2322,40 +2342,40 @@ ul {
     }
 
     .pop_star {
-        top: 32%;
+        top: 31%;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 300px;
+        height: 282px;
     }
 
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 226px;
+        height: 214px;
     }
 
     .card_figure_1 img {
-        object-position: 0 10%;
+        object-position: 0 3%;
     }
 
     figure#card_iles_frioul img {
-        object-position: 0 10%;
+        object-position: 0 -5%;
     }
 
     figure#card_dame_garde img {
-        object-position: 0 6%;
+        object-position: 0 1%;
     }
 
     figure#card_longchamp img {
-        object-position: 0 21%;
+        object-position: 0 16%;
     }
     
     figcaption {
-        font-size: 24.8px;
+        font-size: 22.4px;
         padding: 4% 0 0 5.7%;
     }
 
     .act_img_border_radius {
-        border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+        border-radius: 25px 25px 0 0;
     }
 
     .act_box_shadow {
@@ -2363,11 +2383,11 @@ ul {
     }
 
     footer div span {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     ul {
-        font-size: 27px;
+        font-size: 21.8px;
     }
 }
 
