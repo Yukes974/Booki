@@ -1558,7 +1558,7 @@ ul {
     }
 
     div#search {
-        height: 122px;
+        height: 118px;
         margin: 10% 0 8% 0;
     }
 
@@ -1596,8 +1596,8 @@ ul {
         left: 90.7%;
         top: 35%;
         color: white;
-        width: 42px;
-        height: 42px;
+        width: 40px;
+        height: 40px;
     }
 
     div#filter {
@@ -1844,29 +1844,9 @@ ul {
 
 @media all and (max-width: 820px) {
 
-    .width_100_resp {
-        width: 100%;
-    }
-
-    .text_center {
-        text-align: center;
-    }
-
-    .justify_center_responsiv {
-        justify-content: center ;
-    }
-
-    .flex_column_responsiv {
-        flex-direction: column;
-    }
-
-    .width_auto {
-        width: auto;
-    }
-
     .star_size {
-        width: 31px;
-        height: 31px;
+        width: 28px;
+        height: 28px;
     }
 
     .star_space_between {
@@ -1886,46 +1866,27 @@ ul {
     }
 
     h1 {
-        font-size: 52.5px;
+        font-size: 47px;
     }
 
     h1 + p {
-        font-size: 39.5px;
-        margin: 3% 0 0 0;
+        font-size: 35.6px;
     }
 
     h2 {
-        font-size: 51.5px;
+        font-size: 47px;
     }
 
     h3 {
-        font-size: 37.7px;
+        font-size: 33px;
     }
 
     h3 + p {
-        font-size: 34px;
+        font-size: 30.4px;
     }
 
     .margin_bottom_pop {
         margin-bottom: 10%;
-    }
-
-    div#filter_box {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    div#container_logo_nav {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    div.block_centered {
-        padding: 0 7% 0 7%;
-    }
-
-    div#logo {
-        height: 150px;
     }
 
     div#logo img {
@@ -1933,130 +1894,71 @@ ul {
         height: 90px;  
     }
 
-    .menu {
-        height: 80px;
-    }
-
-    .menu div {
-        padding-top: 0;
-        padding-bottom: 2%;
-    }
-
     .menu div a {
-        font-size: 32px;
-        padding: 0 2% 0 2%;
-    }
-
-    .nav_heb_border_color {
-        border-top: 0;
-        border-bottom: 3px solid #0065FC;
-    }
-
-    .nav_act_border_color {
-        border-bottom: 3px solid #F2F2F2;
-    }
-
-    .flex_column_mob {
-        flex-direction: column;
+        font-size: 37px;
     }
 
     div#search {
-        height: 122px;
-        margin: 10% 0 8% 0;
+        height: 107px;
     }
 
     img#form_position_icon {
-        width: 45px;
-        height: 86px;
+        padding-top: 32%;
+        width: 37px;
+        height: 72px;
     }
 
     input#search_input {
-        width: 70.2%;
-        left: 15%;
-        padding-left: 5.4%;
-        font-size: 43px;
-    }
-
-    div#form_submit input {
-        display: none;
-    }
-
-    div#form_container_position_icon {
-        width: 15.1%;
-    }
-
-    div#form_magnifier input {
-        display: initial;
-        width: 15%;
-        left: 85.5%;
-        border-radius: 30%;
-        background-color: #0065FC;
+        font-size: 38.5px;
     }
 
     div#form_magnifier img {
-        display: initial;
-        position: absolute;
-        left: 90.7%;
-        top: 35%;
-        color: white;
-        width: 42px;
-        height: 42px;
-    }
-
-    div#filter {
-        display: flex;
-        flex-wrap: wrap;
+        width: 36px;
+        height: 36px;
     }
 
     span#filter_title {
-        margin-bottom: 2%;
-        font-size: 41px;
-    }
-
-    div.filter_elements {
-        margin: 2% 1% 1% 0;
-        padding: 0 4% 0 0;
+        font-size: 36px;
     }
 
     div.filter_circle {
-        height: 125px;
-        width: 125px;
+        height: 110px;
+        width: 110px;
     }
 
     .filter_economique_icon_size {
-        width: 45px;
-        height: 58px;
+        width: 41px;
+        height: 53px;
     }
 
     .filter_familial_icon_size {
-        width: 50px;
-        height: 50px;
+        width: 46px;
+        height: 46px;
     }
 
     .filter_romantique_icon_size {
-        width: 43px;
-        height: 49px;
+        width: 37px;
+        height: 43px;
     }
 
     .filter_animaux_icon_size {
-        width: 49px;
-        height: 54px;
+        width: 45px;
+        height: 50px;
     }
 
     span.filter_label {
         margin: 1% 0 0 30px;
-        font-size: 39px;
+        font-size: 34.5px;
     }
 
     div#info {
         height: 220px;
-        font-size: 39px;
+        font-size: 35px;
     }
 
     div#info_container_circle {
         height: 52px;
         width: 72px;
-        margin: 0 3% 5.7% 0;
     }
 
     div#info_container_circle img {
@@ -2069,31 +1971,8 @@ ul {
         margin: 0;
     }
 
-    main {
-        padding: 0;
-    }
-
-    .main_border_radius {
-        border-radius: 50px;
-    }
-
-    section {
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        padding: 0;
-    }
-
-    div#heb_container {
-        padding: 7%;
-        background-color: white;
-    }
-
-    div#heb_container, div#pop_container {
-        border-radius: initial;
-    }
-
     .heb_card {
-        height: 465px;
+        height: 450px;
     }
 
     .heb_card_shadow {
@@ -2106,30 +1985,20 @@ ul {
 
     .heb_img {
         height: 270px;
-        border-radius: 50px 50px 0 0 / 50px 50px 0 0;
-        object-position: 0 50%;
+        object-position: 0 48%;
     }
 
     p#heb_show_more {
-        font-size: 42.5px;
-        margin-bottom: 8%;
-    }
-
-    #pop_container {
-        padding: 10% 7%;
+        font-size: 38px;
     }
 
     img#graph {
-        width: 55px;
+        width: 50px;
     }
 
     .pop_img {
-        max-width: 328px;
-        height: 332px;
-        margin: 0 4% 0 0;              
-        object-position: 51% 40%;
-        clip-path: inset(0 3% 0 0);
-        border-radius: 50px 0 0 50px / 50px 0 0 50px;
+        max-width: 285px;
+        height: 300px;
     }
 
     .pop_container_content {
@@ -2138,16 +2007,6 @@ ul {
 
     .pop_star {
         top: 29%;
-    }
-
-    #act_container {
-        padding: 0 6.8% 0 6.8%;
-        margin-bottom: 13%;
-    }
-
-    div#act_containers_img {
-        height: auto;
-        flex-wrap: wrap;
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
@@ -2159,78 +2018,43 @@ ul {
     }
 
     .card_figure_1 img {
-        object-position: 0 13.7%;
-        clip-path: initial;
+        object-position: 0 -3%;
     }
 
     figure#card_fort_pomegues img {
-        object-position: 0 41%;
+        object-position: 0 39.3%;
     }
 
     figure#card_iles_frioul img {
-        object-position: 0 14%;
+        object-position: 0 -2%;
     }
 
     figure#card_dame_garde img {
-        object-position: 0 11%;
+        object-position: 0 -5%;
     }
 
     figure#card_longchamp img {
-        object-position: 0 22.9%;
-    }
-
-    figcaption.figcaption_card_figure_1 {
-        position: inherit;
+        object-position: 0 11.9%;
     }
 
     figcaption {
-        font-size: 38px;
-        height: 0;
-        padding: 4% 0 0 5.7%;
+        font-size: 34px;
     }
 
     .act_img_border_radius {
-        border-radius: 50px 50px 0 0 / 50px 50px 0 0;
+        border-radius: 50px 50px 0 0;
     }
 
     .act_box_shadow {
         box-shadow: 0 9px 27px 3px #F2F2F2;
     }
 
-    footer {
-        height: auto;
-    }
-
     footer div span {
-        font-size: 45px;
+        font-size: 39.5px;
     }
 
     ul {
-        font-size: 40px;
-    }
-
-    .footer_propos_padding_top {
-        padding-top: 13%;
-    }
-
-    .footer_hebergements_padding_top {
-        padding-top: 8%;
-    }
-
-    .footer_assistance_padding_top {
-        padding-top: 10%;
-    }
-
-    .footer_margin_bottom {
-        margin-bottom: 2%;
-    }
-
-    .footer_margin_bottom_responsiv {
-        margin-bottom: 10%;
-    }
-
-    .footer_resp_padding_left {
-        padding-left: 8%;
+        font-size: 35px;
     }
 }
 
