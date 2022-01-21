@@ -2625,11 +2625,6 @@ ul {
         font-size: 15.2px;
     }
 
-    div#logo img {
-        width: 100px;
-        height: 50px;  
-    }
-
     .menu div a {
         font-size: 20px;
     }
@@ -2714,74 +2709,88 @@ ul {
     }
 }
 
-/* Responsiv pour les mobiles dont la largeur est égale à 390 px */
+/* Responsiv pour les mobiles dont la largeur est égale à 390px et 393px */
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 393px) {
+
+    .star_size {
+        width: 13.3px;
+        height: 13.3px;
+    }
 
     h1 {
-        font-size: 24.4px;
+        font-size: 22.8px;
     }
 
     h1 + p {
-        font-size: 18.5px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 19.1px;
-    }
-
-    h3 + p {
         font-size: 17.2px;
     }
 
-    div#logo img {
-        width: 100px;
-        height: 50px;  
+    h2 {
+        font-size: 22.3px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h3 + p {
+        font-size: 14px;
     }
 
     .menu div a {
-        font-size: 20px;
+        font-size: 18.5px;
     }
 
     div#search {
-        height: 60px;
+        height: 50px;
     }
 
     img#form_position_icon {
-        width: 20px;
-        height: 38px;
+        width: 18px;
+        height: 35px;
     }
 
     input#search_input {
-        font-size: 20.6px;
+        font-size: 18px;
     }
 
     div#form_magnifier img {
-        width: 18px;
-        height: 18px;
+        width: 17px;
+        height: 17px;
     }
 
     span#filter_title {
         font-size: 18px;
     }
 
+    div.filter_elements {
+        margin: 2% 1% 1.5% 0;
+    }
+
     div.filter_circle {
-        height: 50px;
-        width: 50px;
+        height: 47px;
+        width: 47px;
+    }
+
+    .filter_economique_icon_size {
+        width: 18px;
+        height: 26px;
+    }
+
+    .filter_animaux_icon_size {
+        width: 20px;
+        height: 25px;
     }
 
     span.filter_label {
         margin: 1% 0 0 15px;
-        font-size: 19px;
+        font-size: 17px;
     }
 
     div#info {
         height: 100px;
-        font-size: 18.4px;
+        font-size: 16.7px;
     }
 
     div#info_container_circle {
@@ -2796,7 +2805,11 @@ ul {
     }
 
     .heb_card {
-        height: 245px;  
+        height: 212px;  
+    }
+
+    .heb_img {
+        height: 125px;
     }
 
     .heb_card_shadow {
@@ -2804,16 +2817,16 @@ ul {
     }
 
     p#heb_show_more {
-        font-size: 22.2px;
+        font-size: 18px;
     }
 
     img#graph {
-        width: 27px;
+        width: 24px;
     }
 
     .pop_img {
-        max-width: 150px;
-        height: 160px;
+        max-width: 140px;
+        height: 150px;
     }
 
     .pop_container_content {
@@ -2821,27 +2834,28 @@ ul {
     }
 
     .pop_star {
-        top: 26%;
+        top: 30%;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 230px;
+        height: 215px;
     }
 
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 163px;
+        height: 154px;
     }
     
     figcaption {
-        font-size: 19.3px;
+        font-size: 16.2px;
+        padding: 4.5% 0 0 5.7%;
     }
 
     footer div span {
-        font-size: 23px;
+        font-size: 18px;
     }
 
     ul{
-        font-size: 21.3px;
+        font-size: 16.2px;
     }
 }
 
