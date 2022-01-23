@@ -1931,7 +1931,6 @@ ul {
     }
 
     span.filter_label {
-        margin: 1% 0 0 30px;
         font-size: 34.5px;
     }
 
@@ -2099,7 +2098,6 @@ ul {
     }
 
     span.filter_label {
-        margin: 1% 0 0 30px;
         font-size: 33px;
     }
 
@@ -2756,7 +2754,6 @@ ul {
     }
 
     span.filter_label {
-        margin: 1% 0 0 15px;
         font-size: 17px;
     }
 
@@ -2782,6 +2779,7 @@ ul {
 
     .heb_img {
         height: 125px;
+        border-radius: 20px 20px 0 0;
     }
 
     .heb_card_shadow {
@@ -2799,6 +2797,7 @@ ul {
     .pop_img {
         max-width: 140px;
         height: 150px;
+        border-radius: 20px 0 0 20px;
     }
 
     .pop_container_content {
@@ -2912,11 +2911,6 @@ ul {
         font-size: 17px;
     }
 
-    div.filter_circle {
-        height: 48px;
-        width: 48px;
-    }
-
     .filter_economique_icon_size {
         width: 17px;
         height: 25px;
@@ -3005,6 +2999,10 @@ ul {
         font-size: 15.6px;
     }
 
+    .act_img_border_radius {
+        border-radius: 20px 20px 0 0;
+    }
+
     footer div span {
         font-size: 17px;
     }
@@ -3018,24 +3016,33 @@ ul {
 
 @media all and (max-width: 360px) {
 
+    .star_size {
+        width: 11.7px;
+        height: 11.7px;
+    }
+
+    .border_white {
+        border: 4px solid white;
+    }
+
     h1 {
-        font-size: 22.5px;
+        font-size: 20.8px;
     }
 
     h1 + p {
-        font-size: 17px;
+        font-size: 15.7px;
     }
 
     h2 {
-        font-size: 23.7px;
+        font-size: 20.4px;
     }
 
     h3 {
-        font-size: 17px;
+        font-size: 14.3px;
     }
 
     h3 + p {
-        font-size: 15.3px;
+        font-size: 12.7px;
     }
 
     div#logo img {
@@ -3048,46 +3055,66 @@ ul {
     }
 
     div#search {
-        height: 54px;
+        height: 46px;
     }
 
     img#form_position_icon {
-        width: 19px;
-        height: 35px;
+        padding-top: 29%;
+        width: 16px;
+        height: 31px;
     }
 
     input#search_input {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     div#form_magnifier img {
-        width: 17px;
-        height: 17px;
+        width: 15px;
+        height: 15px;
     }
 
     span#filter_title {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     div.filter_circle {
-        height: 51px;
-        width: 51px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .filter_economique_icon_size {
+        width: 16px;
+        height: 24px;
+    }
+
+    .filter_familial_icon_size {
+        width: 19px;
+        height: 19px;
+    }
+
+    .filter_romantique_icon_size {
+        width: 16px;
+        height: 20px;
+    }
+
+    .filter_animaux_icon_size {
+        width: 19px;
+        height: 24px;
     }
 
     span.filter_label {
-        margin: 1% 0 0 15px;
-        font-size: 17px;
+        font-size: 15.5px;
     }
 
     div#info {
         height: 100px;
-        font-size: 16.7px;
+        font-size: 15.5px;
     }
 
     div#info_container_circle {
-        height: 28px;
-        width: 38px;
-        margin: 0 3% 5.1% 0;
+        height: 23px;
+        width: 32px;
+        margin: 0 3% 5.6% 0;
     }
 
     div#info_container_circle img {
@@ -3096,11 +3123,20 @@ ul {
     }
 
     .heb_card {
-        height: 215px;
+        height: 195px;
+    }
+
+    .heb_img {
+        height: 115px;
     }
 
     p#heb_show_more {
-        font-size: 19.5px;
+        font-size: 16px;
+    }
+
+    .pop_img {
+        max-width: 130px;
+        height: 140px;
     }
 
     .pop_container_content {
@@ -3108,27 +3144,27 @@ ul {
     }
 
     .pop_star {
-        top: 30%;
+        top: 31%;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 220px;
+        height: 183px;
     }
 
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 157px;
+        height: 131px;
     }
     
     figcaption {
-        font-size: 16.4px;
+        font-size: 15px;
     }
 
     footer div span {
-        font-size: 20.4px;
+        font-size: 16px;
     }
 
     ul {
-        font-size: 18.2px;
+        font-size: 14.4px;
     }
 }
 
