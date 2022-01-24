@@ -227,6 +227,7 @@ div#form_submit input {
     width: 32%;
     left: 68.3%;
     border-radius: 0 11% 11% 0 / 0 30% 30% 0;
+    border: 1px solid #0065FC;
     background-color: #0065FC;
     color: white;
     font-size: 34px;
@@ -1586,6 +1587,7 @@ ul {
         display: initial;
         width: 15%;
         left: 85.5%;
+        border: 1px solid #0065FC;
         border-radius: 30%;
         background-color: #0065FC;
     }
@@ -2613,11 +2615,6 @@ ul {
         height: 20px;
     }
 
-    div.filter_circle {
-        height: 50px;
-        width: 50px;
-    }
-
     span.filter_label {
         font-size: 18px;
     }
@@ -2867,11 +2864,6 @@ ul {
         height: 70px;
     }
 
-    div#logo img {
-        width: 100px;
-        height: 50px;  
-    }
-
     .menu {
         height: 70px;
     }
@@ -3045,11 +3037,6 @@ ul {
         font-size: 12.7px;
     }
 
-    div#logo img {
-        width: 100px;
-        height: 50px;  
-    }
-
     .menu div a {
         font-size: 15px;
     }
@@ -3173,8 +3160,8 @@ ul {
 @media all and (max-width: 320px) {
 
     .star_size {
-        height: 11.3px;
-        width: 11.3px;
+        height: 10.5px;
+        width: 10.5px;
     }
 
     .star_space_between {
@@ -3182,28 +3169,28 @@ ul {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 18.4px;
     }
 
     h1 + p {
-        font-size: 15px;
+        font-size: 13.9px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h3 {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     h3 + p {
-        font-size: 12.6px;
+        font-size: 11.5px;
     }
 
     div#logo img {
-        width: 100px;
-        height: 50px;  
+        width: 95px;
+        height: 45px;  
     }
 
     .menu {
@@ -3215,17 +3202,21 @@ ul {
     }
 
     div#search {
-        height: 49px;
+        height: 42px;
     }
 
     img#form_position_icon {
-        width: 16px;
-        height: 32px;
+        width: 15px;
+        height: 30px;
     }
 
     input#search_input {
-        width: 70.2%;
-        font-size: 16.7px;
+        font-size: 15px;
+    }
+
+    div#form_magnifier img {
+        width: 14px;
+        height: 14px;
     }
 
     span#filter_title {
@@ -3233,53 +3224,57 @@ ul {
     }
 
     div.filter_circle {
-        height: 45px;
-        width: 45px;
+        height: 40px;
+        width: 40px;
     }
 
     .filter_economique_icon_size {
-        width: 17px;
-        height: 23px;
+        width: 16px;
+        height: 22px;
     }
 
     .filter_familial_icon_size {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
     }
 
     .filter_romantique_icon_size {
-        width: 16px;
-        height: 20px;
+        width: 15px;
+        height: 19px;
     }
 
     .filter_animaux_icon_size {
-        width: 18px;
-        height: 23px;
+        width: 16px;
+        height: 21px;
     }
 
     span.filter_label {
         margin: 1% 0 0 10px;
-        font-size: 15.8px;
+        font-size: 14px;
     }
 
     div#info {
         height: 100px;
-        font-size: 14.7px;
+        font-size: 13.4px;
     }
 
     div#info_container_circle {
-        height: 25px;
-        width: 38px;
-        margin: 0 3% 6% 0;
+        height: 23px;
+        width: 32px;
+        margin: 0 3% 5.9% 0;
     }
 
     div#info_container_circle img {
-        width: 12px;
-        height: 12px;
+        width: 11px;
+        height: 11px;
+    }
+
+    .main_border_radius {
+        border-radius: 16px;
     }
 
     .heb_card {
-        height: 185px;
+        height: 172px;
     }
 
     div.heb_card:hover {
@@ -3287,20 +3282,22 @@ ul {
     }
 
     .heb_img {
-        height: 107px;
+        height: 102px;
+        border-radius: 13px 13px 0 0;
     }
 
     p#heb_show_more {
-        font-size: 16.7px;
+        font-size: 14.4px;
     }
 
     img#graph {
-        width: 21px;
+        width: 19px;
     }
 
     .pop_img {    
-        max-width: 130px;
-        height: 140px;
+        max-width: 115px;
+        height: 120px;
+        border-radius: 13px 0 0 13px;
     }
 
     .pop_container_content {
@@ -3308,27 +3305,31 @@ ul {
     }
 
     .pop_star {
-        top: 34%;
+        top: 28%;
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 200px;
+        height: 167px;
     }
 
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 140px;
+        height: 118px;
     }
     
     figcaption {
-        font-size: 14.4px;
+        font-size: 13.3px;
+    }
+
+    .act_img_border_radius {
+        border-radius: 16px 16px 0 0;
     }
 
     footer div span {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     ul {
-        font-size: 16.5px;
+        font-size: 13.4px;
     }
 }
 
