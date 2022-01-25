@@ -2556,8 +2556,8 @@ ul {
     }
 
     div.filter_circle {
-        height: 50px;
-        width: 50px;
+        height: 52px;
+        width: 52px;
     }
 
     .filter_economique_icon_size {
@@ -2602,7 +2602,7 @@ ul {
     }
 
     .heb_card {
-        height: 248px; 
+        height: 230px; 
     }
 
     .heb_card_shadow {
@@ -2614,7 +2614,7 @@ ul {
     }
 
     .heb_img {
-        height: 142px;
+        height: 135px;
     }
 
     p#heb_show_more {
