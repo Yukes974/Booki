@@ -2002,6 +2002,142 @@ ul {
     }
 }
 
+/* responsiv pour les tablettes dont la largeur est égale à 800px */
+
+@media all and (max-width: 800px) {
+
+    .star_size {
+        width: 26px;
+        height: 26px;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+
+    h1 + p {
+        font-size: 34.7px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    h3 + p {
+        font-size: 28.7px;
+    }
+
+    div#logo img {
+        width: 190px;
+        height: 90px;  
+    }
+
+    .menu div a {
+        font-size: 37px;
+    }
+
+    div#search {
+        height: 100px;
+    }
+
+    img#form_position_icon {
+        padding-top: 29%;
+        width: 35px;
+        height: 70px;
+    }
+
+    input#search_input {
+        font-size: 37.5px;
+    }
+
+    div#form_magnifier img {
+        width: 36px;
+        height: 36px;
+    }
+
+    span#filter_title {
+        font-size: 35px;
+    }
+
+    div.filter_circle {
+        height: 105px;
+        width: 105px;
+    }
+
+    span.filter_label {
+        font-size: 34.5px;
+    }
+
+    div#info {
+        height: 220px;
+        font-size: 34px;
+    }
+
+    div#info_container_circle {
+        height: 52px;
+        width: 72px;
+    }
+
+    div#info_container_circle img {
+        width: 27px;
+        height: 27px;
+    }
+
+    .heb_card {
+        height: 440px;
+    }
+
+    .heb_img {
+        height: 270px;
+        object-position: 0 48%;
+    }
+
+    p#heb_show_more {
+        font-size: 36px;
+    }
+
+    img#graph {
+        width: 48px;
+    }
+
+    .pop_img {
+        max-width: 285px;
+        height: 300px;
+    }
+
+    .pop_container_content {
+        width: 525px;
+    }
+
+    .pop_star {
+        top: 30.5%;
+    }
+    
+    figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
+        height: 400px;
+    }
+    
+    figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
+        height: 288px;
+    }
+
+    figcaption {
+        font-size: 33.4px;
+    }
+
+    footer div span {
+        font-size: 36px;
+    }
+
+    ul {
+        font-size: 33px;
+    }
+}
+
 /* responsiv pour les tablettes dont la largeur est égale à 768px */
 
 @media all and (max-width: 768px) {
