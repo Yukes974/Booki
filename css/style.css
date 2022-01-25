@@ -1759,32 +1759,32 @@ ul {
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 455px;
+        height: 440px;
     }
     
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 335px;
+        height: 330px;
     }
 
     .card_figure_1 img {
-        object-position: 0 16%;
+        object-position: 0 18%;
         clip-path: initial;
     }
 
     figure#card_fort_pomegues img {
-        object-position: 0 42%;
+        object-position: 0 42.5%;
     }
 
     figure#card_iles_frioul img {
-        object-position: 0 16.1%;
+        object-position: 0 18%;
     }
 
     figure#card_dame_garde img {
-        object-position: 0 13.8%;
+        object-position: 0 17%;
     }
 
     figure#card_longchamp img {
-        object-position: 0 24.5%;
+        object-position: 0 25.4%;
     }
 
     figcaption.figcaption_card_figure_1 {
@@ -1982,31 +1982,11 @@ ul {
     }
     
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 410px;
+        height: 400px;
     }
     
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 300px;
-    }
-
-    .card_figure_1 img {
-        object-position: 0 18%;
-    }
-
-    figure#card_fort_pomegues img {
-        object-position: 0 42.2%;
-    }
-
-    figure#card_iles_frioul img {
-        object-position: 0 18%;
-    }
-
-    figure#card_dame_garde img {
-        object-position: 0 16%;
-    }
-
-    figure#card_longchamp img {
-        object-position: 0 24.4%;
+        height: 297px;
     }
 
     figcaption {
@@ -2150,23 +2130,7 @@ ul {
     }
     
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 280px;
-    }
-
-    .card_figure_1 img {
-        object-position: 0 18%;
-    }
-
-    figure#card_iles_frioul img {
-        object-position: 0 18%;
-    }
-
-    figure#card_dame_garde img {
-        object-position: 0 17%;
-    }
-
-    figure#card_longchamp img {
-        object-position: 0 25.4%;
+        height: 278px;
     }
 
     figcaption {
@@ -2351,10 +2315,6 @@ ul {
 
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
         height: 195px;
-    }
-
-    figure#card_fort_pomegues img {
-        object-position: 0 42.5%;
     }
     
     figcaption {
@@ -2655,11 +2615,11 @@ ul {
     }
 
     figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
-        height: 228px;
+        height: 212px;
     }
 
     figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
-        height: 163px;
+        height: 150px;
     }
     
     figcaption {
@@ -2822,6 +2782,99 @@ ul {
 
     ul{
         font-size: 16.2px;
+    }
+}
+
+/* Responsiv pour les mobiles dont la largeur est égale à 384px */
+
+@media all and (max-width: 384px) {
+
+    .star_size {
+        width: 13px;
+        height: 13px;
+    }
+
+    h1 {
+        font-size: 22.1px;
+    }
+
+    h1 + p {
+        font-size: 16.7px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 15.4px;
+    }
+
+    h3 + p {
+        font-size: 13.8px;
+    }
+
+    div#search {
+        height: 47px;
+    }
+
+    img#form_position_icon {
+        width: 16px;
+        height: 33px;
+    }
+
+    input#search_input {
+        font-size: 18px;
+    }
+
+    div#form_magnifier img {
+        width: 16px;
+        height: 16px;
+    }
+
+    span#filter_title {
+        font-size: 17.2px;
+    }
+
+    span.filter_label {
+        font-size: 16px;
+    }
+
+    div#info {
+        font-size: 16.5px;
+    }
+
+    div#info_container_circle {
+        height: 28px;
+        width: 37px;
+    }
+
+    .heb_card {
+        height: 205px;  
+    }
+
+    .heb_img {
+        height: 120px;
+    }
+
+    p#heb_show_more {
+        font-size: 17.5px;
+    }
+
+    .pop_star {
+        top: 31.2%;
+    }
+
+    figure#card_fort_pomegues, figure#card_iles_frioul, figure#card_dame_garde, figure#card_longchamp, .card_figure_1 {
+        height: 195px;
+    }
+
+    figure#card_fort_pomegues img, figure#card_iles_frioul img, figure#card_dame_garde img, figure#card_longchamp img, .card_figure_1 img {
+        height: 139px;
+    }
+    
+    figcaption {
+        font-size: 16px;
     }
 }
 
