@@ -113,17 +113,7 @@ div.block_page {
     margin: auto;
 }
 
-div.block_centered {
-    padding: 0 4.5% 0 4.5%;
-}
-
 /* Partie Nav */
-
-div#container_logo_nav {
-    padding: 0 4.5% 0 4.5%;
-}
-
-/* Bloc contenant le logo */
 
 div#logo {
     height: 150px;
@@ -168,14 +158,18 @@ a {
     border-top: 3px solid #0065FC;
 }
 
+div.block_centered {
+    padding: 0 4.5% 0 4.5%;
+}
+
 h1 {
     font-size: 42.7px;
-    margin-bottom: 10px;
+    margin-bottom: 0.5%;
 }
 
 h1 + p {
     font-size: 32.2px;
-    margin-top: 0;
+    margin: 0.5% 0 1% 0;
 }
 
 h2 {
@@ -203,7 +197,6 @@ form {
 
 div#form_container_position_icon {
     width: 12.3%;
-    bottom: 0;
     border-radius: 30% 0 0 30% / 30% 0 0 30%;
 }
 
@@ -498,11 +491,7 @@ footer {
     margin-top: 3%;
 }
 
-.footer_propos_width {
-    width: 90%;
-}
-
-.footer_heb_width {
+.footer_propos_heb_width {
     width: 90%;
 }
 
@@ -779,7 +768,7 @@ ul {
 
     div#logo {
         height: 90px;
-        padding-left: 0%;
+        padding-left: 0;
     }
 
     div#logo img {
@@ -1236,7 +1225,6 @@ ul {
 
     div#logo {
         height: 70px;
-        padding-left: 0;
     }
 
     div#logo img {
@@ -1514,8 +1502,7 @@ ul {
     }
 
     div#container_logo_nav {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
 
     div.block_centered {
@@ -1767,7 +1754,7 @@ ul {
     }
 
     .card_figure_1 img {
-        object-position: 0 18%;
+        object-position: 0 17.5%;
         clip-path: initial;
     }
 
@@ -2029,11 +2016,6 @@ ul {
 
     h3 + p {
         font-size: 28.7px;
-    }
-
-    div#logo img {
-        width: 190px;
-        height: 90px;  
     }
 
     .menu div a {
