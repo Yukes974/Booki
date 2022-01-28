@@ -120,7 +120,7 @@ div.block_page {
 /* Partie Nav */
 
 div#logo {
-    height: 150px;
+    height: 170px;
     padding-left: 0.5%;
 }
 
@@ -138,7 +138,7 @@ div#logo img {
 /* Le menu du nav */
 
 .menu {
-    height: 150px;
+    height: 170px;
     width: 50%;
     justify-content: flex-end;
 }
@@ -150,7 +150,7 @@ a {
 /* Les élément du menu nav ont un espace vers la gauche */
 
 .menu div {
-    padding: 4% 0 4% 0;
+    padding: 5% 0 5% 0;
 }
 
 .menu div a {
@@ -159,7 +159,7 @@ a {
 }
 
 .nav_heb_border_color {
-    border-top: 3px solid #0065FC;
+    border-top: 4px solid #0065FC;
 }
 
 div.block_centered {
@@ -540,10 +540,6 @@ ul {
     div#logo img {
         width: 155px;
         height: 75px;  
-    }
-
-    .menu div {
-        padding: 5% 0 5% 0;
     }
 
     .menu div a {
