@@ -97,6 +97,10 @@
     margin-bottom: 2%;
 }
 
+.padding_3_percent {
+    padding: 3%;
+}
+
 .star_size {
     width: 27px;
     height: 27px;
@@ -315,10 +319,6 @@ section {
 
 /*Partie "Hébergements à Marseille" */
 
-div#heb_container {
-    padding: 3%;
-}
-
 .heb_container_width {
     width: 66%;
 }
@@ -358,20 +358,12 @@ div.heb_card:hover {
     margin: 3% 0 3% 0;
 }
 
-.heb_star {
-    margin-top: 2%;
-}
-
 p#heb_show_more {
     font-size: 34.5px;
     margin: 1.5% 0 0;
 }
 
 /* Partie "Les plus populaires" */
-
-#pop_container {
-    padding: 3%;
-}
 
 .pop_container_width {
     width: 31%;
