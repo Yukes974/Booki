@@ -425,8 +425,8 @@ figure#card_fort_pomegues {
 }
 
 figure#card_fort_pomegues img {
-    height: 355px;
-    object-position: 0 41%;
+    height: 360px;
+    object-position: 0 40%;
 }
 
 figure#card_iles_frioul {
@@ -443,8 +443,8 @@ figure#card_dame_garde {
 }
 
 figure#card_dame_garde img {
-    height: 277px;
-    object-position: 0 5%;
+    height: 280px;
+    object-position: 0 0;
 }
 
 figure#card_longchamp {
@@ -452,14 +452,14 @@ figure#card_longchamp {
 }
 
 figure#card_longchamp img {
-    height: 300px;
-    object-position: 0 19%;
+    height: 305px;
+    object-position: 0 12%;
 }
 
 figcaption {
     font-size: 29px;
-    height: 113px;
-    padding: 45px 0 0 35px;
+    height: 107px;
+    padding: 6% 0 0 5.6%;
 }
 
 .figcaption_card_figure_1 {
@@ -676,7 +676,7 @@ ul {
     }
 
     figure#card_fort_pomegues img {
-        height: 325px;
+        height: 320px;
     }
 
     figure#card_iles_frioul img {
@@ -685,7 +685,6 @@ ul {
 
     figure#card_dame_garde img {
         height: 250px;
-        object-position: 0 0;
     }
 
     figure#card_longchamp img {
@@ -695,8 +694,7 @@ ul {
 
     figcaption {
         font-size: 29px;
-        height: 97px;
-        padding: 6% 0 0 5.6%;
+        height: 95px;
     }
 
     .act_img_border_radius {
